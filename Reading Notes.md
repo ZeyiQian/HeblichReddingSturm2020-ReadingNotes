@@ -1,11 +1,10 @@
----
 title: "HeblichReddingSturm2020 - Reading Notes"
 author: "Junfu Zhang, Li Shen, Zeyi Qian"
 date: "`r Sys.Date()`"
 output:
   rmarkdown::html_vignette:
     toc: true
----
+    
 ## Reading Paper 
 ### Paper Title
 THE MAKING OF THE MODERN METROPOLIS: EVIDENCE FROM LONDON

@@ -29,22 +29,22 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 
 ## Reading Notes
-### Introduction
+### Ⅰ. Introduction
 
-##### Motivation：Huge commuting flows   vs.   Little knowledge about it's role in sustaining dense concentrations of economic activity
+##### 1.Motivation：Huge commuting flows   vs.   Little knowledge about it's role in sustaining dense concentrations of economic activity
 ###### Impose substantial real resource costs in terms of time spent commuting and the construction of large networks of complex transportation infrastructure
 ###### Create commercial and residential areas, with their distinctive characteristics for production and consumption
 
 
-##### Historical events：Steam railways created in the mid-19th century
+##### 2.Historical events：Steam railways created in the mid-19th century
 
 
-##### Evidence for the positive effect of residential separation on agglomeration
+##### 3.Evidence for the positive effect of residential separation on agglomeration
 ###### Data set for Greater London during 1801-1921
 ###### Quantitative urban model
 
 
-#### Contribution：
+#### 4.Contribution：
 ##### Empirical estimation
 ###### Agglomeration effect：change of the relationship between travel time and distance as IV
 ##### Theoretical models
@@ -53,7 +53,7 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 ###### Thirdly, paper shows that the urban model can quantitatively explain the spatial restructuring of economic activities in Greater London with the invention of steam railways.
 
 
-### Background
+### Ⅱ. Background
 
 
 ![50fd5fe3253a34a68d3225d6d2becf9a](https://user-images.githubusercontent.com/91390400/134819563-b7187c57-d16d-4f9a-a0ad-52d6a8500330.png)

@@ -29,7 +29,7 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 
 ## Reading Notes
-### Ⅰ. Introduction
+### Ⅰ. INTROUCTION
 
 #### 1. Motivation：Huge commuting flows   vs.   Little knowledge about it's role in sustaining dense concentrations of economic activity
 *  Impose substantial real resource costs in terms of time spent commuting and the construction of large networks of complex transportation infrastructure
@@ -53,7 +53,7 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
     + Thirdly, paper shows that the urban model can quantitatively explain the spatial restructuring of economic activities in Greater London with the invention of steam railways.
 
 
-### Ⅱ. Background
+### Ⅱ. BACKGROUND
 
 #### Three geographical definitions of boundaries: F.1(A)
 *  Greater London as defined by the Modern boundaries of the Greater London Authority (GLA) ：99 boroughs and 283 parishes
@@ -61,7 +61,6 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  The city of London： 111 parishes
 
 ::: hljs-center  ![image](https://user-images.githubusercontent.com/91390400/134820433-d95f9211-6c7c-4971-a4aa-c4c3708e3908.png)
-
 
 #### BC 43:London has a long history of settlement
 #### In the early 19th century
@@ -76,5 +75,15 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  London county is crisscrossed by a dense railway network that extends further into the heart of the county.
 #### 1921: F.1(D)
 *  Density of overground and underground railway lines is further increased.
+
+
+### Ⅲ. DATA
+
+#### Population
+*  Population censuses of England and Wales from 1801-1891 was provided by the Cambridge Group for the History of Population and Social Structure (Cambridge Group)
+1801，1811，1821，1831，1841，1851，1861，1871，1891（no 1881：Zionism？）
+
+
+#### Bilateral Commuting
 
 

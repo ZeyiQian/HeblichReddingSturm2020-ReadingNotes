@@ -60,7 +60,7 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  Historic County of London：29 boroughs and 183 parishes
 *  The city of London： 111 parishes
 
-      ![image](https://user-images.githubusercontent.com/91390400/134820433-d95f9211-6c7c-4971-a4aa-c4c3708e3908.png)
+![image](https://user-images.githubusercontent.com/91390400/134824649-e984df97-9ec3-4353-8a74-6391cdf7f100.png)
 
 #### BC 43:London has a long history of settlement
 #### In the early 19th century
@@ -102,7 +102,8 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  use area weights to create the same mappable units as for the population data-parish-level panel for the years 1815, 1843, 1848, 1852, 1860, 1881 and 1896
 *  aggregate these parish data to the 1921 boroughs using area weights
 
-      ![image](https://user-images.githubusercontent.com/91390400/134823058-8dd81a46-108b-40ad-a430-a76adfc98037.png)
+![image](https://user-images.githubusercontent.com/91390400/134824621-bd529c53-0021-400c-bbd5-fa4cbc3b4ae9.png)
+
 
 
 #### Transport Network
@@ -128,8 +129,8 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 #### Data for Other Cities
 *  historical data on population, employment,and commuting distances for Berlin, Paris, Boston, Chicago, New York, and Philadelphia
-![image](https://user-images.githubusercontent.com/91390400/134824040-b741edba-d401-48e9-9d16-3b15ed06abd6.png)
 
+![image](https://user-images.githubusercontent.com/91390400/134824606-3e5d912f-66f3-4c59-b51a-69d7367eec0c.png)
 
 
 ### IV. REDUCED-FORM EVIDENCE

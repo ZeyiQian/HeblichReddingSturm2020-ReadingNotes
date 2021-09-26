@@ -60,7 +60,7 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  Historic County of London：29 boroughs and 183 parishes
 *  The city of London： 111 parishes
 
-::: hljs-center  ![image](https://user-images.githubusercontent.com/91390400/134820433-d95f9211-6c7c-4971-a4aa-c4c3708e3908.png)
+      ![image](https://user-images.githubusercontent.com/91390400/134820433-d95f9211-6c7c-4971-a4aa-c4c3708e3908.png)
 
 #### BC 43:London has a long history of settlement
 #### In the early 19th century
@@ -97,5 +97,23 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  Measure the value of floor space using rateable values, which correspond to the annual flow of rent for the use of land and buildings
 *  Equal the price times the quantity of floor space in the model
 *  These rateable values cover all categories of property (except Crown property occupied by the Crown,Places for divine worship,Concerns listed under No. III Schedule A)
+*  Rateable values data: 1815,1843,1847,1852,1860,1881,1896,1905,1911,1921
+*  To create consistent spatial units over time, match parishes with the spatial units provided by the CGKO (Cambridge Group Kain Oliver) map
+*  use area weights to create the same mappable units as for the population data-parish-level panel for the years 1815, 1843, 1848, 1852, 1860, 1881 and 1896
+*  aggregate these parish data to the 1921 boroughs using area weights
 
+      ![image](https://user-images.githubusercontent.com/91390400/134823058-8dd81a46-108b-40ad-a430-a76adfc98037.png)
+
+
+#### Transport Network
+*  GIS dataset on the transport network in Greater London over time using historical maps of the overground railway network, the underground railway network, and the omnibus and tram network, provided by the Cambridge Group for the History of Population and Social Structure, which based its digitization on Cobb (2003)
+*  Measure bilateral travel times by distinguishing four transport networks based on the historical average travel speeds by transport mode in London reported in _London County Council (1907)_: 
+    + (i) overgroundrailways (21 mph)
+    + (ii) underground railways (15 mph)
+    + (iii)omnibuses and trams (6 mph)
+    + (iv) walking (3 mph)
+*  Assumption 
+    + workers follow the least-cost path in terms of travel time 
+    + workers incur a travel time cost of 3 minutes when changing between modes of transport and can only connect to the railway network at railway stations
+    + sets of points connected to each transport network at time $$\t$$:\widehat{a}a
 

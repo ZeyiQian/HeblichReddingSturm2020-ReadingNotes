@@ -29,7 +29,18 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 
 ## Reading Notes
-### Part 1
-Please add your comments 
+### Introduction
+
+##### Motivation：Huge commuting flows   vs.   Little knowledge about it's role in sustaining dense concentrations of economic activity
+###### 1.Impose substantial real resource costs in terms of time spent commuting and the construction of large networks of complex transportation infrastructure. 
+###### 2.Create commercial and residential areas, with their distinctive characteristics for production and consumption.
+
+##### Historical events：Steam railways created in the mid-19th century
+
+##### Evidence for the positive effect of residential separation on agglomeration
+###### 1.Data set for Greater London during 1801-1921
+###### 2.Spatial model
+
+#### Contribution：
 ### Part 2
 Please add your comments 

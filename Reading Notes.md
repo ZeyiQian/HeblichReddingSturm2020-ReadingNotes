@@ -79,11 +79,23 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 ### Ⅲ. DATA
 
-#### Population
+#### Bilateral Commuting：complete matrix of bilateral commuting flows between boroughs in Greater London
+*  Closed commuting market：commuting flows between other parts of England and Wales and Greater London were small in 1921
+*  Workplace employment-employment by workplace for each borough: summing across rows in the matrix of bilateral commuting flows for Greater London (come to this place)
+*  Residence employment-employment by residence for each borough: summing across columns in the matrix of bilateral commuting flows for Greater London (leave this place) 
+*  Employment participation rate for each borough in 1921: dividing residence employment by population 
+
+
+#### Population by Residence
 *  Population censuses of England and Wales from 1801-1891 was provided by the Cambridge Group for the History of Population and Social Structure (Cambridge Group)
-1801，1811，1821，1831，1841，1851，1861，1871，1891（no 1881：Zionism？）
+1801，1811，1821，1831，1841，1851，1861，1871，1891（no 1881）
+*  Population data from 1901-1921 stem from the Integrated Census Microdata Project (I-CeM).
+*  Assuming that the ratio of residence employment to population is stable for a given borough over time
+*  Use the 1921 value of this ratio and the historical population data to construct residence employment for earlier census years
 
-
-#### Bilateral Commuting
+#### Rateable Values
+*  Measure the value of floor space using rateable values, which correspond to the annual flow of rent for the use of land and buildings
+*  Equal the price times the quantity of floor space in the model
+*  These rateable values cover all categories of property (except Crown property occupied by the Crown,Places for divine worship,Concerns listed under No. III Schedule A)
 
 

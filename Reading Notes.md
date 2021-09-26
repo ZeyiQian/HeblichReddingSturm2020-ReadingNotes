@@ -136,6 +136,12 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 #### IV.A. City Size and Structure over Time
 
+![image](https://user-images.githubusercontent.com/91390400/134824579-e9e30484-5e46-4d04-a3d0-5c903f2b75d9.png)
+
+![image](https://user-images.githubusercontent.com/91390400/134824582-e669cadc-0390-44a1-979f-0fd5b550e703.png)
+
+![image](https://user-images.githubusercontent.com/91390400/134824586-1ef8c36d-e0a9-493c-b6f7-f78be91358a3.png)
+
 #### IV.B. Difference-in-Differences Event-Study Specification
 
 

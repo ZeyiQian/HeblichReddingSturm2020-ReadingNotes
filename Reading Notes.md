@@ -55,9 +55,26 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 ### Ⅱ. Background
 
+#### Three geographical definitions of boundaries: F.1(A)
+*  Greater London as defined by the Modern boundaries of the Greater London Authority (GLA) ：99 boroughs and 283 parishes
+*  Historic County of London：29 boroughs and 183 parishes
+*  The city of London： 111 parishes
 
-::: hljs-center ![50fd5fe3253a34a68d3225d6d2becf9a](https://user-images.githubusercontent.com/91390400/134819563-b7187c57-d16d-4f9a-a0ad-52d6a8500330.png)
+::: hljs-center  ![image](https://user-images.githubusercontent.com/91390400/134820433-d95f9211-6c7c-4971-a4aa-c4c3708e3908.png)
 
 
+#### BC 43:London has a long history of settlement
+#### In the early 19th century
+*  Walking: about 3 miles per hour
+*  Equestrian: about 6 miles per hour
+*  Steam passenger rail: 21 miles per hour (rail development in London was carried out competitively by private companies)
+#### In the first half of the 19th century
+*  Public goods were largely provided by local parishes and gatekeepers
+#### 1841: F.1(B)
+*  First census year, there are only a few railway lines and the line density in central London county is relatively low.
+#### 1881: F.1(C)
+*  London county is crisscrossed by a dense railway network that extends further into the heart of the county.
+#### 1921: F.1(D)
+*  Density of overground and underground railway lines is further increased.
 
-Please add your comments 
+

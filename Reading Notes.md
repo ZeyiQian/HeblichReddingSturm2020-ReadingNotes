@@ -115,5 +115,19 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  Assumption 
     + workers follow the least-cost path in terms of travel time 
     + workers incur a travel time cost of 3 minutes when changing between modes of transport and can only connect to the railway network at railway stations
-    + sets of points connected to each transport network at time $$\t$$:\widehat{a}a
+    + sets of points connected to each transport network at time _t_: s_t^OR，s_t^UR,s_t^OT  (OR, UR, and OT indicate overground railways, underground railways, and omnibuses and trams,)
+    +  vector of assumed travel time weights for each transport network by δ = [1 δUR δOT δWA] ( normalize the weight for overground railways to 1, and the superscript WA indicates walking)
+    +  the bilateral travel times between boroughs n and i at time t as dW ni $t = d_ni^W t(s_t^OR，s_t^UR,s_t^OT , δ)$, where the superscript W indicates the weighting by transport mode
+    +  use an instrumental variable based on bilateral travel times in which walking is assumed to be the only mode of transport, so that bilateral travel times depend solely on straight-line distance.
+    +  bilateral travel times in the absence of other modes of transport by d^S_ni, where the superscript S is a mnemonic for straight-line distance
+
+
+#### Historical Employment by Workplace and Commuting Data
+*  Compare model’s historical predictions for workplace employment in Greater London with data on the “day population” of the City of London that are available from the day censuses of 1866, 1881, 1891, and 1911
+*  Compare model’s predictions for commuting distances with historical commuting data based on the residence addresses of the employees of Henry Poole bespoke tailors, which has been located at the same workplace address in Savile Row in the City of Westminster since 1822
+
+#### Data for Other Cities
+*  historical data on population, employment,and commuting distances for Berlin, Paris, Boston, Chicago, New York, and Philadelphia
+![image](https://user-images.githubusercontent.com/91390400/134824019-3f9fcc51-d9c2-472b-8c7c-b0f989cef61b.png)
+![image](https://user-images.githubusercontent.com/91390400/134824040-b741edba-d401-48e9-9d16-3b15ed06abd6.png)
 

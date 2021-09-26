@@ -32,15 +32,26 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 ### Introduction
 
 ##### Motivation：Huge commuting flows   vs.   Little knowledge about it's role in sustaining dense concentrations of economic activity
-###### 1.Impose substantial real resource costs in terms of time spent commuting and the construction of large networks of complex transportation infrastructure. 
-###### 2.Create commercial and residential areas, with their distinctive characteristics for production and consumption.
+###### Impose substantial real resource costs in terms of time spent commuting and the construction of large networks of complex transportation infrastructure
+###### Create commercial and residential areas, with their distinctive characteristics for production and consumption
+
 
 ##### Historical events：Steam railways created in the mid-19th century
 
+
 ##### Evidence for the positive effect of residential separation on agglomeration
-###### 1.Data set for Greater London during 1801-1921
-###### 2.Spatial model
+###### Data set for Greater London during 1801-1921
+###### Quantitative urban model
+
 
 #### Contribution：
+##### Empirical estimation
+###### Agglomeration effect：change of the relationship between travel time and distance as IV
+##### Theoretical models
+###### First, it proves that the urban models established by this paper all have the same land and commuter market clearing conditions, so reliable results can be obtained in such models, and a series of factors that have not been observed to determine the spatial distribution of the economy can be controlled. 
+###### Second, a new structural estimation method is developed for such urban models that uses bilateral commuter flows from the base year (1921 in our case) and performs a comparative static analysis from that base year. This paper shows that the estimation procedure can be used to recover unobserved historical employment and commuting data (i.e., prior to 1921) from bilateral commuting data in the base year as well as historical data on population and land rents. 
+###### Thirdly, the paper shows that the urban model can quantitatively explain the spatial restructuring of economic activities in Greater London with the invention of steam railways.
+
+
 ### Part 2
 Please add your comments 

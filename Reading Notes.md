@@ -128,6 +128,13 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 #### Data for Other Cities
 *  historical data on population, employment,and commuting distances for Berlin, Paris, Boston, Chicago, New York, and Philadelphia
-![image](https://user-images.githubusercontent.com/91390400/134824019-3f9fcc51-d9c2-472b-8c7c-b0f989cef61b.png)
 ![image](https://user-images.githubusercontent.com/91390400/134824040-b741edba-d401-48e9-9d16-3b15ed06abd6.png)
+
+
+
+### IV. REDUCED-FORM EVIDENCE
+
+#### IV.A. City Size and Structure over Time
+
+
 

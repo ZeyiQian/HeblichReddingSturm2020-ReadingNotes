@@ -31,32 +31,32 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 ## Reading Notes
 ### Ⅰ. Introduction
 
-##### 1.Motivation：Huge commuting flows   vs.   Little knowledge about it's role in sustaining dense concentrations of economic activity
-###### Impose substantial real resource costs in terms of time spent commuting and the construction of large networks of complex transportation infrastructure
-###### Create commercial and residential areas, with their distinctive characteristics for production and consumption
+#### 1. Motivation：Huge commuting flows   vs.   Little knowledge about it's role in sustaining dense concentrations of economic activity
+*  Impose substantial real resource costs in terms of time spent commuting and the construction of large networks of complex transportation infrastructure
+*  Create commercial and residential areas, with their distinctive characteristics for production and consumption
 
 
-##### 2.Historical events：Steam railways created in the mid-19th century
+#### 2. Historical events：Steam railways created in the mid-19th century
 
 
-##### 3.Evidence for the positive effect of residential separation on agglomeration
-###### Data set for Greater London during 1801-1921
-###### Quantitative urban model
+#### 3. Evidence for the positive effect of residential separation on agglomeration
+*  Data set for Greater London during 1801-1921
+*  Quantitative urban model
 
 
 #### 4.Contribution：
-##### Empirical estimation
-###### Agglomeration effect：change of the relationship between travel time and distance as IV
-##### Theoretical models
-###### First, it proves that the urban models established by this paper all have the same land and commuter market clearing conditions, so reliable results can be obtained in such models, and a series of factors that have not been observed to determine the spatial distribution of the economy can be controlled. 
-###### Second, a new structural estimation method is developed for such urban models that uses bilateral commuter flows from the base year (1921) and performs a comparative static analysis from that base year. This paper shows that the estimation procedure can be used to recover unobserved historical employment and commuting data from bilateral commuting data in the base year as well as historical data on population and land rents. 
-###### Thirdly, paper shows that the urban model can quantitatively explain the spatial restructuring of economic activities in Greater London with the invention of steam railways.
+*  Empirical estimation
+    + Agglomeration effect：change of the relationship between travel time and distance as IV
+*  Theoretical models
+    + First, it proves that the urban models established by this paper all have the same land and commuter market clearing conditions, so reliable results can be obtained in such models, and a series of factors that have not been observed to determine the spatial distribution of the economy can be controlled. 
+    + Second, a new structural estimation method is developed for such urban models that uses bilateral commuter flows from the base year (1921) and performs a comparative static analysis from that base year. This paper shows that the estimation procedure can be used to recover unobserved historical employment and commuting data from bilateral commuting data in the base year as well as historical data on population and land rents. 
+    + Thirdly, paper shows that the urban model can quantitatively explain the spatial restructuring of economic activities in Greater London with the invention of steam railways.
 
 
 ### Ⅱ. Background
 
 
-![50fd5fe3253a34a68d3225d6d2becf9a](https://user-images.githubusercontent.com/91390400/134819563-b7187c57-d16d-4f9a-a0ad-52d6a8500330.png)
+::: hljs-center ![50fd5fe3253a34a68d3225d6d2becf9a](https://user-images.githubusercontent.com/91390400/134819563-b7187c57-d16d-4f9a-a0ad-52d6a8500330.png)
 
 
 

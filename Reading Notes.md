@@ -169,3 +169,4 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 ##### Results
 *   DID：For central London and outer areas, the absolute value of the coefficient increases for 60 years after the railway is built. One of the reasons may be that the value of the connection to the railway network increases over time as the railway network expands
 *   DDD：Reduced travel times increase the population of the suburbs of Greater London and decrease the population of the central areas.
+ 

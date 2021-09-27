@@ -120,6 +120,7 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
     + sets of points connected to each transport network at time _t_: s_t^OR，s_t^UR,s_t^OT  (OR, UR, and OT indicate overground railways, underground railways, and omnibuses and trams,)
     +  vector of assumed travel time weights for each transport network by $$δ = [1 δUR δOT δWA]$$ ( normalize the weight for overground railways to 1, and the superscript WA indicates walking)
     +  the bilateral travel times between boroughs n and i at time t as $$dW ni t = d_ni^W t(s_t^OR，s_t^UR,s_t^OT , δ)$$, where the superscript W indicates the weighting by transport mode
+    +  $$ \frac{x}{y} $$
     +  use an instrumental variable based on bilateral travel times in which walking is assumed to be the only mode of transport, so that bilateral travel times depend solely on straight-line distance.
     +  bilateral travel times in the absence of other modes of transport by $d^S_ni$, where the superscript S is a mnemonic for straight-line distance
 
@@ -171,10 +172,4 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *   DID：For central London and outer areas, the absolute value of the coefficient increases for 60 years after the railway is built. One of the reasons may be that the value of the connection to the railway network increases over time as the railway network expands
 *   DDD：Reduced travel times increase the population of the suburbs of Greater London and decrease the population of the central areas.
  
-=======
-### Part 1
-Please add your comments 
-
-### Part 2
-Please add your comments 
 

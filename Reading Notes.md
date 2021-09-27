@@ -1,7 +1,7 @@
-## Notes Title - HeblichReddingSturm2020   
+## Reading Notes on HeblichReddingSturm2020   
 ## Instructor
 Prof. Junfu Zhang
-## Student
+## Students
 Li Shen  
 Zeyi Qian  
 
@@ -16,8 +16,7 @@ DANIEL M. STURM
 
 
 ### Publishing Time
-The Quarterly Journal of Economics (2020), 2059–2133. doi:10.1093/qje/qjaa014.
-Advance Access publication on May 7, 2020.
+The Quarterly Journal of Economics (2020), 2059–2133. 
 
 ### Description
 Using newly constructed spatially disaggregated data for London from 1801 to 1921, 

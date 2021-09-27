@@ -163,7 +163,7 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 ##### baseline specification
 *   DID：
-$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ})  +  (μ_j × Year_t)+ d_t + u_{jt}$$
+$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(S_j × I_{jτ})  +  (μ_j × Year_t)+ d_t + u_{jt}$$
 *   DDD：
 $$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}) +\sum_{τ=−30 }^{τ=30}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}× \Bbb{I}_j^{Center}) +  (μ_j × Year_t)+ d_t + u_{jt}$$
 

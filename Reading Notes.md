@@ -31,6 +31,6 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 ## Reading Notes
 ### Part 1
 Please add your comments 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+
 ### Part 2
 Please add your comments 

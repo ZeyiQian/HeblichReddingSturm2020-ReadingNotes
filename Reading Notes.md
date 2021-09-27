@@ -136,6 +136,25 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 ### IV. REDUCED-FORM EVIDENCE
 
 #### IV.A. City Size and Structure over Time
+![image](https://user-images.githubusercontent.com/91390400/134824579-e9e30484-5e46-4d04-a3d0-5c903f2b75d9.png)
+ *  Population is expressed as an index relative to its value in 1801 (such that 1801 = 1). 
+ *  City of London: sharp drop in 1851 (FⅡ.Left)
+ *  Greater London: grew substantially (FⅡ.Right)
+ 
+![image](https://user-images.githubusercontent.com/91390400/134824582-e669cadc-0390-44a1-979f-0fd5b550e703.png)
+ *  City of London’s residential (or “night”) population: day population > night population (FⅢ.Left)
+ *  Steep decline in its night population from 1851 onward coincides with a sharp rise in its day population (FⅢ.Left)
+ *  As this expansion occurs, and undeveloped land becomes developed, the share of already-developed land in overall land values tends to fall (FⅢ.Right)
+ *  In the years after 1851 when the City of London experiences the largest declines in its residential population, its rateable value share increases from 9% to 11%. (FⅢ.Right)
+ 
+
+![image](https://user-images.githubusercontent.com/91390400/134828359-ba11f54e-72dd-4dd5-9c1d-4e464fdc7285.png)
+ *  A sharp rise in public transport journeys per head of population from around 7 in 1834 under 400 in 1921
+
+
+![image](https://user-images.githubusercontent.com/91390400/134824586-1ef8c36d-e0a9-493c-b6f7-f78be91358a3.png)
+*   Following the construction of the first railway in 1836, a sharp reduction in the City of London’s population-weighted average travel times to other boroughs (FⅣ.Left)
+*   Employment by Residence < Workplace (FⅣ.Right)
 
 ![image](https://user-images.githubusercontent.com/91390400/134824579-e9e30484-5e46-4d04-a3d0-5c903f2b75d9.png)
 

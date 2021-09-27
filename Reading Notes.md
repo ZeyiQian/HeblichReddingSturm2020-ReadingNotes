@@ -160,5 +160,12 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 
 #### IV.B. Difference-in-Differences Event-Study Specification
 
+##### baseline specification
+*   DID：log Rjt = αj + τ=60τ=−60 βτ  Sj × Ijτ  +  μj × Yeart+ dt + ujt,
+*   DDD：log Rjt = αj + τ=60τ=−60 βτ Sj × Ijτ + τ=30τ=−30γτ Sj × Ijτ × I Centerj  +  μj × Yeart + dt + ujt,
 
+![image](https://user-images.githubusercontent.com/91390400/134829147-16533f95-7509-433b-ac7b-120cedf2cda5.png)
 
+##### Results
+*   DID：For central London and outer areas, the absolute value of the coefficient increases for 60 years after the railway is built. One of the reasons may be that the value of the connection to the railway network increases over time as the railway network expands
+*   DDD：Reduced travel times increase the population of the suburbs of Greater London and decrease the population of the central areas.

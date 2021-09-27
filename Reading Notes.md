@@ -22,7 +22,7 @@ Advance Access publication on May 7, 2020.
 ### Description
 Using newly constructed spatially disaggregated data for London from 1801 to 1921, 
 we show that the invention of the steam railway led to the first large-scale separation of workplace and residence. 
-We show that a class of quantitative urban models is remarkably successful in explaining this reorganization of economic ac- tivity. 
+We show that a class of quantitative urban models is remarkably successful in explaining this reorganization of economic activity. 
 We structurally estimate one of the models in this class and find substantial agglomeration forces in both production and residence. 
 In counterfactuals, we find that removing the whole railway network reduces the population and the value of land and buildings 
 in London by up to 51.5% and 53.3% respectively, and decreases net commuting into the historical center of London by more than 300,000 workers.
@@ -118,10 +118,10 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
     + workers follow the least-cost path in terms of travel time 
     + workers incur a travel time cost of 3 minutes when changing between modes of transport and can only connect to the railway network at railway stations
     + sets of points connected to each transport network at time _t_: s_t^OR，s_t^UR,s_t^OT  (OR, UR, and OT indicate overground railways, underground railways, and omnibuses and trams,)
-    +  vector of assumed travel time weights for each transport network by δ = [1 δUR δOT δWA] ( normalize the weight for overground railways to 1, and the superscript WA indicates walking)
-    +  the bilateral travel times between boroughs n and i at time t as dW ni $t = d_ni^W t(s_t^OR，s_t^UR,s_t^OT , δ)$, where the superscript W indicates the weighting by transport mode
+    +  vector of assumed travel time weights for each transport network by $δ = [1 δUR δOT δWA]$ ( normalize the weight for overground railways to 1, and the superscript WA indicates walking)
+    +  the bilateral travel times between boroughs n and i at time t as $dW ni $t = d_ni^W t(s_t^OR，s_t^UR,s_t^OT , δ)$, where the superscript W indicates the weighting by transport mode
     +  use an instrumental variable based on bilateral travel times in which walking is assumed to be the only mode of transport, so that bilateral travel times depend solely on straight-line distance.
-    +  bilateral travel times in the absence of other modes of transport by d^S_ni, where the superscript S is a mnemonic for straight-line distance
+    +  bilateral travel times in the absence of other modes of transport by $d^S_ni$, where the superscript S is a mnemonic for straight-line distance
 
 
 #### Historical Employment by Workplace and Commuting Data

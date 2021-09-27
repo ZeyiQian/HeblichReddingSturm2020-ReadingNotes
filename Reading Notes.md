@@ -162,8 +162,10 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 #### IV.B. Difference-in-Differences Event-Study Specification
 
 ##### baseline specification
-*   DID：log Rjt = αj + τ=60τ=−60 βτ  Sj × Ijτ  +  μj × Yeart+ dt + ujt,
-*   DDD：log Rjt = αj + τ=60τ=−60 βτ Sj × Ijτ + τ=30τ=−30γτ Sj × Ijτ × I Centerj  +  μj × Yeart + dt + ujt,
+*   DID：
+$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ})  +  (μ_j × Year_t)+ d_t + u_{jt}$$
+*   DDD：
+$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}) +\sum_{τ=−30 }^{τ=30}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}× \Bbb{I}_j^{Center}) +  (μ_j × Year_t)+ d_t + u_{jt}$$
 
 ![image](https://user-images.githubusercontent.com/91390400/134829147-16533f95-7509-433b-ac7b-120cedf2cda5.png)
 

@@ -134,7 +134,7 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
       $$d^W_{nit} = d^W_{nit}(\tilde{s}_t^{OR}，\tilde{s}_t^{UR}, \tilde{s}_t^{OT}, \mathbf{δ})$$, 
       where the superscript W indicates the weighting by transport mode
     +  use an instrumental variable based on bilateral travel times in which walking is assumed to be the only mode of transport, so that bilateral travel times depend solely on straight-line distance.
-    +  bilateral travel times in the absence of other modes of transport by $d^S_ni$, where the superscript S is a mnemonic for straight-line distance
+    +  bilateral travel times in the absence of other modes of transport by $d^S_{ni}$, where the superscript S is a mnemonic for straight-line distance
 
 
 #### Historical Employment by Workplace and Commuting Data

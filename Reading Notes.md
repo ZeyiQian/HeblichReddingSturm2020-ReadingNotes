@@ -1,7 +1,7 @@
-## Reading Notes on HeblichReddingSturm2020   
+## Notes Title - HeblichReddingSturm2020   
 ## Instructor
 Prof. Junfu Zhang
-## Students
+## Student
 Li Shen  
 Zeyi Qian  
 
@@ -16,7 +16,8 @@ DANIEL M. STURM
 
 
 ### Publishing Time
-The Quarterly Journal of Economics (2020), 2059–2133. 
+The Quarterly Journal of Economics (2020), 2059–2133. doi:10.1093/qje/qjaa014.
+Advance Access publication on May 7, 2020.
 
 ### Description
 Using newly constructed spatially disaggregated data for London from 1801 to 1921, 
@@ -116,9 +117,9 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  Assumption 
     + workers follow the least-cost path in terms of travel time 
     + workers incur a travel time cost of 3 minutes when changing between modes of transport and can only connect to the railway network at railway stations
-    + sets of points connected to each transport network at time _t_: s_t^OR，s_t^UR,s_t^OT  (OR, UR, and OT indicate overground railways, underground railways, and omnibuses and trams,)
+    + sets of points connected to each transport network at time $t$ ：  $$\tilde{s}_t^OR，\tilde{s}_t^UR, \tilde{s}_t^OT$$ (OR, UR, and OT indicate overground railways, underground railways, and omnibuses and trams,)
     +  vector of assumed travel time weights for each transport network by $$δ = [1 δUR δOT δWA]$$ ( normalize the weight for overground railways to 1, and the superscript WA indicates walking)
-    +  the bilateral travel times between boroughs n and i at time t as $$dW ni t = d_ni^W t(s_t^OR，s_t^UR,s_t^OT , δ)$$, where the superscript W indicates the weighting by transport mode
+    +  the bilateral travel times between boroughs n and i at time t as $$dW ni t = d_ni^W t(\tilde{s}_t^OR，\tilde{s}_t^UR, \tilde{s}_t^OT, δ)$$, where the superscript W indicates the weighting by transport mode
     +  use an instrumental variable based on bilateral travel times in which walking is assumed to be the only mode of transport, so that bilateral travel times depend solely on straight-line distance.
     +  bilateral travel times in the absence of other modes of transport by $d^S_ni$, where the superscript S is a mnemonic for straight-line distance
 
@@ -161,8 +162,8 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 #### IV.B. Difference-in-Differences Event-Study Specification
 
 ##### baseline specification
-*   DID：log Rjt = αj + τ=60τ=−60 βτ  Sj × Ijτ  +  μj × Yeart+ dt + ujt,
-*   DDD：log Rjt = αj + τ=60τ=−60 βτ Sj × Ijτ + τ=30τ=−30γτ Sj × Ijτ × I Centerj  +  μj × Yeart + dt + ujt,
+*   DID：$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ})  +  (μ_j × Year_t)+ d_t + u_{jt}$$
+*   DDD：$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}) +\sum_{τ=−30 }^{τ=30}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}× \Bbb{I}_j^{Center}) +  (μ_j × Year_t)+ d_t + u_{jt}$$
 
 ![image](https://user-images.githubusercontent.com/91390400/134829147-16533f95-7509-433b-ac7b-120cedf2cda5.png)
 

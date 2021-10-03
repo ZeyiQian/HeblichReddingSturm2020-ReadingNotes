@@ -1,4 +1,4 @@
-## Notes Title - HeblichReddingSturm2020   
+## Reading Notes on HeblichReddingSturm2020   
 ## Instructor
 Prof. Junfu Zhang
 ## Student
@@ -16,13 +16,12 @@ DANIEL M. STURM
 
 
 ### Publishing Time
-The Quarterly Journal of Economics (2020), 2059–2133. doi:10.1093/qje/qjaa014.
-Advance Access publication on May 7, 2020.
+The Quarterly Journal of Economics (2020), 2059–2133.
 
 ### Description
 Using newly constructed spatially disaggregated data for London from 1801 to 1921, 
 we show that the invention of the steam railway led to the first large-scale separation of workplace and residence. 
-We show that a class of quantitative urban models is remarkably successful in explaining this reorganization of economic ac- tivity. 
+We show that a class of quantitative urban models is remarkably successful in explaining this reorganization of economic activity. 
 We structurally estimate one of the models in this class and find substantial agglomeration forces in both production and residence. 
 In counterfactuals, we find that removing the whole railway network reduces the population and the value of land and buildings 
 in London by up to 51.5% and 53.3% respectively, and decreases net commuting into the historical center of London by more than 300,000 workers.
@@ -117,11 +116,25 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 *  Assumption 
     + workers follow the least-cost path in terms of travel time 
     + workers incur a travel time cost of 3 minutes when changing between modes of transport and can only connect to the railway network at railway stations
-    + sets of points connected to each transport network at time _t_: s_t^OR，s_t^UR,s_t^OT  (OR, UR, and OT indicate overground railways, underground railways, and omnibuses and trams,)
-    +  vector of assumed travel time weights for each transport network by δ = [1 δUR δOT δWA] ( normalize the weight for overground railways to 1, and the superscript WA indicates walking)
-    +  the bilateral travel times between boroughs n and i at time t as dW ni $t = d_ni^W t(s_t^OR，s_t^UR,s_t^OT , δ)$, where the superscript W indicates the weighting by transport mode
+    + sets of points connected to each transport network at time $t$ ： 
+    
+    $$\tilde{s}_t^{OR}，\tilde{s}_t^{UR}, \tilde{s}_t^{OT}$$ 
+    
+    (OR, UR, and OT indicate overground railways, underground railways, and omnibuses and trams,)
+     
+    +  vector of assumed travel time weights for each transport network by
+    
+    $$\mathbf{δ} = [1 \\ δ^{UR} \\ δ^{OT}\\ δ^{WA}]$$
+    
+    ( normalize the weight for overground railways to 1, and the superscript WA indicates walking)
+    
+    +  the bilateral travel times between boroughs n and i at time t as 
+     
+      $$d^W_{nit} = d^W_{nit}(\tilde{s}_t^{OR}，\tilde{s}_t^{UR}, \tilde{s}_t^{OT}, \mathbf{δ})$$, 
+      where the superscript W indicates the weighting by transport mode
+
     +  use an instrumental variable based on bilateral travel times in which walking is assumed to be the only mode of transport, so that bilateral travel times depend solely on straight-line distance.
-    +  bilateral travel times in the absence of other modes of transport by d^S_ni, where the superscript S is a mnemonic for straight-line distance
+    +  bilateral travel times in the absence of other modes of transport by $d^S_{ni}$, where the superscript S is a mnemonic for straight-line distance
 
 
 #### Historical Employment by Workplace and Commuting Data
@@ -162,10 +175,13 @@ in London by up to 51.5% and 53.3% respectively, and decreases net commuting int
 #### IV.B. Difference-in-Differences Event-Study Specification
 
 ##### baseline specification
-*   DID：
-$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(S_j × I_{jτ})  +  (μ_j × Year_t)+ d_t + u_{jt}$$
-*   DDD：
-$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}) +\sum_{τ=−30 }^{τ=30}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}× \Bbb{I}_j^{Center}) +  (μ_j × Year_t)+ d_t + u_{jt}$$
+DID：  
+
+$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(S_j × I_{jτ})  +  (μ_j × Year_t)+ d_t + u_{jt} \qquad(1)$$
+
+DDD：
+
+$$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(S_j × I_{jτ}) +\sum_{τ=−30 }^{τ=30}β_τ(S_j × I_{jτ}× I_j^{Center}) +  (μ_j × Year_t)+ d_t + u_{jt} \qquad(2)$$
 
 ![image](https://user-images.githubusercontent.com/91390400/134829147-16533f95-7509-433b-ac7b-120cedf2cda5.png)
 
@@ -173,11 +189,168 @@ $$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(\Bbb{S}_j × \Bbb{I}_{jτ}) +\
 *   DID：For central London and outer areas, the absolute value of the coefficient increases for 60 years after the railway is built. One of the reasons may be that the value of the connection to the railway network increases over time as the railway network expands
 *   DDD：Reduced travel times increase the population of the suburbs of Greater London and decrease the population of the central areas.
  
-=======
-### Part 1
-Please add your comments 
+### V. Theoretical Framework
+The authors consider a city (Greater London) embedded in a wider economy (Great Britain). The economy as a whole consists of a discrete set of locations $M$. Greater London is a subset of these locations $N ⊂ M$. Time is discrete and is indexed by $t$. 
 
-### Part 2
-Please add your comments 
+The economy as a whole is populated by an exogenous continuous measure $L_{Mt}$ of workers, who are geographically mobile and endowed with one unit of labor that is supplied inelastically. Workers simultaneously choose their preferred residence $n$ and workplace $i$ given their idiosyncratic draws.
 
-$ \frac{x}{y} $
+Denote the endogenous measure of workers who choose a residence-workplace pair in Greater London by $L_{Nt}$.
+
+<!--
+The authors show that this theoretical framework encompasses an entire class of urban models that satisfy the following three properties: <br> i) a gravity equation for bilateral commuting flows; <br> ii) land market clearing, such that income from the ownership of floor space equals the sum of payments for residential and commercial floor space;<br> iii) payments for residential floor space are a constant multiple of residence income (the total income of all residents) and payments for commercial floor space are a constant multiple of workplace income (the total income of all workers).
+-->
+
+#### V.A. Preferences
+
+>##### The intertemporal preferences of worker $ω$ living in residence $n$ and working in workplace $i$ at time $t$ are additive separable and isoelastic:
+
+$$U_{nit}(\omega)=\sum_{s=t}^{\infty } \rho ^{s-t}\frac{U_{nit}(\omega)^{1-\frac{1}{\zeta} }}{1-\frac{1}{\zeta} } \qquad(F1)$$
+where, $\zeta >0$ is the intertemporal elasticity of substitution;<br>
+$ \rho$ is the subjective rate of time discount;<br>
+$U_{nit}(\omega)$ is the worker’s instantaneous utility function.
+
+>##### The instantaneous utility for worker $ω$ residing in location n and working in location i is :
+
+$$ U_{ni}(\omega)= \frac{B_{ni}b_{ni}(\omega)}{k_{ni}} \left (\frac{C_{ni}(\omega ) }{\alpha}  \right )^{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }  \qquad(F2)$$
+
+where,the authors suppress the time subscript from now on, except where important;   
+$0<\alpha<1$;    
+$C_{ni}(\omega )$ is consumption of a single tradeable homogeneous final good;   
+$H_{ni} (\omega )$ is consumption of residential floor space;    
+$k_{ni}$ is an iceberg commuting cost;    
+$B_{ni}$ captures amenities from the bilateral commute from residence n to workplace i that are common across all workers;   
+$b_{ni}(\omega)$ is an idiosyncratic amenity draw that captures all the idiosyncratic factors that can cause an individual to live and work in particular locations in the city.
+
+
+###### The utility maximization problem of workers is:
+$$\max_{ C_{ni},H_{ni}  } U_{ni}(\omega)$$
+$$subject \ to$$
+$$P_nC_{ni}+Q_nH_{ni}= w_i $$ 
+where,<br>
+$P_n$ is the price index for consumption goods, which may include both tradeable and nontradeable consumption goods;<br>
+$Q_n$ is the price of residential floor space;<br>
+$w_i$ is the wage.   
+*Note that without access to a savings or borrowing technology, workers choose their residence, workplace, consumption of the final and residential floor space use each period to maximize their instantaneous utility.*
+
+Now, the Lagrange function is :
+$$
+L = \frac{B_{ni}b_{ni}(\omega)}{k_{ni}} \left (\frac{C_{ni}(\omega ) }{\alpha}  \right )^{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha } + \lambda (w_i - P_nC_{ni}-Q_nH_{ni})$$
+
+First Order Conditions:
+$$\frac{\partial L}{\partial C_{ni}}=\frac{B_{ni}b_{ni}(\omega)}{k_{ni}} \alpha \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha -1} \frac{1}{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }-\lambda P_n=0 $$
+
+$$\frac{\partial L}{\partial H_{ni}}=\frac{B_{ni}b_{ni}(\omega)}{k_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha }(1-\alpha)  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{-\alpha } \frac{1}{1-\alpha }-\lambda Q_n=0 $$
+
+$$\frac{\partial L}{\partial \lambda}=w_i - P_nC_{ni}-Q_nH_{ni}=0 \qquad(F2.1) $$
+
+rearrange them to get:
+$$\frac{B_{ni}b_{ni}(\omega)}{k_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha -1}  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }=\lambda P_n \qquad(F2.2)$$
+
+$$\frac{B_{ni}b_{ni}(\omega)}{k_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha } \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{-\alpha } =\lambda Q_n \qquad(F2.3)$$
+
+divided $(F2.2)$ by $(F2.3)$ to get:
+$$\frac{C_{ni}^{\alpha -1}}{C_{ni}^\alpha } \frac{\alpha ^{1-\alpha }}{\alpha ^{-\alpha }} \frac{H_{ni}^{1-\alpha }}{H_{ni}^{-\alpha }}\frac{(1-\alpha) ^{\alpha-1 }}{(1-\alpha) ^{\alpha }} =\frac{P_n}{Q_n} $$
+which can be simplified as:
+$$\frac{\alpha }{(1-\alpha) }\frac{H_{ni}}{C_{ni}} =\frac{P_n}{Q_n} \qquad(F2.4)$$
+$(F2.4)$ can be rewritten as:
+$$H_{ni}=\frac{P_n}{Q_n}\frac{1-\alpha }{\alpha }C_{ni} \qquad(F2.5)$$
+
+substituting $(F2.5)$ to $(F2.1)$ can get:
+
+$$w_i - P_nC_{ni}-Q_n \left [ \frac{P_n}{Q_n}\frac{1-\alpha }{\alpha }C_{ni} \right ] =0 $$
+rearrange them to get:
+$$ C_{ni}= \frac{\alpha w_i }{P_n}\qquad(F2.6)$$
+
+substituting $(F2.6)$ to $(F2.5)$ can get:
+$$ H_{ni}= \frac{(1-\alpha) w_i }{Q_n} \qquad(F2.7)$$
+
+Substituting $(F2.6)$ and $(F2.7)$ to $(F2)$ 
+$$U_{ni}(\omega)= \frac{B_{ni}b_{ni}(\omega)}{k_{ni}} \left (\frac{\frac{\alpha w_i }{P_n} }{\alpha}  \right )^{\alpha }  \left ( \frac{\frac{(1-\alpha) w_i }{Q_n}}{1-\alpha }  \right )^{1-\alpha }$$
+
+$$=\frac{B_{ni}b_{ni}(\omega)}{k_{ni}}\frac{w_i^\alpha}{P_n^\alpha} \frac{w_i^{1-\alpha}}{Q_n^{1-\alpha}}$$
+$$=\frac{B_{ni}b_{ni}(\omega)w_i}{k_{ni}P_n^\alpha Q_n^{1-\alpha}} \qquad(3) $$
+which is indirect utility for a worker $\omega$ residing in $n$ and working in $i$, and $0<\alpha<1$. 
+
+>#### Distribution of Utility
+
+##### Assume that idiosyncratic amenities $b_{ni}(\omega)$ are drawn from an independent extreme value (Fréchet) distribution for each residence-workplace pair and each worker:
+
+$$ G(b)= e^{-b^{-\epsilon}} \qquad(4)$$
+where, $\epsilon > 1$ is shape parameter, which controls the sensitivity of worker location decisions to economic variables;and the scale parameter is normalized to 1.
+
+##### From the indirect utility function in equation (3), the authors have the following monotonic relationship between idiosyncratic amenities $(b_{ni}(\omega))$ and utility $(U_{ni}(\omega))$:
+$$ b_{ni}(\omega)= \frac{U_{ni}(\omega)k_{ni} P_n^\alpha Q_n^{1-\alpha}}{B_{ni}w_i} \qquad(3.1)$$
+
+##### Together equations (4) and (3.1) imply that the *distribution of utility* for residence $n$ and workplace $i$ is:
+
+$$G_{ni}(u)= e^{-\Psi_{ni}u^{-\epsilon }},$$ 
+where $\Psi_{ni} = (B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon} $ is the location parameter.
+
+Since the maximum of a sequence of Fréchet distributed random variables is itself Fréchet distributed, the distribution of utility across all residences $k$ and all workplaces $l$ is:
+
+$$ G(u)= e^{-\Psi_{M}u^{-\epsilon }}, where \  \Psi_{M} =\sum_{k\in M}\sum_{l\in M}\Psi_{kl}   $$
+
+##### Given this Fréchet distribution for utility, expected utility is:
+$$ E(u)= \int_{0}^{\infty } uG'(u)du$$
+$$=\int_{0}^{\infty }u(- \Psi_M u^{-\epsilon })(-\epsilon u^{-\epsilon -1})e^{-\Psi_{M}u^{-\epsilon }}du$$
+$$=\int_{0}^{\infty } \epsilon  \Psi_M u^{-\epsilon }e^{-\Psi_{M}u^{-\epsilon }}du$$
+
+define $y=\Psi_M u^{-\epsilon }$, so $dy=-\epsilon \Psi_M u^{-\epsilon -1}du=-\epsilon \Psi_M u^{-\epsilon}u^{-1}du $, and $u =y^{-1/\epsilon}\Psi_M^{1/\epsilon} $
+then,
+$$E(u)= \int_{0}^{\infty }-u e^{-y} dy$$
+$$?=\int_{0}^{\infty } - \Psi_M^{1/\epsilon} y^{-1/\epsilon}\Psi_M^{1/\epsilon} e_{-y}dy $$
+which can be written as:
+$$E(u)= \nu \Psi_M^{1/\epsilon}$$
+$$E(u)= \nu [{\textstyle \sum_{k \in N}\sum_{l \in N}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon}\qquad(C9)$$
+where $ \nu = \Gamma(\frac{\epsilon-1}{\epsilon})$ is the Gamma function. 
+
+
+
+>#### Bilateral common amenities
+
+$$ B_{ni} = B_n^R B_i^L B_{ni}^I \qquad(5)$$
+where, $B_n^R, B_i^L, B_{ni}^I > 0$;<br>
+$B_n^R$ is residence component common across all workplaces;<br>
+$B_i^L$ is workplace component common across all residences;<br>
+$ B_{ni}^I$ is idiosyncratic component (BnIi) specific to an individual residence-workplace pair.
+
+>#### Residence and Workplace Choices
+
+<!--
+##### Using the distribution of utility for pairs of residence and employment locations, the probability that a worker chooses the bilateral commute from $n$ to $i$ out of all possible bilateral commutes is:
+
+$$\lambda_{ni} = Pr[u_{ni} \ge max\left \{ u_{kl} \right \};\forall k,l ]$$
+$$  = \int_{0}^{\infty } \prod_{l\ne i} G_{ni}(u)[\prod_{k\ne n}\prod_{l\in M} G_{kl}(u) ]d G_{ni}(u)$$
+$$\int_{0}^{\infty } \prod_{k\in M}\prod_{l\in M} \epsilon \Psi_{ni}u^{-\epsilon-1}e^{-\Psi_{kl}u^{-\epsilon }}du $$
+$$=\int_{0}^{\infty }  \epsilon \Psi_{ni}u^{-\epsilon-1}e^{-\Psi_{M}u^{-\epsilon }}du$$
+-->
+
+##### The probability that the worker chooses to live in location $n$ and work in location $i$ is:
+$$\frac{L_{ni}}{L_M} =\frac{\Psi_{ni}}{\Psi_{M}} = \frac{(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{ {\textstyle \sum_{k \in M}\sum_{l \in M}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} $$
+where $L_{ni}$ is the measure of commuters from residence $n$ to workplace $i$; $L_M$ is the measure of workers in the economy as a whole.
+
+##### Summing across workplaces and residences in Greater London, the probability that a worker chooses a residence-workplace pair in Greater London is given by:
+
+$$\frac{L_{N}}{L_M} =\frac{{\textstyle \sum_{n \in N}\sum_{i \in N}}(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{ {\textstyle \sum_{k \in M}\sum_{l \in M}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} $$
+
+##### The probability that a worker chooses to live in location $n$ and work in location $i$ conditional on choosing a residence-workplace pair in Greater London is:
+
+ $$ λ_{ni}=\frac{L_{ni}/L_M}{L_N/L_M} = \frac{L_{ni}}{L_N}= \frac{(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{  \sum_{k \in N}\sum_{l \in N} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}}       \qquad(6)  \ \ i,n \in N$$ 
+
+Summing across workplaces $i \in N$ to obtain the probability that a worker lives in residence $n \in N$, conditional on choosing a residence-workplace pair in Greater London:
+
+$$\lambda_n^R =\frac{\sum_{i \in N}(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{k \in N} \sum_{l\in N}(B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} \qquad(7-1)$$
+
+Summing across residences $n \in N$ to obtain the probability that a worker is employed in workplace $i \in N$, conditional on choosing a residence-workplace pair in Greater London:
+
+$$ \lambda_n^R =\frac{\sum_{n\in N}(B_{ni}w_i)^{\epsilon}(k_{ni}P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{k \in N}\sum_{l \in N}(B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} \qquad(7-2)$$
+
+##### Expected utility conditional on choosing a residence-workplace pair is the same across all residence-workplace pairs in the economy:
+
+$$\bar{U} = \nu [ \sum_{k \in N}\sum_{l \in N} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon} \qquad(8)$$
+which is based on equation (C9).
+
+
+
+
+

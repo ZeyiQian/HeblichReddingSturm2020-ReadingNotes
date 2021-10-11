@@ -386,3 +386,4 @@ which is based on equation (C9).
 &+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_{n t}}{\hat{w}_{n t}} \hat{w}_{n t} w_{n t}\left[\sum_{i \in N} \frac{\lambda_{i n t \mid i}^{R} \hat{w}_{n t}^{\epsilon} \hat{k}_{i n t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{i \ell t \mid i}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{i \ell t}^{-\epsilon t}} \hat{R}_{i t} R_{i t}\right]\\
 &+\epsilon\left(\frac{\beta^{H}}{\beta^{L}}\right) \hat{w}_{n t} w_{n t}\left[\sum_{i \in N}\left(1-\frac{\lambda_{i n t \mid i}^{R} \hat{w}_{n t}^{\epsilon} \hat{k}_{i n t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{i \ell t \mid i}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{k}_{i \ell t}^{-\epsilon}}\right) \frac{\lambda_{i n t \mid i}^{R} \hat{w}_{n t}^{\epsilon} \hat{k}_{i n t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{i \ell t \mid i}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{k}_{i \ell t}^{-\epsilon}} \frac{d \hat{w}_{n t}}{\hat{w}_{n t}} \hat{R}_{i t} R_{i t}\right]
 \end{aligned}
+

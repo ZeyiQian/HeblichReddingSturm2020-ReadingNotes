@@ -449,9 +449,9 @@ $$
 \left(\hat{Q}_ {n t}, \hat{R}_ {n t}, L_{n i t}, \lambda_{n i t \mid n}^{R}, Q_{n t}, v_{n t}, R_{n t}, w_{n t}, L_{n t}\right)
 $$
 are known. Given known values for model parameters 
-$$
-\left\{\alpha, \beta^{L}, \beta^{H}, \epsilon\right\}
-$$
+
+$$ \left\{  \alpha, \beta^{L}, \beta^{H}, \epsilon  \right\}$$
+
 
 and the change in bilateral commuting costs
 $$
@@ -482,7 +482,7 @@ $$
 $$
 using the conditional commuting probabilities (14),we have (21):
 $$
-\hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{R}_{n t} R_{n t}
+ \hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{R}{n t} R{n t} 
 $$
 
 ##### Adventages

@@ -393,13 +393,12 @@ Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n 
 $$
 
 because 
- $$\hat{x}\_{n t} = {\frac{x_{n \tau}}{x_{n}}}$$
+ $$\hat{x}__{n t} = {\frac{x_{n \tau}}{x_{n}}}$$
 
 and α，β are constant.
 So we have (17):
 $$
-\hat{Q}\_{n t} {Q}\_{n t}=(1-\alpha) \hat{v}_{n t} 
-   \v_{n t} \hat{R}_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}_{n t} w_{n t} \hat{L}_{n t} L_{n t}
+\hat{Q}\_{n t} {Q}\_{n t}=(1-\alpha) hat{v}\_{n t}  v_{n t} \hat{R}\_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}\_{n t} w_{n t} \hat{L}\_{n t} L_{n t}
 $$
 
  $$ {Q}_{n t} {Q}_{n t}=(1-\alpha) {v}_{n t} v_{n t} {R}_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} {w}_{n t} w_{n t} {L}_{n t} L_{n t} $$

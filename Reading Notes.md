@@ -407,3 +407,5 @@ $$
 $$
 \hat{L}_{i t} L_{i t}=\sum_{n \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{\kappa}_{n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n t t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{k}_{n \ell t}^{-\epsilon}} \hat{R}_{n t} R_{n t}
 $$
+
+The same like (19):

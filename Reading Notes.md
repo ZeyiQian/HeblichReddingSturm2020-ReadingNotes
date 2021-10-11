@@ -388,11 +388,8 @@ $$ τ \neq t$$
 Put（15）：
 $$v_{n}=\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}$$
 into (16)：
-$$ Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}$$
-$$ ={Q}_{n t}=(1-\alpha) \cdot v_{n t} \cdot R_{n t}+\frac{\beta^{H}}{\beta^{L}} \cdot w_{n t} \cdot L_{n t}$$
-
 $$ 
-Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}=(1-\alpha)\ v_{n t}R_{n t}+\frac{\beta^{H}}{\beta^{L}}w_{n t}L_{n t}
+Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}=(1-\alpha)\ v_{n t}R_{n }+\frac{\beta^{H}}{\beta^{L}}w_{n}L_{n}
 $$
 
 because 
@@ -400,7 +397,9 @@ $$\hat{x}_{n t}=\frac{x_{n \tau}}{x_{n}}$$
 
 and α，β are constant.
 So we have (17):
-$$\hat{{Q}}_{n t} {Q}_{n t}=(1-\alpha) \hat{v}_{n t} v_{n t} \hat{R}_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}_{n t} w_{n t} \hat{L}_{n t} L_{n t}$$
+$$
+\hat{{Q}}_{n t} {Q}_{n t}=(1-\alpha) \hat{v}_{n t} v_{n t} \hat{R}_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}_{n t} w_{n t} \hat{L}_{n t} L_{n t}
+$$
 
 According  (13), we have (18):
 

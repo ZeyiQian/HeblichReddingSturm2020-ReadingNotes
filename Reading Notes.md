@@ -394,7 +394,7 @@ $$
 
 because 
 $$ 
-\hat{x}_{n t}=\frac{x_{n \tau}}{x_{n}}
+\hat{x}_{n t}\ = \frac{x_{n \tau}}{x_{n}}
 $$
 
 and α，β are constant.

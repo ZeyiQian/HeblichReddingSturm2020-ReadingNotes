@@ -412,7 +412,7 @@ where these equations include terms in changes in wages  and commuting costs but
 constant 
 
 $$
-\hat{\mathcal{B}} _ {i t}^{L}=\hat{\mathcal{B}} _ {n i t}^{L}=1
+\hat{\mathcal{B}} _ {i t}^{L}=\hat{\mathcal{B}} _ {n i t}^{I}=1
 $$
 
 and changes in the residential component of amenities

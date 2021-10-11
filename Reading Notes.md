@@ -418,7 +418,7 @@ $$
 and changes in the residential component of amenities
 
 $$
-\hat{\mathcal{B}} _ {n t}^{R}}\neq=1
+\hat{B}_ {n t}^{R}\neq1
 $$
 
 cancel from the numerator and denominator of the fractions
@@ -427,18 +427,18 @@ cancel from the numerator and denominator of the fractions
 The same like (19):
 
 $$
-\hat{v}_ {n t} v_{n t}=\sum i \in N \lambda _ {n i t \mid n}^{R} \hat\lambda _ {n i t \mid n}^{R} \hat{w} _ {i t} w _ {i t}
-=\sum i \in N \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}
+\hat{v}_ {n t} v_{n t}=\sum i \in N \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}
 $$
 
 
 Put (18) and (19) into (17), we have (20):
 $$
 \begin{aligned}
-\hat{\mathbb{Q}}_{n t} \mathbb{Q}_{n t}=&(1-\alpha)\left[\sum_{i \in \mathbb{N}} \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{\kappa}_{n i t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \hat{w}_{i t} w_{i t}\right] \hat{R}_{n t} R_{n t} \\
-&+\frac{\beta^{H}}{\beta^{L}} \hat{w}_{n t} w_{n t}\left[\sum_{i \in \mathbb{N}} \frac{\lambda_{i n t i}^{R} \hat{w}_{n t}^{\epsilon} \hat{\kappa}_{i n t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{i \ell t \mid i}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{i \ell t}^{-\epsilon}} \hat{R}_{i t} R_{i t}\right]
+\hat{Q}_ {n t} {Q}_ {n t}=&(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t} \\
+&+\frac{\beta^{H}}{\beta^{L}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \hat{R}_ {i t} R_{i t}\right]
 \end{aligned}
 $$
+
 
 *  Suppose that we observe the values of all variables in the initial equilibrium in our baseline year of t
 *  Suppose also that we observe relative changes in residents and rateable values between years τ and t.

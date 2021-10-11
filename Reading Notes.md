@@ -190,18 +190,23 @@ $$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(S_j × I_{jτ}) +\sum_{τ=−3
 *   DDD：Reduced travel times increase the population of the suburbs of Greater London and decrease the population of the central areas.
  
 ### V. Theoretical Framework
-The authors consider a city (Greater London) embedded in a wider economy (Great Britain). The economy as a whole consists of a discrete set of locations $M$. Greater London is a subset of these locations $N ⊂ M$. Time is discrete and is indexed by $t$. 
+The authors develop a dynamic model, in which adjustment costs for investments in durable building capital introduce gradual adjustment in response to changes in the transport network. The authors introduce these investments in durable building capital following the standard approach to *intertemporal saving and investment decisions* in Obstfeld and Rogoff (1996). Time is discrete and is indexed by $t$.
 
-The economy as a whole is populated by an exogenous continuous measure $L_{Mt}$ of workers, who are geographically mobile and endowed with one unit of labor that is supplied inelastically. Workers simultaneously choose their preferred residence $n$ and workplace $i$ given their idiosyncratic draws.
+>##### Locations
+The authors consider a city (Greater London) that is embedded within a wider economy (Great Britain). The economy as a whole consists of a discrete set of locations ($M$). Greater London comprises a subset of these locations $N \in M$. 
+
+Locations are allowed to differ from one another in terms of their attractiveness for production and residence, as determined by productivity, amenities, the supply of floor space, and transport connections, where each of these location characteristics can evolve over time.
+
+>##### Workers
+The economy consists of two types of infinitely-lived agents: workers and landlords. Workers are assumed not to have access to a saving or borrowing technology and are modeled as “hand to mouth,” as in Kaplan and Violante (2014). Workers simultaneously choose their preferred residence $n$ and workplace $i$ given their idiosyncratic draws. And each worker chooses a residence-workplace pair either in Greater London or in the rest of the economy. 
+
+Denote an exogenous continuous measure of workers in Great Britain by $L_{Mt}$. 
 
 Denote the endogenous measure of workers who choose a residence-workplace pair in Greater London by $L_{Nt}$.
 
-<!--
-The authors show that this theoretical framework encompasses an entire class of urban models that satisfy the following three properties: <br> i) a gravity equation for bilateral commuting flows; <br> ii) land market clearing, such that income from the ownership of floor space equals the sum of payments for residential and commercial floor space;<br> iii) payments for residential floor space are a constant multiple of residence income (the total income of all residents) and payments for commercial floor space are a constant multiple of workplace income (the total income of all workers).
--->
 
-#### V.A. Preferences
 
+#### V.A. Preferences(worker)
 >##### The intertemporal preferences of worker $ω$ living in residence $n$ and working in workplace $i$ at time $t$ are additive separable and isoelastic:
 
 $$U_{nit}(\omega)=\sum_{s=t}^{\infty } \rho ^{s-t}\frac{U_{nit}(\omega)^{1-\frac{1}{\zeta} }}{1-\frac{1}{\zeta} } \qquad(F1)$$
@@ -209,44 +214,45 @@ where, $\zeta >0$ is the intertemporal elasticity of substitution;<br>
 $ \rho$ is the subjective rate of time discount;<br>
 $U_{nit}(\omega)$ is the worker’s instantaneous utility function.
 
->##### The instantaneous utility for worker $ω$ residing in location n and working in location i is :
+>##### The instantaneous utility for worker $ω$ residing in location n and working in location i is :(in Cobb-Douglas functional form)
 
-$$ U_{ni}(\omega)= \frac{B_{ni}b_{ni}(\omega)}{k_{ni}} \left (\frac{C_{ni}(\omega ) }{\alpha}  \right )^{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }  \qquad(F2)$$
+$$ U_{ni}(\omega)= \frac{B_{ni}b_{ni}(\omega)}{\kappa_{ni}} \left (\frac{C_{ni}(\omega ) }{\alpha}  \right )^{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }  \qquad(F2)$$
 
 where,the authors suppress the time subscript from now on, except where important;   
-$0<\alpha<1$;    
-$C_{ni}(\omega )$ is consumption of a single tradeable homogeneous final good;   
-$H_{ni} (\omega )$ is consumption of residential floor space;    
-$k_{ni}$ is an iceberg commuting cost;    
+$0<\alpha<1$;   
 $B_{ni}$ captures amenities from the bilateral commute from residence n to workplace i that are common across all workers;   
-$b_{ni}(\omega)$ is an idiosyncratic amenity draw that captures all the idiosyncratic factors that can cause an individual to live and work in particular locations in the city.
+$b_{ni}(\omega)$ is an idiosyncratic amenity draw that captures all the idiosyncratic factors that can cause an individual to live and work in particular locations in the city;   
+$\kappa_{ni}$ is an iceberg commuting cost;  
+$C_{ni}(\omega )$ is consumption of a single tradeable homogeneous final good;  
+$H_{ni} (\omega )$ is consumption of residential floor space.
 
 
-###### The utility maximization problem of workers is:
-$$\max_{ C_{ni},H_{ni}  } U_{ni}(\omega)$$
+
+##### The utility maximization problem of workers is:
+$$\max_{ C_{ni},H_{ni} }  U_{ni}(\omega)$$
 $$subject \ to$$
 $$P_nC_{ni}+Q_nH_{ni}= w_i $$ 
-where,<br>
-$P_n$ is the price index for consumption goods, which may include both tradeable and nontradeable consumption goods;<br>
-$Q_n$ is the price of residential floor space;<br>
+where,   
+$P_n$ is the price index for consumption goods, which may include both tradeable and nontradeable consumption goods;   
+$Q_n$ is the price of residential floor space;   
 $w_i$ is the wage.   
 *Note that without access to a savings or borrowing technology, workers choose their residence, workplace, consumption of the final and residential floor space use each period to maximize their instantaneous utility.*
 
 Now, the Lagrange function is :
 $$
-L = \frac{B_{ni}b_{ni}(\omega)}{k_{ni}} \left (\frac{C_{ni}(\omega ) }{\alpha}  \right )^{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha } + \lambda (w_i - P_nC_{ni}-Q_nH_{ni})$$
+\mathcal{L} = \frac{B_{ni}b_{ni}(\omega)}{\kappa_{ni}} \left (\frac{C_{ni}(\omega ) }{\alpha}  \right )^{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha } + \lambda (w_i - P_nC_{ni}-Q_nH_{ni})$$
 
 First Order Conditions:
-$$\frac{\partial L}{\partial C_{ni}}=\frac{B_{ni}b_{ni}(\omega)}{k_{ni}} \alpha \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha -1} \frac{1}{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }-\lambda P_n=0 $$
+$$\frac{\partial L}{\partial C_{ni}}=\frac{B_{ni}b_{ni}(\omega)}{\kappa_{ni}} \alpha \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha -1} \frac{1}{\alpha }  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }-\lambda P_n=0 $$
 
-$$\frac{\partial L}{\partial H_{ni}}=\frac{B_{ni}b_{ni}(\omega)}{k_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha }(1-\alpha)  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{-\alpha } \frac{1}{1-\alpha }-\lambda Q_n=0 $$
+$$\frac{\partial L}{\partial H_{ni}}=\frac{B_{ni}b_{ni}(\omega)}{\kappa_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha }(1-\alpha)  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{-\alpha } \frac{1}{1-\alpha }-\lambda Q_n=0 $$
 
 $$\frac{\partial L}{\partial \lambda}=w_i - P_nC_{ni}-Q_nH_{ni}=0 \qquad(F2.1) $$
 
 rearrange them to get:
-$$\frac{B_{ni}b_{ni}(\omega)}{k_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha -1}  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }=\lambda P_n \qquad(F2.2)$$
+$$\frac{B_{ni}b_{ni}(\omega)}{\kappa_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha -1}  \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{1-\alpha }=\lambda P_n \qquad(F2.2)$$
 
-$$\frac{B_{ni}b_{ni}(\omega)}{k_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha } \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{-\alpha } =\lambda Q_n \qquad(F2.3)$$
+$$\frac{B_{ni}b_{ni}(\omega)}{\kappa_{ni}}  \left ( \frac{C_{ni}}{\alpha}  \right )^{\alpha } \left ( \frac{H_{ni} (\omega )}{1-\alpha }  \right )^{-\alpha } =\lambda Q_n \qquad(F2.3)$$
 
 divided $(F2.2)$ by $(F2.3)$ to get:
 $$\frac{C_{ni}^{\alpha -1}}{C_{ni}^\alpha } \frac{\alpha ^{1-\alpha }}{\alpha ^{-\alpha }} \frac{H_{ni}^{1-\alpha }}{H_{ni}^{-\alpha }}\frac{(1-\alpha) ^{\alpha-1 }}{(1-\alpha) ^{\alpha }} =\frac{P_n}{Q_n} $$
@@ -267,9 +273,10 @@ $$ H_{ni}= \frac{(1-\alpha) w_i }{Q_n} \qquad(F2.7)$$
 Substituting $(F2.6)$ and $(F2.7)$ to $(F2)$ 
 $$U_{ni}(\omega)= \frac{B_{ni}b_{ni}(\omega)}{k_{ni}} \left (\frac{\frac{\alpha w_i }{P_n} }{\alpha}  \right )^{\alpha }  \left ( \frac{\frac{(1-\alpha) w_i }{Q_n}}{1-\alpha }  \right )^{1-\alpha }$$
 
-$$=\frac{B_{ni}b_{ni}(\omega)}{k_{ni}}\frac{w_i^\alpha}{P_n^\alpha} \frac{w_i^{1-\alpha}}{Q_n^{1-\alpha}}$$
-$$=\frac{B_{ni}b_{ni}(\omega)w_i}{k_{ni}P_n^\alpha Q_n^{1-\alpha}} \qquad(3) $$
+$$=\frac{B_{ni}b_{ni}(\omega)}{\kappa_{ni}}\frac{w_i^\alpha}{P_n^\alpha} \frac{w_i^{1-\alpha}}{Q_n^{1-\alpha}}$$
+$$=\frac{B_{ni}b_{ni}(\omega)w_i}{\kappa_{ni}P_n^\alpha Q_n^{1-\alpha}} \qquad(3) $$
 which is indirect utility for a worker $\omega$ residing in $n$ and working in $i$, and $0<\alpha<1$. 
+
 
 >#### Distribution of Utility
 
@@ -278,32 +285,48 @@ which is indirect utility for a worker $\omega$ residing in $n$ and working in $
 $$ G(b)= e^{-b^{-\epsilon}} \qquad(4)$$
 where, $\epsilon > 1$ is shape parameter, which controls the sensitivity of worker location decisions to economic variables;and the scale parameter is normalized to 1.
 
-##### From the indirect utility function in equation (3), the authors have the following monotonic relationship between idiosyncratic amenities $(b_{ni}(\omega))$ and utility $(U_{ni}(\omega))$:
+##### From the indirect utility function in equation (3), the utility($u$) also has Fréchet distribution. The *distribution of utility* for residence $n$ and workplace $i$ is:
+
+$$ G_{ni}(u)=Pr[u_{ni}\le u ]$$
+$$=Pr[\frac{B_{ni}b_{ni}(\omega)w_i}{\kappa_{ni}P_n^\alpha Q_n^{1-\alpha}}\le u]$$
+$$=Pr[\frac{B_{ni}w_i}{\kappa_{ni}P_n^\alpha Q_n^{1-\alpha}} \frac{1}{u}  \le \frac{1}{b_{ni}(\omega)} ]$$
+$$=Pr[\frac{\kappa_{ni}P_n^\alpha Q_n^{1-\alpha}}{B_{ni}w_i} u  \ge b_{ni}(\omega) ]$$
+$$= e^{-\Psi_{ni}u^{-\epsilon }},$$
+where $\Psi_{ni} = (B_{ni}w_i)^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}$ is the location paremeter; $n \in N, i \in N$.
+
+##### <!-- Since the maximum of a sequence of Fréchet distributed random variables is itself Fréchet distributde-->The distribution of utility across all residences $k$ and all workplaces $l$ is:
+
+$$G_(u)=Pr[max(u_{ni})\le u ]$$
+$$= \prod_{k}\prod_{l}e^{-\Psi_{kl}u^{-\epsilon }}$$
+$$= e^{\sum_{k}\sum_{l} -\Psi_{kl}u^{-\epsilon }}$$
+$$=e^{-\Psi_{M}u^{-\epsilon }}$$
+where, $\Psi_{M} =\sum_{k}\sum_{l}\Psi_{kl}, k\in M \ and \ l\in M  $
+
+<!--
+#####From the indirect utility function in equation (3), the authors have the following monotonic relationship between idiosyncratic amenities $(b_{ni}(\omega))$ and utility $(U_{ni}(\omega))$:
 $$ b_{ni}(\omega)= \frac{U_{ni}(\omega)k_{ni} P_n^\alpha Q_n^{1-\alpha}}{B_{ni}w_i} \qquad(3.1)$$
 
-##### Together equations (4) and (3.1) imply that the *distribution of utility* for residence $n$ and workplace $i$ is:
+#####Together equations (4) and (3.1) imply that the *distribution of utility* for residence $n$ and workplace $i$ is:
 
-$$G_{ni}(u)= e^{-\Psi_{ni}u^{-\epsilon }},$$ 
-where $\Psi_{ni} = (B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon} $ is the location parameter.
+$$G_{ni}(u)= e^{-\Psi_{ni}u^{-\epsilon }}, where \  \Psi_{ni} = (B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}  \ is\ the \ location \ paremeter.$$
 
 Since the maximum of a sequence of Fréchet distributed random variables is itself Fréchet distributed, the distribution of utility across all residences $k$ and all workplaces $l$ is:
 
 $$ G(u)= e^{-\Psi_{M}u^{-\epsilon }}, where \  \Psi_{M} =\sum_{k\in M}\sum_{l\in M}\Psi_{kl}   $$
-
-##### Given this Fréchet distribution for utility, expected utility is:
+-->
+##### Given this Fréchet distribution for utility,the expected utility is:
 $$ E(u)= \int_{0}^{\infty } uG'(u)du$$
-$$=\int_{0}^{\infty }u(- \Psi_M u^{-\epsilon })(-\epsilon u^{-\epsilon -1})e^{-\Psi_{M}u^{-\epsilon }}du$$
+$$=\int_{0}^{\infty }u(- \Psi_M )(-\epsilon u^{-\epsilon -1})e^{-\Psi_{M}u^{-\epsilon }}du$$
 $$=\int_{0}^{\infty } \epsilon  \Psi_M u^{-\epsilon }e^{-\Psi_{M}u^{-\epsilon }}du$$
 
 define $y=\Psi_M u^{-\epsilon }$, so $dy=-\epsilon \Psi_M u^{-\epsilon -1}du=-\epsilon \Psi_M u^{-\epsilon}u^{-1}du $, and $u =y^{-1/\epsilon}\Psi_M^{1/\epsilon} $
 then,
 $$E(u)= \int_{0}^{\infty }-u e^{-y} dy$$
-$$?=\int_{0}^{\infty } - \Psi_M^{1/\epsilon} y^{-1/\epsilon}\Psi_M^{1/\epsilon} e_{-y}dy $$
+$$?=\int_{0}^{\infty } - \Psi_M^{1/\epsilon} y^{-1/\epsilon}\Psi_M^{1/\epsilon} e^{-y}dy $$
 which can be written as:
 $$E(u)= \nu \Psi_M^{1/\epsilon}$$
-$$E(u)= \nu [{\textstyle \sum_{k \in N}\sum_{l \in N}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon}\qquad(C9)$$
-where $ \nu = \Gamma(\frac{\epsilon-1}{\epsilon})$ is the Gamma function. 
-
+$$E(u)= \nu [{\textstyle \sum_{k \in M}\sum_{l \in M}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon}\qquad(C9)$$
+where $ \nu = \Gamma(\frac{\epsilon-1}{\epsilon})$ is the Gamma function. In general, $\Gamma (a)=\int_{0}^{\infty } x^{a-1}e^{-x}dx$.
 
 
 >#### Bilateral common amenities
@@ -353,4 +376,4 @@ which is based on equation (C9).
 
 
 
-
+### VI. Quantitative Analysis

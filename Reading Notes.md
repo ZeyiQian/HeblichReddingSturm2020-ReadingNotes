@@ -450,17 +450,17 @@ $$
 $$
 are known. Given known values for model parameters 
 $$
-\left\{\alpha, \beta^{L}\right\left.\beta^{H}, \epsilon\right\}
+\left\{\alpha, \beta^{L}, \beta^{H}, \epsilon\right\}
 $$
 
 and the change in bilateral commuting costs
 $$
-\left(\hat{\kappa}_{n i t}^{-\epsilon}\right)
+\left(\hat{\kappa}_ {n i t}^{-\epsilon}\right)
 $$
 
 the combined land and commuter market-clearing condition (20) determines a unique vector of relative changes in wages
 $$
-\left(\hat{w}_{n t}\right)
+\left(\hat{w}_ {n t}\right)
 $$
 in each location.
 
@@ -482,7 +482,7 @@ $$
 $$
 using the conditional commuting probabilities (14),we have (21):
 $$
-\hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \hat{R}_{n t} R_{n t}
+\hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{R}_{n t} R_{n t}
 $$
 
 ##### Adventages

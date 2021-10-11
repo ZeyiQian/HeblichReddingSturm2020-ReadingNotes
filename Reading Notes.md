@@ -393,7 +393,9 @@ Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n 
 $$
 
 because 
-$$\hat{x}_{n t}=\frac{x_{n \tau}}{x_{n}}$$
+$$
+\hat{x}_{n t}={\frac{x{n \tau}}{x_{n}}
+$$
 
 and α，β are constant.
 So we have (17):

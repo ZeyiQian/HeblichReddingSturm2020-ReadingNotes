@@ -391,6 +391,10 @@ into (16)：
 $$ Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}$$
 $$ ={Q}_{n t}=(1-\alpha) \cdot v_{n t} \cdot R_{n t}+\frac{\beta^{H}}{\beta^{L}} \cdot w_{n t} \cdot L_{n t}$$
 
+$$ 
+Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}=(1-\alpha)\ v_{n t}R_{n t}+\frac{\beta^{H}}{\beta^{L}}w_{n t}L_{n t}
+$$
+
 because 
 $$\hat{x}_{n t}=\frac{x_{n \tau}}{x_{n}}$$
 

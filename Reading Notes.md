@@ -404,7 +404,7 @@ $$
  
 According  (13), we have (18):
 $$
-\hat{L} _ {i t} L_{i t}=\sum_{n \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n t t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t}
+\hat{L} _ {i t} L_{i t}=\sum_{n \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t}
 $$
 
 
@@ -412,13 +412,13 @@ where these equations include terms in changes in wages  and commuting costs but
 constant 
 
 $$
-\hat{\mathcal{B}}_{i t}^{L}=\hat{\mathcal{B}}_{n i t}^{L}=1
+\hat{\mathcal{B}} _ {i t}^{L}=\hat{\mathcal{B}} _ {n i t}^{L}=1
 $$
 
 and changes in the residential component of amenities
 
 $$
-\hat{\mathcal{B}}_{n t}^{R}}\neq=1
+\hat{\mathcal{B}} _ {n t}^{R}}\neq=1
 $$
 
 cancel from the numerator and denominator of the fractions
@@ -427,8 +427,10 @@ cancel from the numerator and denominator of the fractions
 The same like (19):
 
 $$
-\hat{v}_{n t} v_{n t}=\sum i \in \mathbb{N} \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{\kappa}_{n i t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \hat{w}_{i t} w_{i t}
+\hat{v}_ {n t} v_{n t}=\sum i \in N \lambda _ {n i t \mid n}^{R} \hat\lambda _ {n i t \mid n}^{R} \hat{w} _ {i t} w _ {i t}
+=\sum i \in N \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}
 $$
+
 
 Put (18) and (19) into (17), we have (20):
 $$

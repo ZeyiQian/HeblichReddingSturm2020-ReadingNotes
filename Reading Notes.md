@@ -446,7 +446,7 @@ $$
 
 ##### LEMMA 1.. Suppose that 
 $$
-\left(\hat{Q}_{n t}, \hat{R}_{n t}, L_{n i t}, \lambda_{n i t \mid n}^{R}, Q_{n t}, v_{n t}, R_{n t}, w_{n t}, L_{n t}\right)
+\left(\hat{Q}_ {n t}, \hat{R}_ {n t}, L_{n i t}, \lambda_{n i t \mid n}^{R}, Q_{n t}, v_{n t}, R_{n t}, w_{n t}, L_{n t}\right)
 $$
 are known. Given known values for model parameters 
 $$
@@ -458,7 +458,7 @@ $$
 \left(\hat{\kappa}_{n i t}^{-\epsilon}\right)
 $$
 
-, the combined land and commuter market-clearing condition (20) determines a unique vector of relative changes in wages
+the combined land and commuter market-clearing condition (20) determines a unique vector of relative changes in wages
 $$
 \left(\hat{w}_{n t}\right)
 $$
@@ -466,22 +466,23 @@ in each location.
 
 *   Using these solutions for the relative changes in wages, we can immediately recover the unique relative change in employment
 $$
-\left(\hat{L}_{n t}\right)
+\left(\hat{L}_ {n t}\right)
 $$
 from the commuter market equilibrium condition(18). 
 *   We can solve for the unique relative change inaverage per capita income by residence 
+
 $$
-\left(\hat{v}_{n t}\right)
+\left(\hat{v}_ {n t}\right)
 $$
 from equation (19).
 
 *   Finally, we can obtain the unique relative change in commuting flows
 $$
-\left(\hat{L}_{n i t}\right)
+\left(\hat{L}_ {n i t}\right)
 $$
 using the conditional commuting probabilities (14),we have (21):
 $$
-\hat{L}_{n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{\kappa}_{n i t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \hat{R}_{n t} R_{n t}
+\hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \hat{R}_{n t} R_{n t}
 $$
 
 ##### Adventages

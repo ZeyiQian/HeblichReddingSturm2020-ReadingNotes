@@ -390,19 +390,11 @@ $$v_{n}=\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}$$
 into (16)：
 $$ Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}$$
 
+$$ {Q}_{n t}=(1-\alpha) \ v_{n t} \ R_{n t}+\frac{\beta^{H}} \ w_{n t} \ L_{n t}$$
+
 $$
 \hat{{Q}}_{n t} {Q}_{n t}=(1-\alpha) \hat{v}_{n t} v_{n t} \hat{R}_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}_{n t} w_{n t} \hat{L}_{n t} L_{n t}
 $$
 
 
-$$ &\frac{d T(\cdot)}{d \hat{\mathbf{w}}_{\mathrm{t}}} d \hat{\mathbf{w}}_{\mathrm{t}}=(1-\alpha)\left[\sum_{i \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{k}_{n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \frac{d \hat{w}_{i t}}{\hat{w}_{i t}} \hat{w}_{i t} w_{i t}\right] \hat{R}_{n t} R_{n t} $$
-
-$$ \frac{d T(\cdot)}{d \hat{\mathbf{w}}_{\mathrm{t}}} d \hat{\mathbf{w}}_{\mathrm{t}}=(1-\alpha)\left[\sum_{i \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{k}_{n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \frac{d \hat{w}_{i t}}{\hat{w}_{i t}} \hat{w}_{i t} w_{i t}\right] \hat{R}_{n t} R_{n t} $$
-
-$$ frac{d T(\cdot)}{d \hat{\mathbf{w}}_{\mathrm{t}}} d \hat{\mathbf{w}}_{\mathrm{t}}=(1-\alpha)\left[\sum_{i \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{k}_{n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \frac{d \hat{w}_{i t}}{\hat{w}_{i t}} \hat{w}_{i t} w_{i t}\right] \hat{R}_{n t} R_{n t} $$
-
-
-&+\epsilon(1-\alpha)\left[\sum_{i \in N}\left(1-\frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{\kappa}_{n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{k}_{n \ell t}^{-\epsilon}}\right) \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{\kappa}_{n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{k}_{n \ell t}^{-\epsilon}} \frac{d \hat{w}_{i t}}{\hat{w}_{i t}} \hat{w}_{i t} w_{i t}\right] \hat{R}_{n t} R_{n t}\\
-&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_{n t}}{\hat{w}_{n t}} \hat{w}_{n t} w_{n t}\left[\sum_{i \in N} \frac{\lambda_{i n t \mid i}^{R} \hat{w}_{n t}^{\epsilon} \hat{k}_{i n t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{i \ell t \mid i}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{i \ell t}^{-\epsilon t}} \hat{R}_{i t} R_{i t}\right]\\
-&+\epsilon\left(\frac{\beta^{H}}{\beta^{L}}\right) \hat{w}_{n t} w_{n t}\left[\sum_{i \in N}\left(1-\frac{\lambda_{i n t \mid i}^{R} \hat{w}_{n t}^{\epsilon} \hat{k}_{i n t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{i \ell t \mid i}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{k}_{i \ell t}^{-\epsilon}}\right) \frac{\lambda_{i n t \mid i}^{R} \hat{w}_{n t}^{\epsilon} \hat{k}_{i n t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{i \ell t \mid i}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{k}_{i \ell t}^{-\epsilon}} \frac{d \hat{w}_{n t}}{\hat{w}_{n t}} \hat{R}_{i t} R_{i t}\right] $$ 
 

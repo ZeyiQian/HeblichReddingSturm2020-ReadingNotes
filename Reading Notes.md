@@ -446,8 +446,6 @@ $$
 
 >#### LEMMA 1.. Suppose that
 
-<!--
-
 $$
 \left(\hat{Q}_ {n t}, \hat{R}_ {n t}, L_{n i t}, \lambda_{n i t \mid n}^{R}, Q_{n t}, v_{n t}, R_{n t}, w_{n t}, L_{n t}\right)
 $$
@@ -490,6 +488,5 @@ $$
 
 >##### Adventages
 
-<!--
 *   Not required to make assumptions about other determinants of economic activity
 *   Observed probabilities control for unobserved differences in the level of bilateral commuting costs across residence-workplace pairs

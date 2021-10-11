@@ -379,9 +379,9 @@ which is based on equation (C9).
 ### VI. Quantitative Analysis
 
 #### VI.A Combined Land and Commuter Market Clearing
-*  “Exact Hat Algebra” approach:Dekle, Eaton, and Kortum (2007)
+*  “Exact Hat Algebra” approach:Dekle, Eaton, and Kortum (2007), using rates of change rather than horizontal values to estimate the impact of changes in transport networks.
 *  In particular, we rewrite our combined land and commuter market-clearing condition (16) for another year τ = t in terms of the values of variables in a
-baseline year of t and the relative changes of variables between years τ and t
+baseline year of t and the relative changes of variables between years τ and t.$$ τ \neq t$$
 
 
 \begin{aligned}

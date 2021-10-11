@@ -407,5 +407,16 @@ $$
 $$
 \hat{L}_{i t} L_{i t}=\sum_{n \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{\kappa}_{n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n t t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{k}_{n \ell t}^{-\epsilon}} \hat{R}_{n t} R_{n t}
 $$
-
+where these equations include terms in changes in wages  and commuting costs but not in amenities, because we assume that the workplace and bilateral components of amenities are
+constant 
+$$
+\hat{\mathcal{B}}_{i t}^{L}=1
+$$
+$$
+\hat{\mathcal{B}}_{n i t}^{L}=1
+$$
 The same like (19):
+$$
+\hat{v}_{n t} v_{n t}=\sum i \in \mathbb{N} \frac{\lambda_{n i t \mid n}^{R} \hat{w}_{i t}^{\epsilon} \hat{\kappa}_{n i t}^{-\epsilon}}{\sum_{\ell \in \mathbb{N}} \lambda_{n \ell t \mid n}^{R} \hat{w}_{\ell t}^{\epsilon} \hat{\kappa}_{n \ell t}^{-\epsilon}} \hat{w}_{i t} w_{i t}
+$$
+

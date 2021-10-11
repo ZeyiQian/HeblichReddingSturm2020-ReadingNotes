@@ -403,6 +403,8 @@ $$
 \hat{{Q}}_{n t} {Q}_{n t}=(1-\alpha) \hat{v}_{n t} v_{n t} \hat{R}_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}_{n t} w_{n t} \hat{L}_{n t} L_{n t}
 $$
 
+ $$ {Q}_{n t} {Q}_{n t}=(1-\alpha) {v}_{n t} v_{n t} {R}_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} {w}_{n t} w_{n t} {L}_{n t} L_{n t} $$
+ 
 According  (13), we have (18):
 
 $$

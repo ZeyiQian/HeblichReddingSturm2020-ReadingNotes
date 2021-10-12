@@ -497,10 +497,10 @@ baseline year of t and the relative changes of variables between years τ and t.
 $$ τ \neq t$$
 
 Put（15）：
-$$v_{n}=\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}$$
+$$v_{n}=\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}  \qquad(15)$$
 into (16)：
 $$ 
-Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}=(1-\alpha)\ v_{n t}R_{n }+\frac{\beta^{H}}{\beta^{L}}w_{n}L_{n}
+Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}=(1-\alpha)\ v_{n t}R_{n }+\frac{\beta^{H}}{\beta^{L}}w_{n}L_{n} \qquad(16)
 $$
 
 because 
@@ -509,13 +509,13 @@ because
 and α，β are constant.
 So we have (17):
 $$
-\hat{Q}\_{n t} {Q}\_{n t}=(1-\alpha) \hat{v}\_{n t}  v_{n t} \hat{R}\_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}\_{n t} w_{n t} \hat{L}\_{n t} L_{n t}
+\hat{Q}\_{n t} {Q}\_{n t}=(1-\alpha) \hat{v}\_{n t}  v_{n t} \hat{R}\_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}\_{n t} w_{n t} \hat{L}\_{n t} L_{n t} \qquad(17)
 $$
 
  
 According  (13), we have (18):
 $$
-\hat{L} _ {i t} L_{i t}=\sum_{n \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t}
+\hat{L} _ {i t} L_{i t}=\sum_{n \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
 $$
 
 
@@ -538,14 +538,14 @@ cancel from the numerator and denominator of the fractions
 The same like (19):
 
 $$
-\hat{v}_ {n t} v_{n t}=\sum i \in N \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}
+\hat{v}_ {n t} v_{n t}=\sum i \in N \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t} \qquad(19)
 $$
 
 
 Put (18) and (19) into (17), we have (20):
 $$
 \begin{aligned}
-\hat{Q}_ {n t} {Q}_ {n t}=&(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t} +\frac{\beta^{H}}{\beta^{L}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \hat{R}_ {i t} R_{i t}\right]
+\hat{Q}_ {n t} {Q}_ {n t}=&(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t} +\frac{\beta^{H}}{\beta^{L}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \hat{R}_ {i t} R_{i t}\right] \qquad(20)
 \end{aligned}
 $$
 
@@ -593,7 +593,7 @@ $$
 $$
 using the conditional commuting probabilities (14),we have (21):
 $$
- \hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{R}_ {n t} R_ {n t} 
+ \hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{R}_ {n t} R_ {n t}  \qquad(21)
 $$
 
 >##### Adventages

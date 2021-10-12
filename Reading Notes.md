@@ -189,6 +189,7 @@ $$log R_{jt} = α_j+\sum_{τ=−60 }^{τ=60}β_τ(S_j × I_{jτ}) +\sum_{τ=−3
 *   DID：For central London and outer areas, the absolute value of the coefficient increases for 60 years after the railway is built. One of the reasons may be that the value of the connection to the railway network increases over time as the railway network expands
 *   DDD：Reduced travel times increase the population of the suburbs of Greater London and decrease the population of the central areas.
  
+ 
 ### V. Theoretical Framework
 The authors develop a dynamic model, in which adjustment costs for investments in durable building capital introduce gradual adjustment in response to changes in the transport network. The authors introduce these investments in durable building capital following the standard approach to *intertemporal saving and investment decisions* in Obstfeld and Rogoff (1996). Time is discrete and is indexed by $t$.
 
@@ -206,7 +207,7 @@ Denote the endogenous measure of workers who choose a residence-workplace pair i
 
 
 
-#### V.A. Preferences(worker)
+#### **V.A. Preferences(worker)**
 >##### The intertemporal preferences of worker $ω$ living in residence $n$ and working in workplace $i$ at time $t$ are additive separable and isoelastic:
 
 $$U_{nit}(\omega)=\sum_{s=t}^{\infty } \rho ^{s-t}\frac{U_{nit}(\omega)^{1-\frac{1}{\zeta} }}{1-\frac{1}{\zeta} } \qquad(F1)$$
@@ -294,9 +295,9 @@ $$=Pr[\frac{\kappa_{ni}P_n^\alpha Q_n^{1-\alpha}}{B_{ni}w_i} u  \ge b_{ni}(\omeg
 $$= e^{-\Psi_{ni}u^{-\epsilon }},$$
 where $\Psi_{ni} = (B_{ni}w_i)^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}$ is the location paremeter; $n \in N, i \in N$.
 
-##### <!-- Since the maximum of a sequence of Fréchet distributed random variables is itself Fréchet distributde-->The distribution of utility across all residences $k$ and all workplaces $l$ is:
+##### Since the maximum of a sequence of Fréchet distributed random variables is itself Fréchet distributed, the distribution of utility across all residences $k$ and all workplaces $l$ is:
 
-$$G_(u)=Pr[max(u_{ni})\le u ]$$
+$$G(u)=Pr[max(u_{ni})\le u ]$$
 $$= \prod_{k}\prod_{l}e^{-\Psi_{kl}u^{-\epsilon }}$$
 $$= e^{\sum_{k}\sum_{l} -\Psi_{kl}u^{-\epsilon }}$$
 $$=e^{-\Psi_{M}u^{-\epsilon }}$$
@@ -314,19 +315,27 @@ Since the maximum of a sequence of Fréchet distributed random variables is its
 
 $$ G(u)= e^{-\Psi_{M}u^{-\epsilon }}, where \  \Psi_{M} =\sum_{k\in M}\sum_{l\in M}\Psi_{kl}   $$
 -->
+
+
 ##### Given this Fréchet distribution for utility,the expected utility is:
 $$ E(u)= \int_{0}^{\infty } uG'(u)du$$
 $$=\int_{0}^{\infty }u(- \Psi_M )(-\epsilon u^{-\epsilon -1})e^{-\Psi_{M}u^{-\epsilon }}du$$
 $$=\int_{0}^{\infty } \epsilon  \Psi_M u^{-\epsilon }e^{-\Psi_{M}u^{-\epsilon }}du$$
 
 define $y=\Psi_M u^{-\epsilon }$, so $dy=-\epsilon \Psi_M u^{-\epsilon -1}du=-\epsilon \Psi_M u^{-\epsilon}u^{-1}du $, and $u =y^{-1/\epsilon}\Psi_M^{1/\epsilon} $
-then,
-$$E(u)= \int_{0}^{\infty }-u e^{-y} dy$$
-$$?=\int_{0}^{\infty } - \Psi_M^{1/\epsilon} y^{-1/\epsilon}\Psi_M^{1/\epsilon} e^{-y}dy $$
+then (notice that when $u$ runs from $0$ to $\infty$, $y$ runs from $\infty$ to $0$):
+$$E(u)= \int_{0}^{\infty }u e^{-y} dy$$
+$$=\int_{0}^{\infty } y^{-1/\epsilon}\Psi_M^{1/\epsilon} e^{-y}dy $$
 which can be written as:
 $$E(u)= \nu \Psi_M^{1/\epsilon}$$
 $$E(u)= \nu [{\textstyle \sum_{k \in M}\sum_{l \in M}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon}\qquad(C9)$$
 where $ \nu = \Gamma(\frac{\epsilon-1}{\epsilon})$ is the Gamma function. In general, $\Gamma (a)=\int_{0}^{\infty } x^{a-1}e^{-x}dx$.
+
+##### Expected utility conditional on choosing a residence-workplace pair is the same across all residence-workplace pairs in the economy:
+
+$$\bar{U} = \nu [{\textstyle \sum_{k \in N}\sum_{l \in N}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon} \qquad(9)$$
+which is based on equation (C9).
+
 
 
 >#### Bilateral common amenities
@@ -335,44 +344,146 @@ $$ B_{ni} = B_n^R B_i^L B_{ni}^I \qquad(5)$$
 where, $B_n^R, B_i^L, B_{ni}^I > 0$;<br>
 $B_n^R$ is residence component common across all workplaces;<br>
 $B_i^L$ is workplace component common across all residences;<br>
-$ B_{ni}^I$ is idiosyncratic component (BnIi) specific to an individual residence-workplace pair.
+$ B_{ni}^I$ is idiosyncratic component specific to an individual residence-workplace pair.
 
 >#### Residence and Workplace Choices
 
-<!--
+
 ##### Using the distribution of utility for pairs of residence and employment locations, the probability that a worker chooses the bilateral commute from $n$ to $i$ out of all possible bilateral commutes is:
 
-$$\lambda_{ni} = Pr[u_{ni} \ge max\left \{ u_{kl} \right \};\forall k,l ]$$
+$$\lambda_{ni} = Pr[u_{ni} \ge max{ (u_{kl}) };\forall k \ne n,l \ne i]$$
+
+<!-- 
 $$  = \int_{0}^{\infty } \prod_{l\ne i} G_{ni}(u)[\prod_{k\ne n}\prod_{l\in M} G_{kl}(u) ]d G_{ni}(u)$$
-$$\int_{0}^{\infty } \prod_{k\in M}\prod_{l\in M} \epsilon \Psi_{ni}u^{-\epsilon-1}e^{-\Psi_{kl}u^{-\epsilon }}du $$
-$$=\int_{0}^{\infty }  \epsilon \Psi_{ni}u^{-\epsilon-1}e^{-\Psi_{M}u^{-\epsilon }}du$$
 -->
 
+$$= \int_{0}^{\infty }\prod_{k \ne n}\prod_{l\ne i} G_{kl}(u)d G_{ni}(u)  $$
+$$=\int_{0}^{\infty } \prod_{k\in M}\prod_{l\in M} e^{-\Psi_{kl}u^{-\epsilon }} \epsilon \Psi_{ni}u^{-\epsilon-1}du $$
+$$=\int_{0}^{\infty } e^{-\Psi_{M}u^{-\epsilon }} \epsilon \Psi_{ni}u^{-\epsilon-1}du$$
+$$=\Psi_{ni}\int_{0}^{\infty }  \epsilon u^{-\epsilon-1}e^{-\Psi_{M}u^{-\epsilon }}du  $$
+$$= \Psi_{ni}\int_{0}^{\infty } d(\frac{1}{\Psi_{M}} e^{-\Psi_{M}u^{-\epsilon }})  $$
+$$= \frac{\Psi_{ni}}{\Psi_{M}}  e^{-\Psi_{M}u^{-\epsilon }}\mid _{0}^{\infty }$$
+
+$$=\frac{\Psi_{ni}}{\Psi_{M}} $$
+
+Note that:
+$$\frac{d}{du} [\frac{1}{\Psi_{M}} e^{-\Psi_{M}u^{-\epsilon }}]= \epsilon u^{-\epsilon-1}e^{-\Psi_{M}u^{-\epsilon }}$$
+
 ##### The probability that the worker chooses to live in location $n$ and work in location $i$ is:
-$$\frac{L_{ni}}{L_M} =\frac{\Psi_{ni}}{\Psi_{M}} = \frac{(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{ {\textstyle \sum_{k \in M}\sum_{l \in M}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} $$
+$$\frac{L_{ni}}{L_M} =\frac{\Psi_{ni}}{\Psi_{M}} = \frac{(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{ \sum_{k \in M}\sum_{l \in M} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} $$
 where $L_{ni}$ is the measure of commuters from residence $n$ to workplace $i$; $L_M$ is the measure of workers in the economy as a whole.
 
 ##### Summing across workplaces and residences in Greater London, the probability that a worker chooses a residence-workplace pair in Greater London is given by:
 
-$$\frac{L_{N}}{L_M} =\frac{{\textstyle \sum_{n \in N}\sum_{i \in N}}(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{ {\textstyle \sum_{k \in M}\sum_{l \in M}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} $$
+$$\frac{L_{N}}{L_M} =\frac{ \sum_{n \in N}\sum_{i \in N}(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{  \sum_{k \in M}\sum_{l \in M} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} $$
 
 ##### The probability that a worker chooses to live in location $n$ and work in location $i$ conditional on choosing a residence-workplace pair in Greater London is:
 
- $$ λ_{ni}=\frac{L_{ni}/L_M}{L_N/L_M} = \frac{L_{ni}}{L_N}= \frac{(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{  \sum_{k \in N}\sum_{l \in N} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}}       \qquad(6)  \ \ i,n \in N$$ 
+ $$ λ_{ni}=\frac{L_{ni}/L_M}{L_N/L_M} = \frac{L_{ni}}{L_N}= \frac{(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{ {\textstyle \sum_{k \in N}\sum_{l \in N}} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}}       \qquad(6)  \ \ i,n \in N$$ 
 
 Summing across workplaces $i \in N$ to obtain the probability that a worker lives in residence $n \in N$, conditional on choosing a residence-workplace pair in Greater London:
-
-$$\lambda_n^R =\frac{\sum_{i \in N}(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{k \in N} \sum_{l\in N}(B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} \qquad(7-1)$$
+$$\lambda_n^R = \frac{R_n}{L_N}=\frac{ \sum_{i \in N}(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{ \sum_{k \in N}\sum_{l \in N} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} \qquad(7-1)$$
 
 Summing across residences $n \in N$ to obtain the probability that a worker is employed in workplace $i \in N$, conditional on choosing a residence-workplace pair in Greater London:
+$$ \lambda_n^L = \frac{L_i}{L_N}=\frac{ \sum_{n \in N}(B_{ni}w_i)^{\epsilon}(k_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{  \sum_{k \in N}\sum_{l \in N}(B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} \qquad(7-2)$$
 
-$$ \lambda_n^R =\frac{\sum_{n\in N}(B_{ni}w_i)^{\epsilon}(k_{ni}P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{k \in N}\sum_{l \in N}(B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} \qquad(7-2)$$
+>##### **Conditional on working in location $i$, the conditional probability that a worker commutes from location $n$ is :**
+$$ \lambda_{ni\mid i}^L = Pr[u_{ni} \ge max(u_{ri}); \forall r \ne n]$$
+$$= \int_{0}^{\infty }\prod_{r \ne n} G_{ri}(u)d G_{ni}(u)  $$
+$$=\int_{0}^{\infty } e^{-\Psi_{i}^Lu^{-\epsilon }} \epsilon \Psi_{ni}u^{-\epsilon-1}du$$
+$$=\Psi_{ni}\int_{0}^{\infty }  \epsilon u^{-\epsilon-1}e^{-\Psi_{i}^L u^{-\epsilon }}du$$
+$$= \frac{\Psi_{ni}}{\Psi_{i}^L}  e^{-\Psi_{i}^Lu^{-\epsilon }}\mid _{0}^{\infty }$$
 
-##### Expected utility conditional on choosing a residence-workplace pair is the same across all residence-workplace pairs in the economy:
+$$= \frac{\Psi_{ni}}{\Psi_{i}^L}$$
+Note that:
+$$\frac{d}{du} [\frac{1}{\Psi_{i}^L} e^{-\Psi_{i}^L u^{-\epsilon }}]=\epsilon u^{-\epsilon-1}e^{-\Psi_{i}^L u^{-\epsilon }}$$
+where, $\Psi_{i}^L= \sum_{k \in M}(B_{ki}w_i)^{\epsilon}(\kappa_{ki} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}$ 
 
-$$\bar{U} = \nu [ \sum_{k \in N}\sum_{l \in N} (B_{kl}w_l)^{\epsilon}(k_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon} \qquad(8)$$
-which is based on equation (C9).
+Under the assumption of prohibitive commuting costs between Greater London and the wider economy, we have:
 
+$$\sum_{k \in M}(B_{ki}w_i)^{\epsilon}(\kappa_{ki} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon} = \sum_{k \in N}(B_{ki}w_i)^{\epsilon}(\kappa_{ki} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}, \forall i \in N$$ 
+
+So, the conditional probability that a worker commutes from location $n$ is (conditional on working in location $i$):
+$$ \lambda_{ni\mid i}^L = \frac{(B_{ni}w_i)^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{k \in M}(B_{ki}w_i)^{\epsilon}(\kappa_{ki} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}}$$
+$$= \frac{(B_{ni}w_i)^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{k \in N}(B_{ki}w_i)^{\epsilon}(\kappa_{ki} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}}$$
+$$= \frac{(B_{ni})^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{k \in N}(B_{ki})^{\epsilon}(\kappa_{ki} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}}$$
+
+
+>##### **Conditional on living in location $n$, the conditional probability that a worker commutes to location $i$ is :**
+
+$$ \lambda_{ni\mid n}^R = Pr[u_{ni} \ge max(u_{nl}); \forall l \ne i]$$
+$$= \int_{0}^{\infty }\prod_{l \ne i} G_{nl}(u)d G_{ni}(u)  $$
+$$=\int_{0}^{\infty } e^{-\Psi_{n}^R u^{-\epsilon }} \epsilon \Psi_{ni}u^{-\epsilon-1}du $$
+$$=\Psi_{ni}\int_{0}^{\infty }  \epsilon u^{-\epsilon-1}e^{-\Psi_{n}^R u^{-\epsilon }}du $$
+$$= \frac{\Psi_{ni}}{\Psi_{n}^R}  e^{-\Psi_{n}^R u^{-\epsilon }}\mid _{0}^{\infty } $$
+
+$$= \frac{\Psi_{ni}}{\Psi_{n}^R}$$
+
+Note that:
+$$\frac{d}{du} [\frac{1}{\Psi_{n}^R} e^{-\Psi_{n}^R u^{-\epsilon }}]=\epsilon u^{-\epsilon-1}e^{-\Psi_{i}^L u^{-\epsilon }}$$
+where, $\Psi_{n}^R= \sum_{l \in M}(B_{nl}w_l)^{\epsilon}(\kappa_{nl} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}$ 
+
+Under the assumption of prohibitive commuting costs between Greater London and the wider economy, we have:
+$$ \sum_{l \in M}(B_{nl}w_l)^{\epsilon}(\kappa_{nl} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}= \sum_{l \in N}(B_{nl}w_l)^{\epsilon}(\kappa_{nl} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}, \forall n \in N$$ 
+
+So, the conditional probability that a worker commutes to location $i$ is (Conditional on living in location $n$):
+
+$$ \lambda_{ni\mid n}^R = \frac{(B_{ni}w_i)^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{l \in M}(B_{nl}w_l)^{\epsilon}(\kappa_{nl} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}$$
+$$= \frac{(B_{ni}w_i)^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{l \in N}(B_{nl}w_l)^{\epsilon}(\kappa_{nl} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}$$
+$$= \frac{(B_{ni}w_i/\kappa_{ni})^{\epsilon}( P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{\sum_{l \in N}(B_{nl}w_l/\kappa_{nl})^{\epsilon}( P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}$$
+$$=\frac{(B_{ni}w_i/\kappa_{ni})^{\epsilon}}{\sum_{l \in N}(B_{nl}w_l/\kappa_{nl})^{\epsilon}} \qquad(14)$$
+
+
+>#### **V.B. Production**
+
+The authors assume that consumption goods are produced according to a Cobb-Douglas technology using labor, machinery capital, and commercial floor space.
+
+The homogeneous final good is produced under conditions of perfect competition and constant returns to scale. For simplicity, the authors abstract from the use of machinery capital as a factor of production in this section.
+
+$$ Y_i = A_i(\frac{L_i}{\beta^L} )^{\beta^L}(\frac{H_i^L}{\beta^H} )^{\beta^H}$$
+
+where, $0< \beta^L, \beta^H <1 $, $\beta^L+\beta^H=1 $;   
+$A_i$ is final goods productivity and assumed to be exogenous;  
+$Y_i$ is out put of the final good;   
+$L_i$ is inputs of labor;   
+$H_i^L$ is commercial floor space.
+
+The authors assume that the final good can be costlessly traded throughout the economy and choose it as our numeraire, such that:$P_{nt}=P_t = 1$. So the profits in workplace $i$ is:
+$$\pi_i = Y_i - w_i L_i - q_i H_i^L = A_i(\frac{L_i}{\beta^L} )^{\beta^L}(\frac{H_i^L}{\beta^H} )^{\beta^H} - w_i L_i - q_i H_i^L$$
+where,  
+$w_i$ is the wage;  
+$q_i$ is the price of commercial floor space, and $q_i = \xi_i Q_i$ ($Q_i$ the price of residential floor space, $ \xi_i $ is a location-specific wedge.)
+
+From the first-order conditions for profit maximization, we obtain:
+$$\frac{\partial \pi_i}{\partial L_i} = A_i \beta^L (\frac{L_i}{\beta^L} )^{\beta^L -1}\frac{1}{\beta^L} (\frac{H_i^L}{\beta^H} )^{\beta^H}-w
+_i=0 \qquad(12-1)$$
+$$\frac{\partial \pi_i}{\partial H_i^L} = A_i  (\frac{L_i}{\beta^L} )^{\beta^L } \beta^H \frac{1}{\beta^H} (\frac{H_i^L}{\beta^H} )^{\beta^H -1}-q
+_i=0 \qquad(12-2)$$
+
+using (12-1) divided by (12-2) to obtain:
+$$ (\frac{L_i}{\beta^L} )^{-1 } (\frac{H_i^L}{\beta^H} )=\frac{w_i}{q_i} \qquad(12-3)$$
+
+rearrange (12-3) to get:
+$$ q_i H_i^L = \frac{\beta^H}{\beta^L} w_i L_i \qquad(12) $$
+which means payments for commercial floor space are proportional to workplace income ($w_i L_i$).
+
+>#### **V.C. Commuter market clearing**
+
+Commuter market clearing requires that the measure of workers employed in each location $i$ ($L_i$) equals the sum across all locations $n$ of their measures of residents ($R_n$) times their conditional probabilities of commuting to $i$ ($\lambda_{ni\mid n}^R $):
+
+$$L_i=\sum_{n \in N} \lambda_{ni\mid n}^R R_n$$
+
+$$ =\sum_{n \in N}\frac{(B_{ni}w_i/\kappa_{ni})^{\epsilon}}{\sum_{l \in N}(B_{nl}w_l/\kappa_{nl})^{\epsilon}}R_n    \qquad(13) $$
+
+Per capita income by residence ($v_n$) is a weighted average of the wages in all locations:$$v_n = \sum_{n \in N} \lambda_{ni\mid n}^R w_i$$ $$ =\sum_{n \in N}\frac{(B_{ni}w_i/\kappa_{ni})^{\epsilon}}{\sum_{l \in N}(B_{nl}w_l/\kappa_{nl})^{\epsilon}}w_i   \qquad(15) $$
+
+>#### **V.D. Land Market Clearing**
+
+The authors assume that floor space is owned by landlords, who receive payments from the residential and commercial use of floor space and consume only consumption goods.
+
+**Land market clearing** implies that total income from the ownership of floor space equals the sum of payments for residential and commercial floor space use:
+
+$$\tilde{Q} = Q_nH_n^R+q_nH_n^L$$
 
 
 

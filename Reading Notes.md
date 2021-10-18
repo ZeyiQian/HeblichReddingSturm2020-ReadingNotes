@@ -575,6 +575,13 @@ $$
 $$
 in each location.
 
+>#### Proof of LEMMA 1
+*  the combined land and commuter market clearing condition for an earlier year τ < t can be written as:
+$$
+\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
+$$
+
+
 *   Using these solutions for the relative changes in wages, we can immediately recover the unique relative change in employment
 $$
 \left(\hat{L}_ {n t}\right)

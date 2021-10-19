@@ -641,9 +641,63 @@ $$
 in each location.
 
 >#### Proof of LEMMA 1
-*  the combined land and commuter market clearing condition for an earlier year τ < t can be written as:
+* We first determine the unique vector of relative changes in wages ($\hat w_t$) and then recover the unique vector of relative changes in employment ($\hat L_t$).
+* The combined land and commuter market clearing condition for an earlier year τ < t can be written as:
+$$
+\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) \qquad(B.1)
+$$
+where $\hat{Q}_ {t}$ is the observed vector of relative changes in rateable values; 
+$\tilde{Q}_ {t}$ is the observed vector of rateable values in our baseline year t = 1921; 
+$Z_t$ is a known matrix of relative changes in variables between years τ and t and values for variables in our baseline year t, including $R_nt, W_nt, \hat R_nt and \lambda_ {n i t \mid n}^{R}$ ; 
+$ \hat{\kappa}_ {\boldsymbol{t}} $is the matrix of changes in commuting costs;
+$\hat w_t$ is the vector of relative changes in wages to be determined;
+
+So we have 
 $$
 \hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
+$$
+$$
+=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t} 
+$$
+$$
++\frac{\beta^{H}}{\beta^{L}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \hat{R}_ {i t} R_{i t}\right] \qquad(B.2)
+$$
+
+*  Property (i):
+$$ 
+\hat{Q}_ {t} \tilde{Q}_ {t} > 0 such that \hat{Q}_ {nt} \tilde{Q}_ {nt} > 0 for all \sum_ {n \in N}
+$$
+
+*  Property (ii): 
+$$
+\lim_{{\hat w_ t}\to 0} T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)= 0
+$$
+
+*  Property (iii): $ T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$ is monotonic in the vector of relative changes in wages ($\hat w_t$), since:
+
+$$
+\begin{aligned}
+&\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
+&+\epsilon(1-\alpha)\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{k}_ {n \ell t}^{-\epsilon}}\right) \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\varepsilon} \hat{k}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
+&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right]\\
+&+\epsilon\left(\frac{\beta^{H}}{\beta^{L}}\right) \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{k}_ {i \ell t}^{-\epsilon}}\right) \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{R}_ {i t} R_{i t}\right]
+\end{aligned}
+$$
+
+where $\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}>0 for {d \hat{w}_ {t} > 0$
+
+*   Property (iv): $T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) $ is homogeneous of degree one in the vector of relative changes in wages (${d \hat{w}_ {t}$) such that
+$$
+T\left(\Xi \hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
+$$
+$$
+=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \Xi \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \Xi \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \Xi \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t} 
+$$
+$$
++\frac{\beta^{H}}{\beta^{L}} \Xi \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t i}^{R} \Xi \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \Xi \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \hat{R}_ {i t} R_{i t}\right] 
+$$
+$$
+=\Xi T\left(\Xi \hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
 $$
 
 
@@ -675,11 +729,3 @@ $$
 
 
 
-$$
-\begin{aligned}
-&\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
-&+\epsilon(1-\alpha)\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{k}_ {n \ell t}^{-\epsilon}}\right) \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\varepsilon} \hat{k}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
-&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right]\\
-&+\epsilon\left(\frac{\beta^{H}}{\beta^{L}}\right) \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{k}_ {i \ell t}^{-\epsilon}}\right) \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{R}_ {i t} R_{i t}\right]
-\end{aligned}
-$$

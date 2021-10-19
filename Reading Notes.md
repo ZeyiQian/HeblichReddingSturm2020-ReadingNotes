@@ -768,4 +768,11 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 *   Observed probabilities control for unobserved differences in the level of bilateral commuting costs across residence-workplace pairs
 *   use ($W_{it},L_{it},L_{nit}$) in base line year t and ($\hat W_{it},\hat L_{it},\hat L_{nit}$),we can get ($W_{iτ},L_{iτ},L_{niτ}$) and t does not equal to τ
 
+#### VI.B. Commuting Probabilities (Step 1)
+>##### we use the observed data on bilateral commuting flows ($L_{nit}$) from the population census in our baseline year t = 1921 to directly compute the following variables in that baseline year:
 
+*  (i) total city employment, $L_t = \sum_ {n \in N} \sum_ {i \in N} L_{nit}$; 
+*  (ii) the commuting probability conditional on choosing a workplace-residence pair in Greater London,$ λ_ {nit} = L_ {nit}/L_{Nt} $;
+*  (iii) workplace employment, $ L_{it} = \sum_ {n \in N} L_{nit}$;
+*  (iv) residence employment, $ R_{nt} = \sum_ {i \in N} L_{nit}$;
+*  (v) the commuting probabilities conditional on residence,$ \lambda_ {n i t \mid n}^{R} = L_{nit}/ R_{nt} $

@@ -616,9 +616,17 @@ $$
 $$
 
 
-*  Suppose that we observe the values of all variables in the initial equilibrium in our baseline year of t
-*  Suppose also that we observe relative changes in residents and rateable values between years τ and t.
+*  Suppose that we observe the values of all variables in the initial equilibrium in our baseline year of t: 
+the commuting probabilities conditional on residence ($\lambda_ {n i t \mid n}^{R}$)
+employment ($L_{nt}$)
+residents ($R_{nt}$)
+wages ($w_{nt}$)
+average per capita income by residence ($v_{nt}$)
+*  Suppose also that we observe relative changes in residents and rateable values between years τ and t:
+relative changes in residents ( $\hat R_{nt}$) 
+rateable values ( $\hat Q_{nt}$) 
 *  Given these observed variables and known values for changes in commuting costs, this combined land and commuter market-clearing condition (20) provides a system of N equations that determines unique values for the N unknown relative changes in wages in each location.
+values for changesin commuting costs ( $\hat{k}_ {n i t}^{-\epsilon}$)
 
 >#### LEMMA 1. Suppose that
 

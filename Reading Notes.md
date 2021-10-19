@@ -678,9 +678,16 @@ $$
 $$
 \begin{aligned}
 &\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
+\end{aligned}
+$$
+$$
+\begin{aligned}
 &+\epsilon(1-\alpha)\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{k}_ {n \ell t}^{-\epsilon}}\right) \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\varepsilon} \hat{k}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
+\end{aligned}
+$$
+$$
+\begin{aligned}
 &+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right]\\
-&+\epsilon\left(\frac{\beta^{H}}{\beta^{L}}\right) \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{k}_ {i \ell t}^{-\epsilon}}\right) \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{R}_ {i t} R_{i t}\right]
 \end{aligned}
 $$
 

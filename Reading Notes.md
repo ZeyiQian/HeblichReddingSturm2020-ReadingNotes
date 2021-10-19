@@ -500,7 +500,13 @@ Put（15）：
 $$v_{n}=\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}  \qquad(15)$$
 into (16)：
 $$ 
-Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}=(1-\alpha)\ v_{n t}R_{n }+\frac{\beta^{H}}{\beta^{L}}w_{n}L_{n} \qquad(16)
+Q_{n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}
+$$
+$$
+=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}
+$$
+$$
+=(1-\alpha)\ v_{n t}R_{n }+\frac{\beta^{H}}{\beta^{L}}w_{n}L_{n} \qquad(16)
 $$
 
 because 

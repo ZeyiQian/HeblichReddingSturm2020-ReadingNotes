@@ -526,6 +526,7 @@ According  (13), we have (18):
 $$L_i=\sum_{n \in N} \lambda_ {ni\mid n}^R R_n$$
 $$=\sum_ {n \in N}\frac{(B_ {ni}w_ i/\kappa_ {ni})^{\epsilon}}{\sum_ {l \in N}(B_ {nl}w_ l/\kappa_ {nl})^{\epsilon}}R_n  \qquad(13) $$
 
+Simplify $\hat{L}_ {i t}$:
 $$
 \hat{L}_ {i t}={L}_ {i τ}/{L}_ {i t}=\frac{\sum_ {n \in N} \lambda_ {n i τ \mid n}^{R} R_ {nτ}}{\sum_ { n \in N} \lambda_ {n i t \mid n}^{R} R_ {nt}}
 $$
@@ -542,6 +543,19 @@ $$
 $$
 \hat{L}_ {i t}=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{  \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} 
 $$
+$$
+\hat{L}_ {i t} L_ {i t}=
+\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{  \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}=
+\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{ \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t}
+$$
+Suppose we have $$\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R}
+=\sum_ {\ell \in N} {\frac{\lambda_ {n \ell t}} {\lambda_ {n t}^{R}}}
+$$
+$$
+=\sum_ {\ell \in N}\frac{{B}_ {n \ell t}^{\epsilon}{w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{\sum_ {h \in N}{B}_ {n h t}^{\epsilon}{w}_ {h t}^{\epsilon} {\kappa}_ {n h t}^{-\epsilon}}=1
+$$
+
+Then we get:
 $$
 \hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
 $$

@@ -523,11 +523,27 @@ $$
 
  
 According  (13), we have (18):
-$$L_i=\sum_{n \in N} \lambda_{ni\mid n}^R R_n$$
-$$ =\sum_{n \in N}\frac{(B_{ni}w_i/\kappa_{ni})^{\epsilon}}{\sum_{l \in N}(B_{nl}w_l/\kappa_{nl})^{\epsilon}}R_n    \qquad(13) $$
+$$L_i=\sum_{n \in N} \lambda_ {ni\mid n}^R R_n$$
+$$=\sum_ {n \in N}\frac{(B_ {ni}w_ i/\kappa_ {ni})^{\epsilon}}{\sum_ {l \in N}(B_ {nl}w_ l/\kappa_ {nl})^{\epsilon}}R_n  \qquad(13) $$
 
 $$
-\hat{L} _ {i t} L_{i t}=\sum_{n \in N} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
+\hat{L}_ {i t}={L}_ {i τ}/{L}_ {i t}=\frac{\sum_ {n \in N} \lambda_ {n i τ \mid n}^{R} R_ {nτ}}{\sum_ { n \in N} \lambda_ {n i t \mid n}^{R} R_ {nt}}
+$$
+$$
+=\frac{\sum_ {n \in N} {\frac{\lambda_ {n i τ}} {\lambda_ {n τ}^{R}}} R_ {nτ}} {{\sum_ { n \in N}}\frac{\lambda_ {n i t}} {\lambda_ {n t}^{R}} R_ {nt}}
+$$
+$$
+={\sum_ { n \in N}} \hat R_ {nt} \frac{\frac{{B}_ {niτ}^{\epsilon} {w}_ {iτ}^{\epsilon} {\kappa}_ {n i τ}^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlτ}^{\epsilon} {w}_ {lτ}^{\epsilon} {\kappa}_ {n l τ}^{-\epsilon}}}
+{\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}}
+$$
+$$
+={\sum_ { n \in N}}  \hat R_ {nt}  {\frac{{B}_ {niτ}^{\epsilon}{w}_ {iτ}^{\epsilon} {\kappa}_ {n i τ}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\sum_ {l \in N}}{\frac{{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}{{B}_ {nlτ}^{\epsilon} {w}_ {lτ}^{\epsilon} {\kappa}_ {n l τ}^{-\epsilon}}}
+$$
+$$
+\hat{L}_ {i t}=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{  \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} 
+$$
+$$
+\hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
 $$
 
 

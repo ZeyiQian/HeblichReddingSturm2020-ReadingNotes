@@ -529,6 +529,7 @@ $$
  
 According  (13), we have (18):
 $$L_i=\sum_{n \in N} \lambda_ {ni\mid n}^R R_n$$
+$$={\sum_ {n \in N} {\frac{\lambda_ {n i }} {\lambda_ {n }^{R}}} }$$
 $$=\sum_ {n \in N}\frac{(B_ {ni}w_ i/\kappa_ {ni})^{\epsilon}}{\sum_ {l \in N}(B_ {nl}w_ l/\kappa_ {nl})^{\epsilon}}R_n  \qquad(13) $$
 
 Simplify $\hat{L}_ {i t}$:

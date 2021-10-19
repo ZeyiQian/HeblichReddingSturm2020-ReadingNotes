@@ -688,7 +688,7 @@ $$
 
 $$
 \begin{aligned}
-&\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
+&\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
 \end{aligned}
 $$
 $$
@@ -727,7 +727,7 @@ $$
 =\Xi T\left(\Xi \hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
 $$
 
-*   From properties (i)-(iv), starting from $\hat w_ nt = 0$ for all locations n, and increasing $\hat w_nt$ for each location n, there exists a unique value for $\hat w_nt$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
+*   From properties (i)-(iv), starting from $\hat w_ {nt} = 0$ for all locations n, and increasing $\hat w_{nt}$ for each location n, there exists a unique value for $\hat w_{nt}$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
 *   Using these unique solutions for the relative changes in wages $\hat w_ nt$, the unique vector of relative changes in employment ($\hat l_ t$) can be recovered from the commuter market clearing condition in equation (B4&18) .
 
 $$

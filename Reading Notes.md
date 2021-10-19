@@ -718,7 +718,7 @@ $$
 where $\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}>0$
 for ${d \hat{w}_ {t}} > 0$
 
-*   Property (iv): $T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) $ is homogeneous of degree one in the vector of relative changes in wages (${d \hat{w}_ {t}$) such that
+*   Property (iv): $T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) $ is homogeneous of degree one in the vector of relative changes in wages (${d \hat{w}_ {t}}$) such that
 $$
 T\left(\Xi \hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
 $$

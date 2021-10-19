@@ -758,6 +758,6 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 
 *   Not required to make assumptions about other determinants of economic activity
 *   Observed probabilities control for unobserved differences in the level of bilateral commuting costs across residence-workplace pairs
-
+*   use ($W_{it},L_{it},L_{nit}$) in base line year t and ($\hat W_{it},\hat L_{it},\hat L_{nit}$),we can get ($W_{iτ},L_{iτ},L_{niτ}$) and t does not equal to τ
 
 

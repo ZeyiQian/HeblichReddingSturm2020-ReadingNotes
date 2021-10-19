@@ -687,7 +687,7 @@ $$
 $$
 $$
 \begin{aligned}
-&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right]\\
+&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right] \qquad(B.2)\\
 \end{aligned}
 $$
 
@@ -706,19 +706,19 @@ $$
 $$
 =\Xi T\left(\Xi \hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
 $$
+*   From properties (i)-(iv), starting from $\hat w_ nt = 0$ for all locations n, and increasing $\hat w_nt$ for each location n, there exists a unique value for $\hat w_nt$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
+*   Using these unique solutions for the relative changes in wages $\hat w_ nt$, the unique vector of relative changes in employment ($\hat l_ t$) can be recovered from the commuter market clearing condition in equation (B4&18) .
+$$
+\hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18&B.3)
+$$
 
 
-*   Using these solutions for the relative changes in wages, we can immediately recover the unique relative change in employment
-$$
-\left(\hat{L}_ {n t}\right)
-$$
-from the commuter market equilibrium condition(18). 
-*   We can solve for the unique relative change inaverage per capita income by residence 
+*   Similarly,We can solve for the unique relative change inaverage per capita income by residence 
 
 $$
-\left(\hat{v}_ {n t}\right)
+\left(\hat{v}_ {n t}\right)=\sum i \in N \frac{\lambda_ {n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_{i t} \qquad(19)
 $$
-from equation (19).
+
 
 *   Finally, we can obtain the unique relative change in commuting flows
 $$
@@ -728,6 +728,8 @@ using the conditional commuting probabilities (14),we have (21):
 $$
  \hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{R}_ {n t} R_ {n t}  \qquad(21)
 $$
+where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n t}, L_nt, R_nt,\lambda_ {n i t \mid n}^{R})$
+
 
 >##### Adventages
 

@@ -687,7 +687,7 @@ $$
 $$
 $$
 \begin{aligned}
-&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right] \qquad(B.2)\\
+&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right] \qquad(B.3)\\
 \end{aligned}
 $$
 
@@ -708,8 +708,9 @@ $$
 $$
 *   From properties (i)-(iv), starting from $\hat w_ nt = 0$ for all locations n, and increasing $\hat w_nt$ for each location n, there exists a unique value for $\hat w_nt$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
 *   Using these unique solutions for the relative changes in wages $\hat w_ nt$, the unique vector of relative changes in employment ($\hat l_ t$) can be recovered from the commuter market clearing condition in equation (B4&18) .
+
 $$
-\hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18&B.3)
+\hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
 $$
 
 

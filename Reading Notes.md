@@ -649,7 +649,7 @@ $$
 $$
 where $\hat{Q}_ {t}$ is the observed vector of relative changes in rateable values; 
 $\tilde{Q}_ {t}$ is the observed vector of rateable values in our baseline year t = 1921; 
-$Z_t$ is a known matrix of relative changes in variables between years τ and t and values for variables in our baseline year t, including $R_nt, W_nt, \hat R_nt and \lambda_ {n i t \mid n}^{R}$ ; 
+$Z_t$ is a known matrix of relative changes in variables between years τ and t and values for variables in our baseline year t, including $R_{nt}, W_{nt], \hat R_{nt} ,\lambda_ {n i t \mid n}^{R}$ ; 
 $ \hat{\kappa}_ {\boldsymbol{t}} $is the matrix of changes in commuting costs;
 $\hat w_t$ is the vector of relative changes in wages to be determined;
 
@@ -677,7 +677,7 @@ $$
 
 for all 
 
-$$\sum_ {n \in N}$$
+$${n \in N}$$
 
 *  Property (ii): 
 $$

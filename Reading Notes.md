@@ -742,7 +742,7 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 
 #### VI.C. Wages in the Initial Equilibrium (Step 2)
 >##### We solve for wages ($w_{nt}$) and average per capita income by residence ($v_{nt}$) in the initial equilibrium in year t = 1921 using the observed workplace employment ($L_{nt}$), residence employment ($R_{nt}$), and rateable values ($\tilde Q_{nt}$)
-*  First, we assume a value for the share of housing in consumer expenditure of $1 − \alhpa = 0.25$, which equals the average share of rent in income across occupations in the Registrar General's survey of 30,000 workers in Greater London in 1887, as reported to the House of Commons (Parliamentary Papers 1887)
+*  First, we assume a value for the share of housing in consumer expenditure of $1−\alpha = 0.25$, which equals the average share of rent in income across occupations in the Registrar General's survey of 30,000 workers in Greater London in 1887, as reported to the House of Commons (Parliamentary Papers 1887)
 *  Second, we assume a value for the share of labor in production costs of $\beta ^L = 0.55$, which lies in the middle of the range of 0.43–0.63 considered for the period 1770–1860 in Antras and Voth (2003)
 *  Third, we assume a share of machinery and equipment in production costs of $\beta ^K = 0.20$ and a share of land and building structures in production costs of $\beta ^H = 0.25$, which are in line with the data on factor shares for 1856–1913 reported in Matthews, Feinstein, and Odling-Smee (1982)
 *  $$\beta ^L+\beta ^K+\beta ^H=1$$

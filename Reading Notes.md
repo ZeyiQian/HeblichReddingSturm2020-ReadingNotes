@@ -544,15 +544,15 @@ $$
 {\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}}
 $$
 $$
-={\sum_ { n \in N}}  \hat R_ {nt}  {\frac{{B}_ {niτ}^{\epsilon}{w}_ {iτ}^{\epsilon} {\kappa}_ {n i τ}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\sum_ {l \in N}}{\frac{{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}{{B}_ {nlτ}^{\epsilon} {w}_ {lτ}^{\epsilon} {\kappa}_ {n l τ}^{-\epsilon}}}
+=\hat R_ {nt} {\sum_ { n \in N}}  \left( {\frac{{B}_ {niτ}^{\epsilon}{w}_ {iτ}^{\epsilon} {\kappa}_ {n i τ}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\sum_ {l \in N}}{\frac{{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}{{B}_ {nlτ}^{\epsilon} {w}_ {lτ}^{\epsilon} {\kappa}_ {n l τ}^{-\epsilon}}}\right)
 $$
 $$
-\hat{L}_ {i t}=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{  \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} 
+\hat{L}_ {i t}=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{ {\sum_ {l \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} 
 $$
 $$
 \hat{L}_ {i t} L_ {i t}=
-\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{  \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}=
-\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{ \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t}
+\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {l \in N}}  \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}=
+\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {l \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t}
 $$
 Suppose we have $$\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R}
 =\sum_ {\ell \in N} {\frac{\lambda_ {n \ell t}} {\lambda_ {n t}^{R}}}

@@ -710,26 +710,15 @@ $$
 $$
 
 *   From properties (i)-(iv), starting from $\hat w_ {nt} = 0$ for all locations n, and increasing $\hat w_{nt}$ for each location n, there exists a unique value for $\hat w_{nt}$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left( \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
-*   Using these unique solutions for the relative changes in wages $\hat w_ {nt}$, the unique vector of relative changes in employment ($\mathbf{\hat L}_ {t}$) can be recovered from the commuter market clearing condition in equation (B4&18) .
+*   Using these unique solutions for the relative changes in wages $\hat w_ {nt}$, the unique vector of relative changes in employment ($\mathbf{\hat L}_ {t}$) can be recovered from the commuter market clearing condition in equation (B18) $\hat{L}_ {i t} L_ {i t}$
 
-$$
-\hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
-$$
 where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n t}, L_{nt}, R_{nt},\lambda_ {n i t \mid n}^{R})$
 
 
-*   Similarly,We can solve for the unique relative change inaverage per capita income by residence 
+*   Similarly,We can solve for the unique relative change inaverage per capita income by residence $\hat{v}_ {n t}
 
-$$
-\hat{v}_ {n t}=\sum_ {i \in N}\frac{\lambda_ {n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_{i t} \qquad(19)
-$$
-
-
-*   Finally, we can obtain the unique relative change in commuting flows
-$$
-\hat{L}_ {n i t}
-$$
-using the conditional commuting probabilities (14),we have (21):
+*   Finally, we can obtain the unique relative change in commuting flows$\hat{L}_ {n i t}$
+*   Using the conditional commuting probabilities (14),we have (21):
 $$
  \hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{R}_ {n t} R_ {n t}  \qquad(21)
 $$
@@ -752,9 +741,9 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 *  (v) the commuting probabilities conditional on residence,$ \lambda_ {n i t \mid n}^{R} = L_{nit}/ R_{nt} $
 
 #### VI.C. Wages in the Initial Equilibrium (Step 2)
->##### We solve for wages (wnt) and average per capita income by residence (vnt) in the initial equilibrium in year t = 1921 using the observed workplace employment ($L_{nt}$), residence employment ($R_{nt}$), and rateable values ($\tilde Q_{nt}$)
-*  First, we assume a value for the share of housing in consumer expenditure of $1 − α = 0.25$, which equals the average share of rent in income across occupations in the Registrar General's survey of 30,000 workers in Greater London in 1887, as reported to the House of Commons (Parliamentary Papers 1887)
-*  Second, we assume a value for the share of labor in production costs of $β^L = 0.55$, which lies in the middle of the range of 0.43–0.63 considered for the period 1770–1860 in Antras and Voth (2003)
-*  Third, we assume a share of machinery and equipment in production costs of $β^K = 0.20$ and a share of land and building structures in production costs of $β^H = 0.25$, which are in line with the data on factor shares for 1856–1913 reported in Matthews, Feinstein, and Odling-Smee (1982)
-*  $$β^L+β^K+β^H=1$$
+>##### We solve for wages ($w_{nt}$) and average per capita income by residence ($v_{nt}$) in the initial equilibrium in year t = 1921 using the observed workplace employment ($L_{nt}$), residence employment ($R_{nt}$), and rateable values ($\tilde Q_{nt}$)
+*  First, we assume a value for the share of housing in consumer expenditure of $1 − \alhpa = 0.25$, which equals the average share of rent in income across occupations in the Registrar General's survey of 30,000 workers in Greater London in 1887, as reported to the House of Commons (Parliamentary Papers 1887)
+*  Second, we assume a value for the share of labor in production costs of $\beta ^L = 0.55$, which lies in the middle of the range of 0.43–0.63 considered for the period 1770–1860 in Antras and Voth (2003)
+*  Third, we assume a share of machinery and equipment in production costs of $\beta ^K = 0.20$ and a share of land and building structures in production costs of $\beta ^H = 0.25$, which are in line with the data on factor shares for 1856–1913 reported in Matthews, Feinstein, and Odling-Smee (1982)
+*  $$\beta ^L+\beta ^K+\beta ^H=1$$
 >##### Given values for these parameters, our combined land and commuter market-clearing condition (16) for our baseline year of t = 1921 provides a system of N equations in the N unknown wages ($w_{nt}$). As this system of equations is linear in the unknown wages ($w_{nt}$), it determines a unique equilibrium value for the wage in each location in our baseline year ($w_{nt}$), as long as the rows of the observed matrix of bilateral commuting flows ($L_{int}$) are linearly independent.

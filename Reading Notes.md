@@ -747,3 +747,8 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 *  Third, we assume a share of machinery and equipment in production costs of $\beta ^K = 0.20$ and a share of land and building structures in production costs of $\beta ^H = 0.25$, which are in line with the data on factor shares for 1856–1913 reported in Matthews, Feinstein, and Odling-Smee (1982)
 *  $$\beta ^L+\beta ^K+\beta ^H=1$$
 >##### Given values for these parameters, our combined land and commuter market-clearing condition (16) for our baseline year of t = 1921 provides a system of N equations in the N unknown wages ($w_{nt}$). As this system of equations is linear in the unknown wages ($w_{nt}$), it determines a unique equilibrium value for the wage in each location in our baseline year ($w_{nt}$), as long as the rows of the observed matrix of bilateral commuting flows ($L_{int}$) are linearly independent.
+
+#### VI.D. Estimating Commuting Costs (Step 3)
+>##### We use the model’s gravity equation predictions to estimate the relationship between commuting flows and travel times, taking into account the endogeneity of the transport network using instrumental variables estimation.
+
+*    Assume that bilateral commuting costs are a constant elasticity function of bilateral travel times and a stochastic error for all pairs of boroughs with positive commuting flows:

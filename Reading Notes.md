@@ -522,7 +522,7 @@ $$
 =\frac{\sum_ {n \in N} {\frac{\lambda_ {n i \tau}} {\lambda_ {n \tau}^{R}}} R_ {n \tau}} {{\sum_ { n \in N}}\frac{\lambda_ {n i t}} {\lambda_ {n t}^{R}} R_ {nt}}
 $$
 $$
-=\hat R_ {nt} {\sum_ { n \in N}} \hat  \frac{\frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}
+=\hat R_ {nt} {\sum_ { n \in N}}  \frac{\frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}
 {\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}
 $$
 $$
@@ -706,10 +706,10 @@ $$
 $$
 
 $$
-=\xi T\left(\xi \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
+=\xi T\left( \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
 $$
 
-*   From properties (i)-(iv), starting from $\hat w_ {nt} = 0$ for all locations n, and increasing $\hat w_{nt}$ for each location n, there exists a unique value for $\hat w_{nt}$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left( \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
+*   From properties (i)-(iv), starting from $\hat w_ {nt} = 0$ for all locations n, and increasing $\hat w_{nt}$ for each location n, there exists a unique value for $\hat w_{nt}$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left( \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
 *   Using these unique solutions for the relative changes in wages $\hat w_ {nt}$, the unique vector of relative changes in employment ($\mathbf{\hat L}_ {t}$) can be recovered from the commuter market clearing condition in equation (B4&18) .
 
 $$

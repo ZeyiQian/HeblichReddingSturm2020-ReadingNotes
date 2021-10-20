@@ -514,12 +514,7 @@ $$
 $$
 
  
-According  (13):
-$$L_i=\sum_{n \in N} \lambda_ {ni\mid n}^R R_n$$
-$$=\sum_ {n \in N} {\frac{\lambda_ {n i }} {\lambda_ {n }^{R}}} R_n$$
-$$=\sum_ {n \in N}\frac{(B_ {ni}w_ i/\kappa_ {ni})^{\epsilon}}{\sum_ {l \in N}(B_ {nl}w_ l/\kappa_ {nl})^{\epsilon}}R_n  \qquad(13) $$
-
-We can simplify $\hat{L}_ {i t}$:
+According  to (13) and (14),we can simplify $\hat{L}_ {i t}$:
 $$
 \hat{L}_ {i t}={L}_ {i  \tau}/{L}_ {i t}=\frac{\sum_ {n \in N} \lambda_ {n i  \tau \mid n}^{R} R_ {n  \tau}}{\sum_ { n \in N} \lambda_ {n i t \mid n}^{R} R_ {nt}}
 $$
@@ -527,32 +522,31 @@ $$
 =\frac{\sum_ {n \in N} {\frac{\lambda_ {n i \tau}} {\lambda_ {n \tau}^{R}}} R_ {n \tau}} {{\sum_ { n \in N}}\frac{\lambda_ {n i t}} {\lambda_ {n t}^{R}} R_ {nt}}
 $$
 $$
-={\sum_ { n \in N}} \hat R_ {nt} \frac{\frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlτ}^{\epsilon} {w}_ {l \tau}^{\epsilon} {\kappa}_ {n l \tau}^{-\epsilon}}}
-{\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}}
+=\hat R_ {nt} {\sum_ { n \in N}} \hat  \frac{\frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}
+{\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}
 $$
 $$
-=\hat R_ {nt} {\sum_ { n \in N}}  \left( {\frac{{B}_ {niτ}^{\epsilon}{w}_ {iτ}^{\epsilon} {\kappa}_ {n i τ}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\sum_ {l \in N}}{\frac{{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}{{B}_ {nlτ}^{\epsilon} {w}_ {lτ}^{\epsilon} {\kappa}_ {n l τ}^{-\epsilon}}}\right)
+=\hat R_ {nt} {\sum_ { n \in N}}  \left( {\frac{{B}_ {ni \tau}^{\epsilon}{w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\sum_ {\ell \in N}}{\frac{{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\right)
 $$
 $$
-\hat{L}_ {i t}=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{ {\sum_ {l \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} 
+=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{ {\sum_ {\ell \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \qquad(18-1)
 $$
 $$
 \hat{L}_ {i t} L_ {i t}=
-\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {l \in N}}  \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}=
-\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {l \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t}
+\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}}  \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}=
+\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18-2)
 $$
 Suppose we have $$\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R}
 =\sum_ {\ell \in N} {\frac{\lambda_ {n \ell t}} {\lambda_ {n t}^{R}}}
 $$
 $$
-=\sum_ {\ell \in N}\frac{{B}_ {n \ell t}^{\epsilon}{w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{\sum_ {h \in N}{B}_ {n h t}^{\epsilon}{w}_ {h t}^{\epsilon} {\kappa}_ {n h t}^{-\epsilon}}=1
+=\sum_ {\ell \in N}\frac{{B}_ {n \ell t}^{\epsilon}{w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{\sum_ {h \in N}{B}_ {n h t}^{\epsilon}{w}_ {h t}^{\epsilon} {\kappa}_ {n h t}^{-\epsilon}}=1 \qquad(18-3)
 $$
 
 Then we get:
 $$
 \hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
 $$
-
 
 where these equations include terms in changes in wages  and commuting costs but not in amenities, because we assume that the workplace and bilateral components of amenities are
 constant 
@@ -564,33 +558,31 @@ $$
 and changes in the residential component of amenities
 
 $$
-\hat{B}_ {n t}^{R}\neq1
+\hat{\mathcal{B}}_ {n t}^{R}\neq1
 $$
 
 cancel from the numerator and denominator of the fractions
 
-The same like (19):
-$$
-v_n = \sum_{n \in N} \lambda_{ni\mid n}^R w_i$$ $$ =\sum_{n \in N}\frac{(B_{ni}w_i/\kappa_{ni})^{\epsilon}}{\sum_{l \in N}(B_{nl}w_l/\kappa_{nl})^{\epsilon}}w_i   \qquad(15) $$
+According  to (14) and (15),we can simplify $\hat{v}_ {i t}$:
 
 $$
-\hat{v}_ {n t}={v}_ {n τ}/{v}_ {n t}=\frac
-{\sum_ {n \in N} \lambda_ {n i τ \mid n}^{R}w_ {iτ}}{\sum_ { n \in N} \lambda_ {n i t \mid n}^{R} w_ {it}} 
+\hat{v}_ {n t}={v}_ {n \tau}/{v}_ {n t}=\frac
+{\sum_ {n \in N} \lambda_ {n i \tau \mid n}^{R}w_ {i \tau}}{\sum_ { n \in N} \lambda_ {n i t \mid n}^{R} w_ {it}} 
 $$
 $$
-={\sum_ { n \in N}} \hat w_ {it} \frac{\frac{{B}_ {niτ}^{\epsilon} {w}_ {iτ}^{\epsilon} {\kappa}_ {n i τ}^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlτ}^{\epsilon} {w}_ {lτ}^{\epsilon} {\kappa}_ {n l τ}^{-\epsilon}}}
-{\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}}
+={\sum_ { n \in N}} \hat w_ {it} \frac{\frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau }^{-\epsilon}}}
+{\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}
 $$
 $$
-=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{  \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} 
+=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{  \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} \qquad(19-1)
 $$
 
 $$
 \hat{v}_ {n t} v_{n t}
-=\sum i \in N \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{ \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}
+={\sum_ { i \in N}} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{ \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}
 $$
 $$
-=\sum i \in N \frac{\lambda_ {n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_{i t} \qquad(19)
+={\sum_ { i \in N}} \frac{\lambda_ {n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_{i t} \qquad(19)
 $$
 
 
@@ -612,8 +604,7 @@ average per capita income by residence ($v_{nt}$)
 *  Suppose also that we observe relative changes in residents and rateable values between years τ and t:
 relative changes in residents ( $\hat R_{nt}$) ,
 rateable values ( $\hat Q_{nt}$) ,
-*  Given these observed variables and known values for changes in commuting costs, this combined land and commuter market-clearing condition (20) provides a system of N equations that determines unique values for the N unknown relative changes in wages in each location.
-values for changesin commuting costs ( $\hat{k}_ {n i t}^{-\epsilon}$)
+*  Given these observed variables and known values for changes in commuting costs( $\hat{\kappa}_ {n i t}^{-\epsilon}$), this combined land and commuter market-clearing condition (20) provides a system of N equations that determines unique values for the N unknown relative changes in wages in each location($\hat {w}_ {nt}$).
 
 >#### LEMMA 1. Suppose that
 
@@ -623,7 +614,6 @@ $$
 are known. Given known values for model parameters 
 
 $$ \left(  \alpha, \beta^{L}, \beta^{H}, \epsilon  \right)$$
-
 
 and the change in bilateral commuting costs
 $$
@@ -637,20 +627,17 @@ $$
 in each location.
 
 >#### Proof of LEMMA 1
-* We first determine the unique vector of relative changes in wages ($\hat w_t$) and then recover the unique vector of relative changes in employment ($\hat L_t$).
+* We first determine the unique vector of relative changes in wages ($ \mathbf{\hat w}_ \mathbf{t}$) and then recover the unique vector of relative changes in employment ($ \mathbf{\hat L}_ \mathbf{t}$).
 * The combined land and commuter market clearing condition for an earlier year τ < t can be written as:
 $$
-\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) \qquad(B.1)
+\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) \qquad(B.1)
 $$
-where $\hat{Q}_ {t}$ is the observed vector of relative changes in rateable values; 
-$Z_ t$ is a known matrix of relative changes in variables between years τ and t and values for variables in our baseline year t, including $R_ {nt}, W_ {nt}, \hat R_ {nt},\lambda_ {n i t \mid n}^{R} $; 
-
-$ \hat{\kappa}_ {t} $ is the matrix of changes in commuting costs;
-$\hat w_t$ is the vector of relative changes in wages to be determined;
+where $\hat{Q}_ {t}$ is the observed vector of relative changes in rateable values; $\tilde{Q}_ {t}$ is the observed vector of rateable values in our baseline year t = 1921;$\mathbf{Z}_ {\mathbf{t}}$ is a known matrix of relative changes in variables between years τ and t and values for variables in our baseline year t, including $R_ {nt}, w_ {nt}, \hat R_ {nt},\lambda_ {n i t \mid n}^{R} $; $ \mathbf{\hat{\kappa}}_ {\boldsymbol{t}}$ is the matrix of changes in commuting costs;
+$\hat{\mathbf{w}}_ {\mathbf{t}}$ is the vector of relative changes in wages to be determined;
 
 So we have 
 $$
-\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
+T\left(\mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
 $$
 $$
 =(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t} 
@@ -676,59 +663,59 @@ $${n \in N}$$
 
 *  Property (ii): 
 $$
-\lim_{{\hat w_ t}\to 0} T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)= 0
+\lim_{\mathbf{\hat{w}}_ {\mathbf{t}}\to 0} T\left(\mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)= 0
 $$
 
-*  Property (iii): $ T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$ is monotonic in the vector of relative changes in wages ($\hat w_t$), since:
+*  Property (iii): $  T\left(\mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$ is monotonic in the vector of relative changes in wages (\mathbf{\hat{w}}_ {\mathbf{t}}), since:
 
 $$
 \begin{aligned}
-&\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
+&\frac{d T(\cdot)}{d \mathbf{\hat{w}}_ {\mathbf{t}}} d \mathbf{\hat{w}}_ {\mathbf{t}}=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
 \end{aligned}
 $$
 $$
 \begin{aligned}
-&+\epsilon(1-\alpha)\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{k}_ {n \ell t}^{-\epsilon}}\right) \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{k}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\varepsilon} \hat{k}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
+&+\epsilon(1-\alpha)\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}}\right) \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\varepsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \frac{d \hat{w}_ {i t}}{\hat{w}_ {i t}} \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t}\\
 \end{aligned}
 $$
 $$
 \begin{aligned}
-&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right] \\
+&+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon \epsilon}} \hat{R}_ {i t} R_{i t}\right] \\
 \end{aligned}
 $$
 $$
 \begin{aligned}
-&+\epsilon\left(\frac{\beta^{H}}{\beta^{L}}\right)  \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {int \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {in  t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{k}_ {i \ell t}^{-\epsilon}}\right) \frac{\lambda_ { in t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{k}_ {in t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\varepsilon} \hat{k}_ {i \ell t}^{-\epsilon}} \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{R}_ {i t} R_{i t}\right]  \qquad(B.3)\\
+&+\epsilon\left(\frac{\beta^{H}}{\beta^{L}}\right)  \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N}\left(1-\frac{\lambda_ {int \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {in  t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}}\right) \frac{\lambda_ { in t \mid i}^{R} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {in t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \hat{w}_ {\ell t}^{\varepsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \frac{d \hat{w}_ {n t}}{\hat{w}_ {n t}} \hat{R}_ {i t} R_{i t}\right]  \qquad(B.3)\\
 \end{aligned}
 $$
 
-where $\frac{d T(\cdot)}{d \hat{w}_ {t}} d \hat{w}_ {t}>0$
-for ${d \hat{w}_ {t}} > 0$
+where $\frac{d T(\cdot)}{d \mathbf{\hat{w}}_ {\mathbf{t}}}>0$
+for $\mathbf{\hat{w}}_ {\mathbf{t}} > 0$
 
-*   Property (iv): $T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) $ is homogeneous of degree one in the vector of relative changes in wages (${d \hat{w}_ {t}}$) such that
+*   Property (iv): $  T\left(\mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$ is homogeneous of degree one in the vector of relative changes in wages ($\mathbf{\hat{w}}_ {\mathbf{t}}$) such that
 $$
-T\left(\Xi \hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
-$$
-
-$$
-=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \Xi \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \Xi \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \Xi \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t} 
+T\left(\xi \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
 $$
 
 $$
-+\frac{\beta^{H}}{\beta^{L}} \Xi \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t i}^{R} \Xi \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \Xi \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \hat{R}_ {i t} R_{i t}\right] 
+=(1-\alpha)\left[\sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \xi \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \xi \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \xi \hat{w}_ {i t} w_ {i t}\right] \hat{R}_ {n t} R_{n t} 
 $$
 
 $$
-=\Xi T\left(\Xi \hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
++\frac{\beta^{H}}{\beta^{L}} \xi \hat{w}_ {n t} w_ {n t}\left[\sum_ {i \in N} \frac{\lambda_ {i n t i}^{R} \xi \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {i \ell t \mid i}^{R} \xi \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {i \ell t}^{-\epsilon}} \hat{R}_ {i t} R_{i t}\right] 
 $$
 
-*   From properties (i)-(iv), starting from $\hat w_ {nt} = 0$ for all locations n, and increasing $\hat w_{nt}$ for each location n, there exists a unique value for $\hat w_{nt}$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left(\hat{\mathbf{w}}_ {\mathbf{t}} ; \hat{\kappa}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
-*   Using these unique solutions for the relative changes in wages $\hat w_ {nt}$, the unique vector of relative changes in employment ($\hat l_ t$) can be recovered from the commuter market clearing condition in equation (B4&18) .
+$$
+=\xi T\left(\xi \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
+$$
+
+*   From properties (i)-(iv), starting from $\hat w_ {nt} = 0$ for all locations n, and increasing $\hat w_{nt}$ for each location n, there exists a unique value for $\hat w_{nt}$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left( \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right) ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
+*   Using these unique solutions for the relative changes in wages $\hat w_ {nt}$, the unique vector of relative changes in employment ($\mathbf{\hat L}_ {t}$) can be recovered from the commuter market clearing condition in equation (B4&18) .
 
 $$
-\hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
+\hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
 $$
-where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n t}, L_nt, R_nt,\lambda_ {n i t \mid n}^{R})$
+where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n t}, L_{nt}, R_{nt},\lambda_ {n i t \mid n}^{R})$
 
 
 *   Similarly,We can solve for the unique relative change inaverage per capita income by residence 
@@ -740,20 +727,20 @@ $$
 
 *   Finally, we can obtain the unique relative change in commuting flows
 $$
-\left(\hat{L}_ {n i t}\right)
+\hat{L}_ {n i t}
 $$
 using the conditional commuting probabilities (14),we have (21):
 $$
  \hat{L}_ {n i t} L_{n i t}=\frac{\lambda_{n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_{n \ell t \mid n}^{R} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{R}_ {n t} R_ {n t}  \qquad(21)
 $$
-where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n t}, L_nt, R_nt,\lambda_ {n i t \mid n}^{R})$
+where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n t}, L_{nt}, R_{nt},\lambda_ {n i t \mid n}^{R})$
 
 
 >##### Adventages
 
 *   Not required to make assumptions about other determinants of economic activity
 *   Observed probabilities control for unobserved differences in the level of bilateral commuting costs across residence-workplace pairs
-*   use ($W_{it},L_{it},L_{nit}$) in base line year t and ($\hat W_{it},\hat L_{it},\hat L_{nit}$),we can get ($W_{iτ},L_{iτ},L_{niτ}$) and t does not equal to τ
+*   use ($w_{it},L_{it},L_{nit}$) in base line year t and ($\hat w_{it},\hat L_{it},\hat L_{nit}$),we can get ($w_{i \tau},L_{i \tau},L_{ni \tau}$) and t does not equal to τ
 
 #### VI.B. Commuting Probabilities (Step 1)
 >##### we use the observed data on bilateral commuting flows ($L_{nit}$) from the population census in our baseline year t = 1921 to directly compute the following variables in that baseline year:

@@ -574,12 +574,12 @@ $$
 {\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}
 $$
 $$
-=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{  \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} \qquad(19-1)
+=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{ {\sum_ {\ell \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} \qquad(19-1)
 $$
 
 $$
 \hat{v}_ {n t} v_{n t}
-={\sum_ { i \in N}} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{ \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}
+={\sum_ { i \in N}} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{ {\sum_ {\ell \in N}}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}
 $$
 $$
 ={\sum_ { i \in N}} \frac{\lambda_ {n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_{i t} \qquad(19)
@@ -746,7 +746,7 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 >##### we use the observed data on bilateral commuting flows ($L_{nit}$) from the population census in our baseline year t = 1921 to directly compute the following variables in that baseline year:
 
 *  (i) total city employment, $L_t = \sum_ {n \in N} \sum_ {i \in N} L_{nit}$; 
-*  (ii) the commuting probability conditional on choosing a workplace-residence pair in Greater London,$ λ_ {nit} = L_ {nit}/L_{Nt} $;
+*  (ii) the commuting probability conditional on choosing a workplace-residence pair in Greater London,$ \lambda_ {nit} = L_ {nit}/L_{Nt} $;
 *  (iii) workplace employment, $ L_{it} = \sum_ {n \in N} L_{nit}$;
 *  (iv) residence employment, $ R_{nt} = \sum_ {i \in N} L_{nit}$;
 *  (v) the commuting probabilities conditional on residence,$ \lambda_ {n i t \mid n}^{R} = L_{nit}/ R_{nt} $

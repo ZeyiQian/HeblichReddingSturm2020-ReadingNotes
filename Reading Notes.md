@@ -499,48 +499,35 @@ $R_n$ is the measure of residents.
 *  In particular, we rewrite our combined land and commuter market-clearing condition (16) for another year τ in terms of the values of variables in a
 baseline year of t and the relative changes of variables between years τ and t.
 
-$$ τ \neq t$$
-
-Put（15）：
-$$v_{n}=\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}  \qquad(15)$$
-into (16)：
-$$ 
-\tilde{Q}_ {n}=Q_{n} H_{n}^{R}+q_{n} H_{n}^{L}
-$$
-$$
-=(1-\alpha)\left[\sum_{i \in N} \lambda_{n i \mid n}^{R} w_{i}\right] R_{n}+\frac{\beta^{H}}{\beta^{L}} w_{n} L_{n}
-$$
-$$
-=(1-\alpha)\ v_{n }R_{n }+\frac{\beta^{H}}{\beta^{L}}w_{n}L_{n} \qquad(16)
-$$
+$$ \tau \neq t$$
 
 because 
- $$\hat{x} _ {n t} = {\frac{x_{n \tau}}{x_{n t}}}$$
+ $$\hat{x} _ {n  \tau} = {\frac{x_{n \tau}}{x_{n t}}}$$
 
 and α，β are constant.
 So we have (17):
 $$
-\tilde{Q}_ {n τ}=\frac{\tilde{Q}_ {n τ} }{\tilde{Q}_ {n t}}  {\tilde{Q}_ {n t}} 
+\tilde{Q}_ {n  \tau}=\frac{\tilde{Q}_ {n  \tau} }{\tilde{Q}_ {n t}}  {\tilde{Q}_ {n t}} 
 $$
 $$
 =\hat{Q}_ {n t} \tilde{Q}_ {n t}=(1-\alpha) \hat{v}\_{n t}  v_{n t} \hat{R}\_{n t} R_{n t}+\frac{\beta^{H}}{\beta^{L}} \hat{w}\_{n t} w_{n t} \hat{L}\_{n t} L_{n t} \qquad(17)
 $$
 
  
-According  (13), we have (18):
+According  (13):
 $$L_i=\sum_{n \in N} \lambda_ {ni\mid n}^R R_n$$
 $$=\sum_ {n \in N} {\frac{\lambda_ {n i }} {\lambda_ {n }^{R}}} R_n$$
 $$=\sum_ {n \in N}\frac{(B_ {ni}w_ i/\kappa_ {ni})^{\epsilon}}{\sum_ {l \in N}(B_ {nl}w_ l/\kappa_ {nl})^{\epsilon}}R_n  \qquad(13) $$
 
-Simplify $\hat{L}_ {i t}$:
+We can simplify $\hat{L}_ {i t}$:
 $$
-\hat{L}_ {i t}={L}_ {i τ}/{L}_ {i t}=\frac{\sum_ {n \in N} \lambda_ {n i τ \mid n}^{R} R_ {nτ}}{\sum_ { n \in N} \lambda_ {n i t \mid n}^{R} R_ {nt}}
-$$
-$$
-=\frac{\sum_ {n \in N} {\frac{\lambda_ {n i τ}} {\lambda_ {n τ}^{R}}} R_ {nτ}} {{\sum_ { n \in N}}\frac{\lambda_ {n i t}} {\lambda_ {n t}^{R}} R_ {nt}}
+\hat{L}_ {i t}={L}_ {i  \tau}/{L}_ {i t}=\frac{\sum_ {n \in N} \lambda_ {n i  \tau \mid n}^{R} R_ {n  \tau}}{\sum_ { n \in N} \lambda_ {n i t \mid n}^{R} R_ {nt}}
 $$
 $$
-={\sum_ { n \in N}} \hat R_ {nt} \frac{\frac{{B}_ {niτ}^{\epsilon} {w}_ {iτ}^{\epsilon} {\kappa}_ {n i τ}^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlτ}^{\epsilon} {w}_ {lτ}^{\epsilon} {\kappa}_ {n l τ}^{-\epsilon}}}
+=\frac{\sum_ {n \in N} {\frac{\lambda_ {n i \tau}} {\lambda_ {n \tau}^{R}}} R_ {n \tau}} {{\sum_ { n \in N}}\frac{\lambda_ {n i t}} {\lambda_ {n t}^{R}} R_ {nt}}
+$$
+$$
+={\sum_ { n \in N}} \hat R_ {nt} \frac{\frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlτ}^{\epsilon} {w}_ {l \tau}^{\epsilon} {\kappa}_ {n l \tau}^{-\epsilon}}}
 {\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {l \in N}}{B}_ {nlt}^{\epsilon} {w}_ {lt}^{\epsilon} {\kappa}_ {n l t}^{-\epsilon}}}
 $$
 $$

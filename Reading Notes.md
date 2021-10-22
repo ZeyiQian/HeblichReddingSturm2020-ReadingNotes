@@ -752,3 +752,7 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 >##### We use the model’s gravity equation predictions to estimate the relationship between commuting flows and travel times, taking into account the endogeneity of the transport network using instrumental variables estimation.
 
 *    Assume that bilateral commuting costs are a constant elasticity function of bilateral travel times and a stochastic error for all pairs of boroughs with positive commuting flows:
+$$
+ -\epsilon log \kappa_ {n i t} =- \epsilon \phi log d_ {n i t}^W+ u_ {n i t}^R+ u_ {n i t}^L+ u_ {n i t}^I
+$$
+where 

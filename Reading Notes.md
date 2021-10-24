@@ -808,4 +808,6 @@ $$
 $$
 =\tilde W_ {it}+\tilde B_ {nt}-\epsilon \phi log \left(d_ {n i t}^W\right)+e_{nit}  \qquad(23)
 $$
-
+where the workplace fixed effect includes the wage and any workplace component of amenities or commuting costs, as well as the common expected utility in Greater London $\tilde W_ {it}$
+the residence fixed effect includes the prices for goods consumption and residential floor space and any residence component of amenities or commuting costs $\tilde B_ {nt}$
+the error term captures idiosyncratic shocks to bilateral amenities and commuting costs $e_{nit}  $

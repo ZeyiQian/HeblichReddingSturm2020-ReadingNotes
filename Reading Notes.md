@@ -848,4 +848,21 @@ threshold of 10. Consistent with this, we comfortably reject the
 null hypothesis of underidentification in the Kleibergen-Paap
 underidentification test reported in the top panel.-->
 
-*    Using our baseline instrumental variables estimates of the elasticity of commuting flows with respect to travel times ($- \epsilon \phi$) from column (2), we construct measures of the change in commuting costs from the removal of the railway network between our baseline year of $t = 1921$ and an earlier year $\tau \lt t$ t$:
+*    Using our baseline instrumental variables estimates of the elasticity of commuting flows with respect to travel times ($- \epsilon \phi$) from column (2), we construct measures of the change in commuting costs from the removal of the railway network between our baseline year of $t = 1921$ and an earlier year $\tau \lt t$ :
+$$
+\hat{\mathcal{K}}_ {n i t}=\hat{\kappa}_ {n i t}^{-\epsilon}=\left(\frac{\kappa_ {n i \tau}}{\kappa_ {n i t}}\right)^{-\epsilon}=\left(\frac{d_ {n i \tau}^{W}\left(\tilde S_ {\tau}^{\mathrm{OR}}, \tilde S_ {\tau}^{\mathrm{UR}}, \tilde S_ {\tau}^{\mathrm{OT}}, \boldsymbol{\delta}\right)}{d_ {n i t}^{W}\left(\tilde S_ {t}^{\mathrm{OR}}, \tilde S_ {t}^{\mathrm{UR}}, \tilde S_ {t}^{\mathrm{OT}}, \boldsymbol{\delta}\right)}\right)^{-\epsilon \phi} \qquad(24)
+$$
+
+#### VI.E. Historical Workplace Employment (Step 4)
+>##### Given these estimates of changes in commuting costs ($\hat{\kappa}_ {n i t}^{-\epsilon}$)and a value for the Fr´echet shape parameter ($\epsilon$ ), we can use ourcombined land and commuter market-clearing condition (20) to solve for unobserved workplace employment back to the early nineteenth century. 
+>##### We calibrate the Fr´echet shape parameter($\epsilon$ ) by minimizing the sum of squared deviations between the model’s predictions for workplace employment and the data on the day population in the City of London for the census years for which these data are available (1881, 1891, and 1911). We obtain a calibrated Fr´echet shape parameter of $\epsilon = 5.25$, which lies in between the estimate of around 6 in Ahlfeldt et al. (2015) and the estimate using migration flows of around 3 in Bryan and Morten (2019).
+*    In Figure VI, we display the log of residence employment density and workplace employment density against distance from the Guildhall in the center of the City of London, for 1921 at the end of our sample period (when both variables are observed) and for 1831 before the first railway in Greater London (when residence employment is observed, but workplace employment is a model prediction).
+
+![FIGUREVI](https://user-images.githubusercontent.com/91390400/138611696-cb3d127e-9fde-497f-b4d0-6d72623d3315.png)
+
+#### VI.F. Specification Check (Step 5)
+>##### As a specification check, we now compare our model’s predictions for commuting patterns during the nineteenth century to historical data that were not used in its calibration. In particular, we use data on commuting distances from the personnel ledgers of Henry Poole bespoke tailors.
+>##### In the left panel of Figure VII, we compare the model’s predictions for 1861 with the commuting distances of workers who joined Henry Poole between 1857 and 1877.In the right panel, we compare the model’s predictions for 1901 with commuting distances of workers who joined Henry Poole between 1891 and 1911.
+>##### In these comparisons, there are several potential sources ofdiscrepancies between the model and data, including the fact thatthis company is located in a specific site in Westminster, whereas the model covers all of that borough.
+![FIGUREVII](https://user-images.githubusercontent.com/91390400/138611841-dd3c0dff-709d-451d-b97e-607d948edc6b.png)
+

@@ -753,11 +753,12 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 
 *    Assume that bilateral commuting costs are a constant elasticity function of bilateral travel times and a stochastic error for all pairs of boroughs with positive commuting flows:
 $$
- -\epsilon log \left(\kappa_ {n i t})\right =- \epsilon \phi log \left(d_ {n i t}^W)\right+ u_ {n i t}^R+ u_ {n i t}^L+ u_ {n i t}^I
+ -\epsilon log \left(\kappa_ {n i t}\right) =- \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n i t}^R+ u_ {n i t}^L+ u_ {n i t}^I
 $$
 where 
-d_ {n i t}^W \\
--\epsilon \phi
-u_ {n i t}^R
-u_ {n i t}^L
-u_ {n i t}^I
+$d_ {n i t}^W$ is our measure of travel time based on our assumed travel speeds ($\delta$) and the observed transport network ($\tilde{s}_ t^{OR}, \tilde{s}_ t^{UR}, \tilde{s}_ t^{OT}$ )
+the composite elasticity $-\epsilon \phi$ captures both the elasticity of commuting flows to commuting costs ($-\epsilon$ ) and the elasticity of commuting costs to travel times ($\phi$)
+$u_ {n i t}^R$ is an unobserved residence component of commuting costs
+$u_ {n i t}^L$ is an unobserved workplace component of commuting costs
+$u_ {n i t}^I$ is an unobserved idiosyncratic component of commuting costs that is specific to individual residence-workplace pairs
+

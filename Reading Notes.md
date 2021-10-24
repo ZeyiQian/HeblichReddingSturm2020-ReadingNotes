@@ -753,7 +753,7 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 
 *    Assume that bilateral commuting costs are a constant elasticity function of bilateral travel times and a stochastic error for all pairs of boroughs with positive commuting flows:
 $$
- -\epsilon log \left(\kappa_ {n i t}\right) =- \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n i t}^R+ u_ {n i t}^L+ u_ {n i t}^I
+ -\epsilon log \left(\kappa_ {n i t}\right) =- \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n  t}^R+ u_ { i t}^L+ u_ {n i t}^I \qquad(21)
 $$
 where 
 $d_ {n i t}^W$ is our measure of travel time based on our assumed travel speeds ($\delta$) and the observed transport network ($\tilde{s}_ t^{OR}, \tilde{s}_ t^{UR}, \tilde{s}_ t^{OT}$ )
@@ -761,4 +761,51 @@ the composite elasticity $-\epsilon \phi$ captures both the elasticity of commut
 $u_ {n i t}^R$ is an unobserved residence component of commuting costs
 $u_ {n i t}^L$ is an unobserved workplace component of commuting costs
 $u_ {n i t}^I$ is an unobserved idiosyncratic component of commuting costs that is specific to individual residence-workplace pairs
+
+
+*    From equation (5),we can get
+$$ l
+ogB_ {nit} = logB_ {nt}^R +logB_ {it}^L +logB_{nit}^I \qquad(5-1)
+$$
+
+*    From equation (9),we can get
+$$
+\frac {\bar{U}}{ \nu}\left(\frac{L_ {\tilde N}}{L_ {\tilde M}}  \right)^{1/\epsilon} =[{\textstyle \sum_ {k \in \tilde N}\sum_ {\ell \in \tilde N}} (B_ {k \ell}w_ {\ell})^{\epsilon}(k_ {k \ell} P_ k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon} \qquad(9-1)
+$$
+$$
+\left(\frac {\bar{U}}{ \nu}\right)^\epsilon \left(\frac{L_ {\tilde N}}{L_ {\tilde M}}  \right)^{1/\epsilon} ={\textstyle \sum_ {k \in \tilde N}\sum_ {\ell \in \tilde N}} (B_ {k \ell}w_ {\ell})^{\epsilon}(k_ {k \ell} P_ k^\alpha Q_k^{1-\alpha})^{-\epsilon} \qquad(9-2)
+$$
+$$
+\epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ {1/\epsilon} \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) =log \left( {\textstyle \sum_ {k \in \tilde N}\sum_ {\ell \in \tilde N}} (B_ {k \ell t}w_ {\ell t})^{\epsilon}(k_ {k \ell t} P_ {kt}^\alpha Q_{kt}^{1-\alpha})^{-\epsilon} \right) \qquad(9-3)
+$$
+*    From equations (6) and (22), we obtain the following gravity equation for the log commuting probability in our baseline year t:
+
+$$ log\lambda_ {nit}= log\left(\frac{\left(B_ {nit}w_ {it}\right)^{\epsilon}\left(\kappa_ {nit} P_ {nt}^\alpha Q_ {nt}^{1-\alpha}\right)^{-\epsilon}}{ \sum_{k \in \tilde N}\sum_{\ell \in \tilde N}\left(B_{k \ell t}\right)^{\epsilon}\left(\kappa_{k \ell t} P_ {kt}^\alpha Q_{kt}^{1-\alpha}\right)^{-\epsilon}}\right)$$
+$$
+={\epsilon}log\left(B_ {nit}w_ {it}\right){-\epsilon}log\left(\kappa_ {nit} P_ {nt}^\alpha Q_ {nt}^{1-\alpha}\right)-log \left( \sum_{k \in \tilde N}\sum_{\ell \in \tilde N}\left(B_{k \ell t}\right)^{\epsilon}\left(\kappa_{k \ell t} P_ {kt}^\alpha Q_{kt}^{1-\alpha}\right)^{-\epsilon}\right)
+$$
+$$
+{\epsilon}logB_ {nt}^R +{\epsilon}logB_ {it}^L +{\epsilon}logB_ {nit}^I+{\epsilon}log\left(B_ {nit}w_ {it}\right)
+$$
+$${-\epsilon}log\left(\kappa_ {nit} P_ {nt}^\alpha Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- {1/\epsilon} \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
+$$
+$$= {\epsilon}logB_ {nt}^R +{\epsilon}logB_ {it}^L +{\epsilon}logB_ {nit}^I+{\epsilon}log\left(B_ {nit}\right)+{\epsilon}log\left(w_ {it}\right)
+$$
+$$ - \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n  t}^R+ u_ { i t}^L+ u_ {n i t}^I{-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right){-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- {1/\epsilon} \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
+$$
+$$
+={\epsilon}log\left(w_ {it}\right)- {1/\epsilon} \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) - \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ u_ {n i t}^L
+$$
+$$
+{-\epsilon}\alpha log\left( P_ {nt}\right){-\epsilon}\left({1-\alpha}\right)log\left(  Q_ {nt}\right)+{\epsilon}logB_ {nt}^R+ u_ {n  t}^R
+$$
+$$
++{\epsilon}logB_ {nit}^I+u_ {n i t}^I
+$$
+$$
+-\epsilon \phi log \left(d_ {n i t}^W\right)
+$$
+$$
+=\tilde W_ {it}+\tilde B_ {nt}-\epsilon \phi log \left(d_ {n i t}^W\right)+e_{nit}  \qquad(23)
+$$
 

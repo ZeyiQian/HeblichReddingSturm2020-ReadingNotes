@@ -756,11 +756,11 @@ $$
  -\epsilon log \left(\kappa_ {n i t}\right) =- \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n  t}^R+ u_ { i t}^L+ u_ {n i t}^I \qquad(21)
 $$
 where 
-$d_ {n i t}^W$ is our measure of travel time based on our assumed travel speeds ($\delta$) and the observed transport network ($\tilde{s}_ t^{OR}, \tilde{s}_ t^{UR}, \tilde{s}_ t^{OT}$ )
-the composite elasticity $-\epsilon \phi$ captures both the elasticity of commuting flows to commuting costs ($-\epsilon$ ) and the elasticity of commuting costs to travel times ($\phi$)
-$u_ {n i t}^R$ is an unobserved residence component of commuting costs
-$u_ {n i t}^L$ is an unobserved workplace component of commuting costs
-$u_ {n i t}^I$ is an unobserved idiosyncratic component of commuting costs that is specific to individual residence-workplace pairs
+$d_ {n i t}^W$ is our measure of travel time based on our assumed travel speeds ($\delta$) and the observed transport network ($\tilde{s}_ t^{OR}, \tilde{s}_ t^{UR}, \tilde{s}_ t^{OT}$ ),
+the composite elasticity $-\epsilon \phi$ captures both the elasticity of commuting flows to commuting costs ($-\epsilon$ ) and the elasticity of commuting costs to travel times ($\phi$),
+$u_ {n i t}^R$ is an unobserved residence component of commuting costs,
+$u_ {n i t}^L$ is an unobserved workplace component of commuting costs,
+$u_ {n i t}^I$ is an unobserved idiosyncratic component of commuting costs that is specific to individual residence-workplace pairs.
 
 
 *    From equation (5),we can get
@@ -808,6 +808,44 @@ $$
 $$
 =\tilde W_ {it}+\tilde B_ {nt}-\epsilon \phi log \left(d_ {n i t}^W\right)+e_{nit}  \qquad(23)
 $$
-where the workplace fixed effect includes the wage and any workplace component of amenities or commuting costs, as well as the common expected utility in Greater London $\tilde W_ {it}$
-the residence fixed effect includes the prices for goods consumption and residential floor space and any residence component of amenities or commuting costs $\tilde B_ {nt}$
-the error term captures idiosyncratic shocks to bilateral amenities and commuting costs $e_{nit}  $
+where the workplace fixed effect includes the wage and any workplace component of amenities or commuting costs, as well as the common expected utility in Greater London $\tilde W_ {it}$,
+the residence fixed effect includes the prices for goods consumption and residential floor space and any residence component of amenities or commuting costs $\tilde B_ {nt}$,
+the error term captures idiosyncratic shocks to bilateral amenities and commuting costs $e_{nit}  $.
+
+>##### A challenge in estimating equation (23) is that the transport network is endogenous, because overground and underground railways, omnibuses, and trams were operated by private-sector companies.
+>##### Therefore, the sets of points connected to the railway and hence the bilateral travel times ($d_{ni t}^W$) are nonrandom. In particular, bilateral pairs that have more commuters for unobserved reasons in the error term ($u_{nit}$) could have more bilateral transport connections, and hence lower bilateral travel times ($d_{ni t}^W$).
+
+>##### To address this concern, we instrument our bilateral travel times based on the transport network ($d_{ni t}^W$) with our bilateral travel times from a world where walking is assumed to be the only mode of transport (d_{n i}^S), in which case bilateral travel times depend solely on straight-line distance. Conditional on the workplace and residence fixed effects, our identifying assumption is that the unobserved factors that affect commuting in the error term ($u_{nit}$) are orthogonal to the straight-line distance (d_{n i}^S) between locations. 
+*    In our empirical setting, Greater London is relatively homogeneous in terms of other economic and geographic features that could be correlated with straight-line distance, and we provide empirical checks on this identifying assumption below:
+![table1](https://user-images.githubusercontent.com/91390400/138610894-1aab89f3-c51a-47d1-af3a-5a86ff0cee4a.png)
+
+<!--  In Table I, column (1) in the top panel, we begin by estimating
+the gravity equation (23) using OLS. We find an elasticity of
+commuting flows with respect to travel times of around −4.90,
+which is statistically significant at the 1% level, and a regression
+R-squared of more than 0.8. In column (2), we estimate the
+same specification using 2SLS, instrumenting our log bilateral
+travel times with log straight-line distance. We find a somewhat
+larger elasticity of commuting flows with respect to travel times
+of around −5.20, which is again statistically significant at the
+1% level. This marginal increase in the coefficient between the
+OLS and IV specifications suggests that a greater incentive to
+invest in routes with more commuters for unobserved reasons
+in the error term may have been offset by other factors. In
+particular, the historical literature emphasizes the noncooperative behavior of the private-sector railways, and their attempts
+to carve out geographical territories of dominance through a
+proliferation of branch lines. This struggle for areas of geographic
+dominance could have led to overinvestment in routes that were
+less attractive in terms of their unobserved characteristics in
+the error term, thereby resulting in a marginally larger IV coefficient. As shown in the first-stage estimates reported in
+the bottom panel of Table I, we find that travel time increases
+less than proportionately with straight-line distance (with an
+elasticity of 0.43), because railways reduce travel time by more
+over longer straight-line distances. As also shown in this bottom
+panel, straight-line distance is a powerful instrument for travel
+times, with a first-stage F-statistic well above the conventional
+threshold of 10. Consistent with this, we comfortably reject the
+null hypothesis of underidentification in the Kleibergen-Paap
+underidentification test reported in the top panel.-->
+
+*    Using our baseline instrumental variables estimates of the elasticity of commuting flows with respect to travel times ($- \epsilon \phi$) from column (2), we construct measures of the change in commuting costs from the removal of the railway network between our baseline year of $t = 1921$ and an earlier year $\tau \lt t$ t$:

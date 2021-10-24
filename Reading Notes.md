@@ -753,6 +753,11 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 
 *    Assume that bilateral commuting costs are a constant elasticity function of bilateral travel times and a stochastic error for all pairs of boroughs with positive commuting flows:
 $$
- -\epsilon log \kappa_ {n i t} =- \epsilon \phi log d_ {n i t}^W+ u_ {n i t}^R+ u_ {n i t}^L+ u_ {n i t}^I
+ -\epsilon log \left(\kappa_ {n i t})\right =- \epsilon \phi log \left(d_ {n i t}^W)\right+ u_ {n i t}^R+ u_ {n i t}^L+ u_ {n i t}^I
 $$
 where 
+d_ {n i t}^W \\
+-\epsilon \phi
+u_ {n i t}^R
+u_ {n i t}^L
+u_ {n i t}^I

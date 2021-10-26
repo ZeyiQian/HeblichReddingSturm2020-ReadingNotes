@@ -759,10 +759,10 @@ $$
 \frac {\bar{U}}{ \nu}\left(\frac{L_ {\tilde N}}{L_ {\tilde M}}  \right)^{1/\epsilon} =[{\textstyle \sum_ {k \in \tilde N}\sum_ {\ell \in \tilde N}} (B_ {k \ell}w_ {\ell})^{\epsilon}(k_ {k \ell} P_ k^\alpha Q_k^{1-\alpha})^{-\epsilon}]^{1/\epsilon} \qquad(9-1)
 $$
 $$
-\left(\frac {\bar{U}}{ \nu}\right)^\epsilon \left(\frac{L_ {\tilde N}}{L_ {\tilde M}}  \right)^{1/\epsilon} ={\textstyle \sum_ {k \in \tilde N}\sum_ {\ell \in \tilde N}} (B_ {k \ell}w_ {\ell})^{\epsilon}(k_ {k \ell} P_ k^\alpha Q_k^{1-\alpha})^{-\epsilon} \qquad(9-2)
+\left(\frac {\bar{U}}{ \nu}\right)^\epsilon \left(\frac{L_ {\tilde N}}{L_ {\tilde M}}  \right) ={\textstyle \sum_ {k \in \tilde N}\sum_ {\ell \in \tilde N}} (B_ {k \ell}w_ {\ell})^{\epsilon}(k_ {k \ell} P_ k^\alpha Q_k^{1-\alpha})^{-\epsilon} \qquad(9-2)
 $$
 $$
-\epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ {1/\epsilon} \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) =log \left( {\textstyle \sum_ {k \in \tilde N}\sum_ {\ell \in \tilde N}} (B_ {k \ell t}w_ {\ell t})^{\epsilon}(k_ {k \ell t} P_ {kt}^\alpha Q_{kt}^{1-\alpha})^{-\epsilon} \right) \qquad(9-3)
+\epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+  log\left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) =log \left( {\textstyle \sum_ {k \in \tilde N}\sum_ {\ell \in \tilde N}} (B_ {k \ell t}w_ {\ell t})^{\epsilon}(k_ {k \ell t} P_ {kt}^\alpha Q_{kt}^{1-\alpha})^{-\epsilon} \right) \qquad(9-3)
 $$
 *    From equations (6) and (22), we obtain the following gravity equation for the log commuting probability in our baseline year t:
 
@@ -773,14 +773,14 @@ $$
 $$
 {\epsilon}logB_ {nt}^R +{\epsilon}logB_ {it}^L +{\epsilon}logB_ {nit}^I+{\epsilon}log\left(B_ {nit}w_ {it}\right)
 $$
-$${-\epsilon}log\left(\kappa_ {nit} P_ {nt}^\alpha Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- {1/\epsilon} \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
+$${-\epsilon}log\left(\kappa_ {nit} P_ {nt}^\alpha Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- log\left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
 $$
 $$= {\epsilon}logB_ {nt}^R +{\epsilon}logB_ {it}^L +{\epsilon}logB_ {nit}^I+{\epsilon}log\left(B_ {nit}\right)+{\epsilon}log\left(w_ {it}\right)
 $$
-$$ - \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n  t}^R+ u_ { i t}^L+ u_ {n i t}^I{-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right){-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- {1/\epsilon} \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
+$$ - \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n  t}^R+ u_ { i t}^L+ u_ {n i t}^I{-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right){-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
 $$
 $$
-={\epsilon}log\left(w_ {it}\right)- {1/\epsilon} \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) - \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ u_ {n i t}^L
+={\epsilon}log\left(w_ {it}\right)- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) - \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ u_ {n i t}^L
 $$
 $$
 {-\epsilon}\alpha log\left( P_ {nt}\right){-\epsilon}\left({1-\alpha}\right)log\left(  Q_ {nt}\right)+{\epsilon}logB_ {nt}^R+ u_ {n  t}^R
@@ -794,6 +794,7 @@ $$
 $$
 =\tilde W_ {it}+\tilde B_ {nt}-\epsilon \phi log \left(d_ {n i t}^W\right)+e_{nit}  \qquad(23)
 $$
+
 where the workplace fixed effect includes the wage and any workplace component of amenities or commuting costs, as well as the common expected utility in Greater London $\tilde W_ {it}$,
 the residence fixed effect includes the prices for goods consumption and residential floor space and any residence component of amenities or commuting costs $\tilde B_ {nt}$,
 the error term captures idiosyncratic shocks to bilateral amenities and commuting costs $e_{nit}  $.

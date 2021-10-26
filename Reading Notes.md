@@ -806,35 +806,6 @@ the error term captures idiosyncratic shocks to bilateral amenities and commutin
 *    In our empirical setting, Greater London is relatively homogeneous in terms of other economic and geographic features that could be correlated with straight-line distance, and we provide empirical checks on this identifying assumption below:
 ![table1](https://user-images.githubusercontent.com/91390400/138610894-1aab89f3-c51a-47d1-af3a-5a86ff0cee4a.png)
 
-<!--  In Table I, column (1) in the top panel, we begin by estimating
-the gravity equation (23) using OLS. We find an elasticity of
-commuting flows with respect to travel times of around −4.90,
-which is statistically significant at the 1% level, and a regression
-R-squared of more than 0.8. In column (2), we estimate the
-same specification using 2SLS, instrumenting our log bilateral
-travel times with log straight-line distance. We find a somewhat
-larger elasticity of commuting flows with respect to travel times
-of around −5.20, which is again statistically significant at the
-1% level. This marginal increase in the coefficient between the
-OLS and IV specifications suggests that a greater incentive to
-invest in routes with more commuters for unobserved reasons
-in the error term may have been offset by other factors. In
-particular, the historical literature emphasizes the noncooperative behavior of the private-sector railways, and their attempts
-to carve out geographical territories of dominance through a
-proliferation of branch lines. This struggle for areas of geographic
-dominance could have led to overinvestment in routes that were
-less attractive in terms of their unobserved characteristics in
-the error term, thereby resulting in a marginally larger IV coefficient. As shown in the first-stage estimates reported in
-the bottom panel of Table I, we find that travel time increases
-less than proportionately with straight-line distance (with an
-elasticity of 0.43), because railways reduce travel time by more
-over longer straight-line distances. As also shown in this bottom
-panel, straight-line distance is a powerful instrument for travel
-times, with a first-stage F-statistic well above the conventional
-threshold of 10. Consistent with this, we comfortably reject the
-null hypothesis of underidentification in the Kleibergen-Paap
-underidentification test reported in the top panel.-->
-
 *    Using our baseline instrumental variables estimates of the elasticity of commuting flows with respect to travel times ($- \epsilon \phi$) from column (2), we construct measures of the change in commuting costs from the removal of the railway network between our baseline year of $t = 1921$ and an earlier year $\tau \lt t$ :
 $$
 \hat{\mathcal{K}}_ {n i t}=\hat{\kappa}_ {n i t}^{-\epsilon}=\left(\frac{\kappa_ {n i \tau}}{\kappa_ {n i t}}\right)^{-\epsilon}=\left(\frac{d_ {n i \tau}^{W}\left(\tilde S_ {\tau}^{\mathrm{OR}}, \tilde S_ {\tau}^{\mathrm{UR}}, \tilde S_ {\tau}^{\mathrm{OT}}, \boldsymbol{\delta}\right)}{d_ {n i t}^{W}\left(\tilde S_ {t}^{\mathrm{OR}}, \tilde S_ {t}^{\mathrm{UR}}, \tilde S_ {t}^{\mathrm{OT}}, \boldsymbol{\delta}\right)}\right)^{-\epsilon \phi} \qquad(24)

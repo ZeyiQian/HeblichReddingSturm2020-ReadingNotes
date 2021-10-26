@@ -771,13 +771,13 @@ $$
 ={\epsilon}log\left(B_ {nit}w_ {it}\right){-\epsilon}log\left(\kappa_ {nit} P_ {nt}^\alpha Q_ {nt}^{1-\alpha}\right)-log \left( \sum_{k \in \tilde N}\sum_{\ell \in \tilde N}\left(B_{k \ell t}\right)^{\epsilon}\left(\kappa_{k \ell t} P_ {kt}^\alpha Q_{kt}^{1-\alpha}\right)^{-\epsilon}\right)
 $$
 $$
-{\epsilon}logB_ {nt}^R +{\epsilon}logB_ {it}^L +{\epsilon}logB_ {nit}^I+{\epsilon}log\left(B_ {nit}w_ {it}\right)
+={\epsilon}logB_ {nt}^R +{\epsilon}logB_ {it}^L +{\epsilon}logB_ {nit}^I+{\epsilon}log\left(w_ {it}\right)
 $$
 $${-\epsilon}log\left(\kappa_ {nit} P_ {nt}^\alpha Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- log\left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
 $$
-$$= {\epsilon}logB_ {nt}^R +{\epsilon}logB_ {it}^L +{\epsilon}logB_ {nit}^I+{\epsilon}log\left(B_ {nit}\right)+{\epsilon}log\left(w_ {it}\right)
+$$= {\epsilon}logB_ {nt}^R +{\epsilon}logB_ {it}^L +{\epsilon}logB_ {nit}^I+{\epsilon}log\left(w_ {it}\right)
 $$
-$$ - \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n  t}^R+ u_ { i t}^L+ u_ {n i t}^I{-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right){-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
+$$ - \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n  t}^R+ u_ { i t}^L+ u_ {n i t}^I{-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
 $$
 $$
 ={\epsilon}log\left(w_ {it}\right)- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) - \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ u_ {n i t}^L

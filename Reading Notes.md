@@ -514,7 +514,7 @@ $$
 $$
 
  
-According  to (13) and (14),we can simplify $\hat{L}_ {i t}$:
+According  to (13) and (14),we can simplify $\hat{L}_ {i t} {L}_ {i t}$:
 $$
 \hat{L}_ {i t} L_ {i t}=\frac{{L}_ {i  \tau}}{{L}_ {i t}}{L}_ {i t}={L}_ {i  \tau}
 =\sum_ {n \in N} \lambda_ {n i  \tau \mid n}^{R} R_ {n  \tau}= {\sum_ { n \in N}}  \frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}R_ {n \tau}
@@ -547,7 +547,7 @@ $$
 
 cancel from the numerator and denominator of the fractions
 
-According  to (14) and (15),we can simplify $\hat{v}_ {i t}$:
+According  to (14) and (15),we can simplify $\hat{v}_ {i t} {v}_ {i t}$:
 
 $$
 \hat{v}_ {n t}{v}_ {n t}=\frac{{v}_ {n \tau}}{{v}_ {n t}}{v}_ {n t}=\sum_ {n \in N} \lambda_ {n i \tau \mid n}^{R}w_ {i \tau}={\sum_ { n \in N}} {\frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau }^{-\epsilon}}}w_ {i \tau}

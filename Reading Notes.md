@@ -687,6 +687,13 @@ $$
 $$
 =\xi T\left( \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)
 $$
+According to Euler's theorem:Let $f$ be a differentiable function of $n$ variables defined on an open set $S$ for which $\left(t_ {x1}, ..., t_ {xn}\right) \in S $ whenever $0 \lt t$ and $\left(x_1, ..., x_n \right) \in S$. Then $f$ is homogeneous of degree $k$ if and only if 
+$\sum_ {i=1}^n x_ i f\prime_ i \left( x_ 1, ..., x_ {n} \right)=k  f\prime \left( x_ 1, ..., x_ {n} \right)$ 
+for all $\left(x_ 1, ..., x_n \right) \in S$
+So we have
+$$
+\hat{w_ 1}T\prime_ 1+...+\hat{w_ n}T \prime_n=T \prime
+$$
 
 *   From properties (i)-(iv), starting from $\hat w_ {nt} = 0$ for all locations n, and increasing $\hat w_{nt}$ for each location n, there exists a unique value for $\hat w_{nt}$ for which $\hat{Q}_ {t} \tilde{Q}_ {t}=T\left( \mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$  and equation (B.1)&(17) is satisfied.
 *   Using these unique solutions for the relative changes in wages $\hat w_ {nt}$, the unique vector of relative changes in employment ($\mathbf{\hat L}_ {t}$) can be recovered from the commuter market clearing condition in equation (B18) $\hat{L}_ {i t} L_ {i t}$

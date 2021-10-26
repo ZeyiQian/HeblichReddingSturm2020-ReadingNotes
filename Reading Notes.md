@@ -645,7 +645,7 @@ $$
 \lim_{\mathbf{\hat{w}}_ {\mathbf{t}}\to 0} T\left(\mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)= 0
 $$
 
-*  Property (iii): $  T\left(\mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$ is monotonic in the vector of relative changes in wages (\mathbf{\hat{w}}_ {\mathbf{t}}), since:
+*  Property (iii): $  T\left(\mathbf{\hat{w}}_ {\mathbf{t}} ; \mathbf{\hat{\kappa}}_ {\boldsymbol{t}} ; \mathbf{Z}_ {\mathbf{t}}\right)$ is monotonic in the vector of relative changes in wages , since:
 
 $$
 \begin{aligned}

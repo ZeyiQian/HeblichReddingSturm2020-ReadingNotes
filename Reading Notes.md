@@ -788,9 +788,9 @@ $$
 =\tilde W_ {it}+\tilde B_ {nt}-\epsilon \phi log \left(d_ {n i t}^W\right)+e_{nit}  \qquad(23)
 $$
 
-where the workplace fixed effect includes the wage and any workplace component of amenities or commuting costs, as well as the common expected utility in Greater London $\tilde W_ {it}={\epsilon}log\left(w_ {it}\right)+{\epsilon}logB_ {it}^L- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) - \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ u_ {i t}^L$,
-the residence fixed effect includes the prices for goods consumption and residential floor space and any residence component of amenities or commuting costs $\tilde B_ {nt}={-\epsilon}\alpha log\left( P_ {nt}\right){-\epsilon}\left({1-\alpha}\right)log\left(  Q_ {nt}\right)+{\epsilon}logB_ {nt}^R+ u_ {n  t}^R$,
-the error term captures idiosyncratic shocks to bilateral amenities and commuting costs $e_{nit}={\epsilon}logB_ {nit}^I+u_ {n i t}^I  $.
+where the workplace fixed effect includes the wage and any workplace component of amenities or commuting costs, as well as the common expected utility in Greater London ($\tilde W_ {it}={\epsilon}log\left(w_ {it}\right)+{\epsilon}logB_ {it}^L- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) - \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ u_ {i t}^L$),
+the residence fixed effect includes the prices for goods consumption and residential floor space and any residence component of amenities or commuting costs ($\tilde B_ {nt}={-\epsilon}\alpha log\left( P_ {nt}\right){-\epsilon}\left({1-\alpha}\right)log\left(  Q_ {nt}\right)+{\epsilon}logB_ {nt}^R+ u_ {n  t}^R$),
+the error term captures idiosyncratic shocks to bilateral amenities and commuting costs ($e_{nit}={\epsilon}logB_ {nit}^I+u_ {n i t}^I  $).
 
 >##### A challenge in estimating equation (23) is that the transport network is endogenous, because overground and underground railways, omnibuses, and trams were operated by private-sector companies.
 >##### Therefore, the sets of points connected to the railway and hence the bilateral travel times ($d_{ni t}^W$) are nonrandom. In particular, bilateral pairs that have more commuters for unobserved reasons in the error term ($u_{nit}$) could have more bilateral transport connections, and hence lower bilateral travel times ($d_{ni t}^W$).

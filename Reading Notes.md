@@ -516,36 +516,24 @@ $$
  
 According  to (13) and (14),we can simplify $\hat{L}_ {i t}$:
 $$
-\hat{L}_ {i t}={L}_ {i  \tau}/{L}_ {i t}=\frac{\sum_ {n \in N} \lambda_ {n i  \tau \mid n}^{R} R_ {n  \tau}}{\sum_ { n \in N} \lambda_ {n i t \mid n}^{R} R_ {nt}}
+\hat{L}_ {i t} L_ {i t}=\frac{{L}_ {i  \tau}}{{L}_ {i t}}{L}_ {i t}={L}_ {i  \tau}
+=\sum_ {n \in N} \lambda_ {n i  \tau \mid n}^{R} R_ {n  \tau}= {\sum_ { n \in N}}  \frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}R_ {n \tau}
 $$
 $$
-=\frac{\sum_ {n \in N} {\frac{\lambda_ {n i \tau}} {\lambda_ {n \tau}^{R}}} R_ {n \tau}} {{\sum_ { n \in N}}\frac{\lambda_ {n i t}} {\lambda_ {n t}^{R}} R_ {nt}}
+={\sum_ { n \in N}}  \frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}R_ {n \tau}
 $$
 $$
-=\hat R_ {nt} {\sum_ { n \in N}}  \frac{\frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}
-{\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}
+\left(\frac{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}} R_ {n t}\right)
 $$
 $$
-=\hat R_ {nt} {\sum_ { n \in N}}  \left( {\frac{{B}_ {ni \tau}^{\epsilon}{w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\sum_ {\ell \in N}}{\frac{{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\right)
+\left(\frac{ {\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon} R_ {n t}}\right)
 $$
 $$
-=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{ {\sum_ {\ell \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \qquad(18-1)
+= {\sum_ { n \in N}}   {\frac{{B}_ {ni \tau}^{\epsilon}{w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\frac{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\frac{R_ {n \tau}}{R_ {n t}}\lambda_ {n i t \mid n}^{R}{R_ {n t}}
 $$
 $$
-\hat{L}_ {i t} L_ {i t}=
-\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}}  \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}=
-\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18-2)
-$$
-Suppose we have $$\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R}
-=\sum_ {\ell \in N} {\frac{\lambda_ {n \ell t}} {\lambda_ {n t}^{R}}}
-$$
-$$
-=\sum_ {\ell \in N}\frac{{B}_ {n \ell t}^{\epsilon}{w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{\sum_ {h \in N}{B}_ {n h t}^{\epsilon}{w}_ {h t}^{\epsilon} {\kappa}_ {n h t}^{-\epsilon}}=1 \qquad(18-3)
-$$
-
-Then we get:
-$$
-\hat{L}_ {i t} L_ {i t}=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{\sum_ {\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{k} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
+=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}}  \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}=
+\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
 $$
 
 where these equations include terms in changes in wages  and commuting costs but not in amenities, because we assume that the workplace and bilateral components of amenities are

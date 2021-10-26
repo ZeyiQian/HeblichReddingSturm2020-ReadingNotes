@@ -780,7 +780,7 @@ $$
 $$ - \epsilon \phi log \left(d_ {n i t}^W\right)+ u_ {n  t}^R+ u_ { i t}^L+ u_ {n i t}^I{-\epsilon}log\left( P_ {nt}^\alpha\right){-\epsilon}log\left(  Q_ {nt}^{1-\alpha}\right)- \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) 
 $$
 $$
-={\epsilon}log\left(w_ {it}\right)- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) - \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ u_ {n i t}^L
+={\epsilon}log\left(w_ {it}\right)+{\epsilon}logB_ {it}^L- log \left(\frac{L_ {\tilde N t}}{L_ {\tilde M t}}  \right) - \epsilon log\left(\frac {\bar{U}_ t}{ \nu_ t}\right)+ u_ {n i t}^L
 $$
 $$
 {-\epsilon}\alpha log\left( P_ {nt}\right){-\epsilon}\left({1-\alpha}\right)log\left(  Q_ {nt}\right)+{\epsilon}logB_ {nt}^R+ u_ {n  t}^R

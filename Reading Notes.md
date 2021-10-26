@@ -715,7 +715,7 @@ where we have solved for $\hat{w}_ {i t}^\epsilon $ and we observe $(\hat{R}_ {n
 
 *   Not required to make assumptions about other determinants of economic activity
 *   Observed probabilities control for unobserved differences in the level of bilateral commuting costs across residence-workplace pairs
-*   use ($w_{it},L_{it},L_{nit}$) in base line year t and ($\hat w_{it},\hat L_{it},\hat L_{nit}$),we can get ($w_{i \tau},L_{i \tau},L_{ni \tau}$) and t does not equal to τ
+*   use ($w_{it},L_{it},L_{nit}$) in base line year t and ($\hat w_{it},\hat L_{it},\hat L_{nit}$),we can get ($w_{i \tau},L_{i \tau},L_{ni \tau}$) and $t \ne \tau$
 
 #### VI.B. Commuting Probabilities (Step 1)
 >##### we use the observed data on bilateral commuting flows ($L_{nit}$) from the population census in our baseline year t = 1921 to directly compute the following variables in that baseline year:

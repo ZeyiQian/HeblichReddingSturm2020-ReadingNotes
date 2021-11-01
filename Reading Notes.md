@@ -527,19 +527,20 @@ $$
 = {\sum_ { n \in N}}   {\frac{{B}_ {ni \tau}^{\epsilon}{w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\frac{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\frac{R_ {n \tau}}{R_ {n t}}\lambda_ {n i t \mid n}^{R}{R_ {n t}}
 $$
 $$
-= {\sum_ { n \in N}}   {\frac{{B}_ {ni \tau}^{\epsilon}{w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{{\sum_ {\ell \in N}} \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\frac{R_ {n \tau}}{R_ {n t}}\lambda_ {n i t \mid n}^{R}{R_ {n t}}
+= {\sum_ { n \in N}}   {\frac{{B}_ {ni \tau}^{\epsilon}{w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}\left({{\sum_ {\ell \in N}} \frac  { {B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon} }{ {\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}} }\right)^{-1}  \frac{R_ {n \tau}}{R_ {n t}}\lambda_ {n i t \mid n}^{R}{R_ {n t}}
 $$
 $$
 =\sum_ {n \in N}  \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon} 
-{\sum_ {\ell \in N} \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell t}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
+\left({{\sum_ {\ell \in N}} \frac  { {B}_ {n \ell t}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon} }{ {\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}} }\right)^{-1} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
 $$
 $$
 =\sum_ {n \in N}  \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon} 
-{\sum_ {\ell \in N} \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell t}^{\epsilon} {\hat w}_ {\ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon}{\hat \kappa}_ {n \ell t}^{-\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}\hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
+\left({\sum_ {\ell \in N}\frac {{B}_ {n \ell t}^{\epsilon} {\hat w}_ {\ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon}{\hat \kappa}_ {n \ell t}^{-\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}} \right)^{-1}
+\hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
 $$
 $$
 =\sum_ {n \in N}  \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon} 
-{\sum_ {\ell \in N} \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}\frac{1}{{\hat \kappa}_ {n \ell t}^{-\epsilon}{\hat w}_ {\ell t}^{\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
+{\sum_ {\ell \in N}  \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}} \frac{1}{{\hat \kappa}_ {n \ell t}^{-\epsilon}{\hat w}_ {\ell t}^{\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
 $$
 $$
 =\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}}  \lambda_ {n \ell \tau \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}

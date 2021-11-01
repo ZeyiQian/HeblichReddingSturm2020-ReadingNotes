@@ -831,3 +831,119 @@ $$
 >##### In these comparisons, there are several potential sources ofdiscrepancies between the model and data, including the fact thatthis company is located in a specific site in Westminster, whereas the model covers all of that borough.
 ![FIGUREVII](https://user-images.githubusercontent.com/91390400/138611841-dd3c0dff-709d-451d-b97e-607d948edc6b.png)
 
+
+
+
+
+
+
+>#### **VII.B. Productivity and Amenities**
+In this section, the authors recover productivity and amenities for each location.
+
+To recover productivity and amenities, the authors choose an extension of the canonical urban model to incorporate nontraded goods. This framework permits a particularly tractable and transparent approach to estimating the strength of agglomeration forces. It also allows us to undertake counterfactuals for removing the railway network under a range of alternative assumptions about the floor space supply elasticity and the strength of agglomeration forces.
+
+#####  Starting with preferences in equation (3) in the paper, the authors assume that the consumption goods price index ($P_{nt}$) is a Cobb-Douglas function of the price of a homogeneous traded good ($P_{nt}^T$) and of a homogeneous non-traded good ($P_{nt}^N$), as in equation (27):
+$$ P_{nt} = (P_{nt}^T)^{\nu} (P_{nt}^N)^{1-\nu}, \ \ \ \ \ \ \  0< \nu < 1  \qquad(27)$$
+
+<!--
+Note that the marginal utility of consuming the non-traded good converges to infinity as consumption of that good approaches zero, given (27). 
+-->
+ 
+Within Greater London, we assume that the homogeneous traded good is costlessly traded, such that
+$$ P_{nt}^T = P_{t}^T,  \forall n \in N $$
+
+Between Greater London and the rest of Great Britain, the authors allow for changes in trade costs for the traded good, which are reflected in changes in the common price of this good within Greater London ($P_{t}^T$).
+
+The authors assume that both traded and non-traded goods are produced with labor, machinery capital and commercial floor space under *conditions of perfect competition*; and assume for simplicity the same production technology in both sectors. 
+
+For traded production:
+$$ Y_{nt}^T = A_{nt}^T(\frac{L_{nt}^T}{\beta^L} )^{\beta^L}(\frac{H_{nt}^T}{\beta^H} )^{\beta^H}(\frac{M_{nt}^T}{\beta^M} )^{\beta^M } \qquad(28-1)$$
+
+For non-traded production:
+$$ Y_{nt}^N = A_{nt}^N(\frac{L_{nt}^N}{\beta^L} )^{\beta^L}(\frac{H_{nt}^N}{\beta^H} )^{\beta^H}(\frac{M_{nt}^N}{\beta^M} )^{\beta^M } \qquad(28-2)$$
+
+Cost minimization and zero profits imply that payments for labor, commercial floor space, and machinery are constant shares of revenue ($X_{nt}^T=P_{nt}^TY_{nt}^T$, and $X_{nt}^N=P_{nt}^N Y_{nt}^N$):
+
+$$w_{nt} L_{nt}^T= \beta^L X_{nt}^T,  Q_{nt}H_{nt}^T = \beta^H X_{nt}^T,   r_{nt}M_{nt}^T=\beta^M X_{nt}^T \qquad(28-3)$$
+$$ w_{nt} L_{nt}^N= \beta^L X_{nt}^N,  Q_{nt}H_{nt}^N = \beta^H X_{nt}^N,   r_{nt}M_{nt}^N=\beta^M X_{nt}^N \qquad(28-4)$$
+where, $\beta^L+\beta^H+\beta^M=1$;     
+$L_{nt}^T$ and $L_{nt}^N$ denote employment in the traded and non-traded sectors respectively;  
+$X_{nt}^T$ and $X_{nt}^N$ correspond to revenue in the two sectors;   
+$H_{nt}^T$ and $H_{nt}^N$ represent commercial floor space use in the two sectors;   
+$M_{nt}^T$ and $M_{nt}^N$ are machinery inputs in the two sectors;   
+$w_{nt}$ is wages;
+$Q_{nt}$ is the price of floor space;
+$r_{nt}$ is the common price of machinery, and $r_{nt}=r_t$.
+
+Using equations in (28-3) to substitute for employment ($L_{nt}^T$), commercial floor space ($H_{nt}^T$), and machinery inputs($M_{nt}^T$) in traded sector production (28-1):
+$$X_{nt}^T=P_{nt}^TY_{nt}^T$$
+$$=P_{nt}^T A_{nt}^T (\frac{L_{nt}^T}{\beta^L} )^{\beta^L} (\frac{H_{nt}^T}{\beta^H} )^{\beta^H} (\frac{M_{nt}^T}{\beta^M} )^{\beta^M }$$
+$$=P_{nt}^T A_{nt}^T(\frac{w_{nt}^{-1}\beta^L X_{nt}^T}{\beta^L} )^{\beta^L}(\frac{Q_{nt}^{-1}\beta^H X_{nt}^T}{\beta^H} )^{\beta^H}(\frac{r_{nt}^{-1}\beta^M X_{nt}^T}{\beta^M} )^{\beta^M }$$
+$$=P_{nt}^T A_{nt}^T w_{nt}^{-\beta^L}Q_{nt}^{-\beta^H} r_{nt}^{-\beta^M}(X_{nt}^T)^{\beta^L+\beta^H+\beta^M}$$
+
+cancle out $X_{nt}^T$ in both sides, and multiply both sides by $\frac{1}{A_{nt}^T} w_{nt}^{\beta^L}Q_{nt}^{\beta^H} r_{nt}^{\beta^M}$, can get 
+$$P_{nt}^T=\frac{1}{A_{nt}^T} w_{nt}^{\beta^L}Q_{nt}^{\beta^H} r_{nt}^{\beta^M}$$
+also, because $ P_{nt}^T = P_{t}^T$,and $r_{nt}=r_t$,
+$$P_{t}^T=\frac{1}{A_{nt}^T} w_{nt}^{\beta^L}Q_{nt}^{\beta^H} r_{t}^{\beta^M} \qquad(G.12)$$
+
+Doing the same process using (28-2) and (28-4), we can get the zero-profit condition for Non-traded sector for each location is:
+$$P_{nt}^N=\frac{1}{A_{nt}^N} w_{nt}^{\beta^L}Q_{nt}^{\beta^H} r_{t}^{\beta^M} \qquad(G.13)$$
+where, $0< \beta^L, \beta^H, \beta^M <1 $.
+
+Re-arranging the traded zero-profit condition (G.12) to get expression for composite traded productivity:
+
+$$P_{t}^T A_{nt}^T r_{t}^{-\beta^M}= w_{nt}^{\beta^L}Q_{nt}^{\beta^H} $$
+
+composite traded productivity denoted by $\tilde{A}_{nt}^T$ which captures traded productivity ($A_{nt}^T$), the common price of the traded good ($P_{t}^T$), and the common price of machinery ($r_t$), so:
+
+$$ \tilde{A}_{nt}^T = w_{nt}^{\beta^L}Q_{nt}^{\beta^H}  \qquad(28)$$
+where wages ($w_{nt}$) was determined in the baseline quantitative analysis and the price of floor space ($Q_{nt}$) in the previous section.
+
+Taking relative changes over time in (28), the relative change in composite traded productivity for each location is:
+$$ \hat{\tilde{A}}_{nt}^T = \hat{w}_{nt}^{\beta^L} \hat{Q}_{nt}^{\beta^H}  \qquad(G.15)$$
+
+##### Next, the authors use these additional assumptions on preferences, production technology and market structure in the residence choice probabilities in equation (7),to recover a composite measure of changes in amenities.
+
+>Recall equation (7)
+>the probability that a worker lives in residence $n \in N$, conditional on choosing a residence-workplace pair in Greater London:
+$$\lambda_n^R = \frac{R_n}{L_N}=\frac{ \sum_{i \in N}(B_{ni}w_i)^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{ \sum_{k \in N}\sum_{l \in N} (B_{kl}w_l)^{\epsilon}(\kappa_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} \qquad(7-1)$$
+
+>the probability that a worker is employed in workplace $i \in N$, conditional on choosing a residence-workplace pair in Greater London:
+$$ \lambda_n^L = \frac{L_i}{L_N}=\frac{ \sum_{n \in N}(B_{ni}w_i)^{\epsilon}(\kappa_{ni} P_n^\alpha Q_n^{1-\alpha})^{-\epsilon}}{  \sum_{k \in N}\sum_{l \in N}(B_{kl}w_l)^{\epsilon}(\kappa_{kl} P_k^\alpha Q_k^{1-\alpha})^{-\epsilon}} \qquad(7-2)$$
+
+
+Substituting the price index for consumption goods ($P_{nt}$) from equation (27) into these residence choice probabilities:
+$$\lambda_{nt}^R =\frac{ \sum_{l \in N}(B_{nlt}w_{lt})^{\epsilon}(k_{nlt} {(P_{nt}^T)}^{\alpha \nu} {(P_{nt}^N)}^{\alpha (1-\nu)}  Q_n^{1-\alpha})^{-\epsilon}}{ \sum_{k \in N}\sum_{l \in N} (B_{klt}w_{lt})^{\epsilon}(k_{klt} {(P_{kt}^T)}^{\alpha \nu} {(P_{kt}^N)}^{\alpha (1-\nu)} Q_{kt}^{1-\alpha})^{-\epsilon}} \qquad(G.16)$$
+
+Using the assumption that the homogeneous traded good is costlessly traded ($P_{nt}^T = P_{t}^T$), (G.16) can be simplified to:
+
+$$\lambda_{nt}^R =\frac{ \sum_{l \in N}(B_{nlt}w_{lt})^{\epsilon}(k_{nlt}  {(P_{nt}^N)}^{\alpha (1-\nu)}  Q_n^{1-\alpha})^{-\epsilon}}{ \sum_{k \in N}\sum_{l \in N} (B_{klt}w_{lt})^{\epsilon}(k_{klt} {(P_{kt}^N)}^{\alpha (1-\nu)} Q_{kt}^{1-\alpha})^{-\epsilon}} \qquad(G.17)$$
+
+Using (G.13) to substitute for the price of the non-traded good ($P_{nt}^N$) into (G.17):
+
+$$\lambda_{nt}^R =\frac{ \sum_{l \in N}(B_{nlt}w_{lt})^{\epsilon}(\kappa_{nlt}  {(\frac{1}{A_{nt}^N} w_{nt}^{\beta^L}Q_{nt}^{\beta^H} r_{t}^{\beta^M})}^{\alpha (1-\nu)}  Q_n^{1-\alpha})^{-\epsilon}}{ \sum_{k \in N}\sum_{l \in N} (B_{klt}w_{lt})^{\epsilon}(\kappa_{klt} {(\frac{1}{A_{kt}^N} w_{kt}^{\beta^L}Q_{kt}^{\beta^H} r_{t}^{\beta^M})}^{\alpha (1-\nu)} Q_{kt}^{1-\alpha})^{-\epsilon}}$$
+
+$$=\frac{ \sum_{l \in N}B_{nlt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{nlt}^{-\epsilon}  {(A_{nt}^N)^{\epsilon \alpha (1-\nu)} w_{nt}^{-\epsilon \alpha (1-\nu) \beta^L}Q_{nt}^{-\epsilon [\alpha (1-\nu)\beta^H + (1-\alpha)]} r_{t}^{-\epsilon \alpha (1-\nu)\beta^M}} }{ \sum_{k \in N}\sum_{l \in N} B_{klt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{klt}^{-\epsilon} {(A_{kt}^N)^{\epsilon\alpha (1-\nu)} w_{kt}^{-\epsilon\alpha (1-\nu)\beta^L} Q_{kt}^{-\epsilon[\alpha (1-\nu)\beta^H)+(1-\alpha)]} r_{t}^{-\epsilon\alpha (1-\nu)\beta^M}} } $$
+
+
+$$=\frac{ \sum_{l \in N}B_{nlt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{nlt}^{-\epsilon}  {(A_{nt}^N)^{\epsilon \alpha (1-\nu)} w_{nt}^{-\epsilon \alpha (1-\nu) \beta^L}Q_{nt}^{-\epsilon [\alpha (1-\nu)\beta^H + (1-\alpha)]} } }{ \sum_{k \in N}\sum_{l \in N} B_{klt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{klt}^{-\epsilon} {(A_{kt}^N)^{\epsilon\alpha (1-\nu)} w_{kt}^{-\epsilon\alpha (1-\nu)\beta^L} Q_{kt}^{-\epsilon[\alpha (1-\nu)\beta^H)+(1-\alpha)]} } }  \qquad(G.18)$$
+
+
+re-arranging the zero-profit condition for the traded sector (G.12):
+$$w_{nt}=[P_{t}^T A_{nt}^T Q_{nt}^{-\beta^H} r_{t}^{-\beta^M}]^{\frac{1}{\beta^L} } \qquad(G.12-1)$$
+
+Using (G.12-1) to substitute for the wage by residence ($w_{nt}$ in the numerator and $w_{kt}$ in the denominator) in (G.18):
+
+$$\lambda_{nt}^R=\frac{ \sum_{l \in N}B_{nlt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{nlt}^{-\epsilon}  {(A_{nt}^N)^{\epsilon \alpha (1-\nu)} {[P_{t}^T A_{nt}^T Q_{nt}^{-\beta^H} r_{t}^{-\beta^M}]^{\frac{-\epsilon \alpha (1-\nu) \beta^L}{\beta^L} }}Q_{nt}^{-\epsilon [\alpha (1-\nu)\beta^H + (1-\alpha)]} } }{ \sum_{k \in N}\sum_{l \in N} B_{klt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{klt}^{-\epsilon} {(A_{kt}^N)^{\epsilon\alpha (1-\nu)} {[P_{t}^T A_{kt}^T Q_{kt}^{-\beta^H} r_{t}^{-\beta^M}]^{\frac{-\epsilon\alpha (1-\nu)\beta^L}{\beta^L} }} Q_{kt}^{-\epsilon[\alpha (1-\nu)\beta^H)+(1-\alpha)]} } }$$
+
+$$=\frac{ \sum_{l \in N}B_{nlt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{nlt}^{-\epsilon}  {(A_{nt}^N)^{\epsilon \alpha (1-\nu)} {(P_{t}^T)}^{-\epsilon \alpha (1-\nu)  } (A_{nt}^T)^{-\epsilon \alpha (1-\nu)  } Q_{nt}^{\epsilon \alpha (1-\nu)\beta^H} r_{t}^{\epsilon \alpha (1-\nu)\beta^M}Q_{nt}^{-\epsilon [\alpha (1-\nu)\beta^H + (1-\alpha)]} } }{\sum_{k \in N}\sum_{l \in N} B_{klt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{klt}^{-\epsilon} {(A_{kt}^N)^{\epsilon\alpha (1-\nu)} (P_{t}^T)^{-\epsilon \alpha (1-\nu) } (A_{kt}^T)^{-\epsilon \alpha (1-\nu) } Q_{kt}^{\epsilon \alpha (1-\nu) \beta^H} r_{t}^{\epsilon \alpha (1-\nu) \beta^M}}Q_{kt}^{-\epsilon[\alpha (1-\nu)\beta^H)+(1-\alpha)]}}$$
+
+$$=\frac{ \sum_{l \in N}B_{nlt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{nlt}^{-\epsilon}  (A_{nt}^N)^{\epsilon \alpha (1-\nu)}  (A_{nt}^T)^{-\epsilon \alpha (1-\nu)  } Q_{nt}^{-\epsilon (1-\alpha)} }{\sum_{k \in N}\sum_{l \in N} B_{klt}^{\epsilon}w_{lt}^{\epsilon}\kappa_{klt}^{-\epsilon} (A_{kt}^N)^{\epsilon\alpha (1-\nu)}  (A_{kt}^T)^{-\epsilon \alpha (1-\nu) }  Q_{kt}^{-\epsilon(1-\alpha)}} \qquad(G.19)$$
+
+
+Using equation (5): $ B_{nit} = B_{nt}^R B_{it}^L B_{nit}^I $ to decompose bilateral amenities ($B_{nit}$)in (G.19):
+$$\lambda_{nt}^R=\frac{ \sum_{l \in N}(B_{nt}^R B_{lt}^L B_{nlt}^I)^{\epsilon}w_{lt}^{\epsilon}\kappa _{nlt}^{-\epsilon}  (A_{nt}^N)^{\epsilon \alpha (1-\nu)}  (A_{nt}^T)^{-\epsilon \alpha (1-\nu)  } Q_{nt}^{-\epsilon (1-\alpha)} }{\sum_{k \in N}\sum_{l \in N} (B_{kt}^R B_{lt}^L B_{klt}^I)^{\epsilon}w_{lt}^{\epsilon}\kappa_{klt}^{-\epsilon} (A_{kt}^N)^{\epsilon\alpha (1-\nu)}  (A_{kt}^T)^{-\epsilon \alpha (1-\nu) }  Q_{kt}^{-\epsilon(1-\alpha)}} \qquad(G.20)$$
+
+Defining a measure of residents’ commuting market access ($RMA_n$) as:
+
+$$RMA_{nt} \equiv  [\sum_{l \in N} (B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nl}^{-\epsilon } ]^{\frac{1}{\epsilon } } \qquad(G.21)$$

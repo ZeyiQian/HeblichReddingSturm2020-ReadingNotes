@@ -515,6 +515,7 @@ $$
 
  
 According  to (13) and (14),we can simplify $\hat{L}_ {i t} {L}_ {i t}$:
+
 $$
 \hat{L}_ {i t} L_ {i t}=\frac{{L}_ {i  \tau}}{{L}_ {i t}}{L}_ {i t}={L}_ {i  \tau}
 =\sum_ {n \in N} \lambda_ {n i  \tau \mid n}^{R} R_ {n  \tau}= {\sum_ { n \in N}}  \frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau }^{-\epsilon} }{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}R_ {n \tau}
@@ -526,12 +527,27 @@ $$
 = {\sum_ { n \in N}}   {\frac{{B}_ {ni \tau}^{\epsilon}{w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{\frac{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\frac{R_ {n \tau}}{R_ {n t}}\lambda_ {n i t \mid n}^{R}{R_ {n t}}
 $$
 $$
-=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}}  \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}=
-\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18-1)
+= {\sum_ { n \in N}}   {\frac{{B}_ {ni \tau}^{\epsilon}{w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon}{w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}}{{\sum_ {\ell \in N}} \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\frac{R_ {n \tau}}{R_ {n t}}\lambda_ {n i t \mid n}^{R}{R_ {n t}}
 $$
 $$
-=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18-2)
+=\sum_ {n \in N}  \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon} 
+{\sum_ {\ell \in N} \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell t}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau}^{-\epsilon}}}\hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
 $$
+$$
+=\sum_ {n \in N}  \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon} 
+{\sum_ {\ell \in N} \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell t}^{\epsilon} {\hat w}_ {\ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon}{\hat \kappa}_ {n \ell t}^{-\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}\hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
+$$
+$$
+=\sum_ {n \in N}  \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon} 
+{\sum_ {\ell \in N} \frac {{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}}\frac{1}{{\hat \kappa}_ {n \ell t}^{-\epsilon}{\hat w}_ {\ell t}^{\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
+$$
+$$
+=\sum_ {n \in N} \frac{ \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}}  \lambda_ {n \ell \tau \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} \lambda_ {n i t \mid n}^{R}R_{n t}
+$$
+$$
+=\sum_ {n \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{R} _ {n t} R_{n t} \qquad(18)
+$$
+
 where these equations include terms in changes in wages  and commuting costs but not in amenities, because we assume that the workplace and bilateral components of amenities are
 constant 
 

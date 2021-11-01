@@ -575,10 +575,7 @@ $$
 ={\sum_ { n \in N}} \frac{{B}_ {ni \tau}^{\epsilon} {w}_ {i \tau}^{\epsilon} {\kappa}_ {n i \tau}^{-\epsilon}}{{B}_ {nit}^{\epsilon} {w}_ {it}^{\epsilon} {\kappa}_ {n i t}^{-\epsilon}}\frac{{\sum_ {\ell \in N}}{B}_ {n \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {n \ell t}^{-\epsilon}}{{\sum_ {\ell \in N}}{B}_ {n \ell \tau}^{\epsilon} {w}_ {\ell \tau}^{\epsilon} {\kappa}_ {n \ell \tau }^{-\epsilon}}\frac{w_ {i \tau}}{w_ {it}}\lambda_ {n i t \mid n}^{R}w_{it}
 $$
 $$
-={\sum_ { i \in N}} \frac{\lambda_{n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{ {\sum_ {\ell \in N}}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_{i t}\qquad(19-1)
-$$
-$$
-={\sum_ { i \in N}} \frac{\lambda_ {n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_{i t} \qquad(19-2)
+={\sum_ { i \in N}} \frac{\lambda_ {n i t \mid n}^{R} \hat{w} _ {i t}^{\epsilon} \hat{\kappa} _ {n i t}^{-\epsilon}}{\sum_{\ell \in N} \lambda_ {n \ell t \mid n}^{R} \hat{w} _ {\ell t}^{\epsilon} \hat{\kappa}_ {n \ell t}^{-\epsilon}} \hat{w}_ {i t} w_{i t} \qquad(19)
 $$
 
 Put (18) and (19) into (17), we have (20):

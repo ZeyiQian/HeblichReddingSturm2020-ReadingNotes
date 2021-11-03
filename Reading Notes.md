@@ -1149,3 +1149,12 @@ Table II reports the estimation results: columns (1) and (2) report the results 
 There is an upward bias in the estimated residential elasticity ($\eta^R$) and an upward bias in the estimated production elasticity ($\eta^L$) using OLS.
 
 ![](https://raw.githubusercontent.com/Li-Shen-Clark/image/main/table2.png)
+
+
+
+
+
+*****
+We undertake these counterfactuals under a range of alternative assumptions about the floor space supply elasticity ($\mu$) and the strength of agglomeration forces ($\eta ^{L},\eta ^{R}$).
+
+Given a change in commuting costs ($\hat {\kappa}_ {n i t}^{-\epsilon}$) from the removal of parts of the railway network and the observed values of variables ($\tilde Q_{nt}, \lambda_ {nt}^L, \lambda_ {nt}^R, \overline L_ t, \lambda_ {n i t \mid n}^{R}, \lambda_ {nit}, w_ {it}$) in our initial equilibrium in year $t = 1921$, we solve for counterfactual changes in the following five endogenous variables: (i) the workplace choice probability ($\hat \lambda_ {nt}^L$); (ii) the residence choice probability ($\hat \lambda_ {nt}^R)$; (iii) the price of floor space ($\hat Q_ {nt}$); (iv) the wage ( $\hat w_ {nt}$); (v) total city employment ($\hat L_{\tilde N t}$).

@@ -838,7 +838,27 @@ $$
 
 
 >#### **VII.B. Productivity and Amenities**
-In this section, the authors recover productivity and amenities for each location.
+>N
+>O
+>T
+>E
+>!
+>N
+>O
+>T
+>E 
+>! 
+>Note that since many symbols are missing from Markdown system, you need to put the code into laTex to display it. In this section, the authors recover productivity and amenities for each location.
+>N
+>O
+>T
+>E
+>!
+>N
+>O
+>T
+>E
+>! 
 
 To recover productivity and amenities, the authors choose an extension of the canonical urban model to incorporate nontraded goods. This framework permits a particularly tractable and transparent approach to estimating the strength of agglomeration forces. It also allows us to undertake counterfactuals for removing the railway network under a range of alternative assumptions about the floor space supply elasticity and the strength of agglomeration forces.
 

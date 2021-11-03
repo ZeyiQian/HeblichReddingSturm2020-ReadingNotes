@@ -837,7 +837,7 @@ $$
 
 
 
->#### **VII.B. Productivity and Amenities**
+
 >#### **N**
 >#### **O**
 >#### **T**
@@ -860,10 +860,66 @@ $$
 >#### **E**
 >#### **!**
 
+### VII. Profuctivity, Amenities, and the Supply of Floor Space
+In this section, the authors consider one theoretical model to explicitly recover productivity, amenities, and the supply of floor space and to examine the implications of the findings for the strength of agglomeration forces. In particular, the authors choose an extension of **the canonical urban model** to incorporate non-traded goods. This framework permits a particularly tractable and transparent approach to recovering productivity and amenities and estimating the strength of agglomeration forces. 
+>#### **N**
+>#### **O**
+>#### **T**
+>#### **E**
+>#### **!**
+>#### **N**
+>#### **O**
+>#### **T**
+>#### **E** 
+>#### **!** 
+>#### **Note that since many symbols are missing from Markdown system, you need to put the code into laTex to display it. In this section, the authors recover productivity and amenities for each location.**
+>#### **N**
+>#### **O**
+>#### **T**
+>#### **E**
+>#### **!**
+>#### **N**
+>#### **O**
+>#### **T**
+>#### **E**
+>#### **!**
+>#### **VII.A. Supply of Floor Space**
+In this section, the authors separate rateable values into the price and supply of floor space.
+
+##### Two assumptions:
+**1) the authors assume no arbitrage between commercial and residential floor space: $q_{nt}=Q_{nt}$.**
+Hence, the rateable values (from (16)) can be written as:
+$$\tilde{Q}_{nt} = Q_{nt}H_{nt}^R+q_{nt}H_{nt}^L= Q_{nt}H_{nt} \qquad(G.1)$$
+
+**2) the authors model the supply of floor space ($H_{nt}$) as depending on geographical land area ($K_n$) and a constant elasticity function of the price of floor space ($Q_{nt}$)：**
+$$H_{nt}=h Q_{nt}^{\mu} K_n  \qquad(G.2)$$
+where, $h$ is a constant;   
+$\mu \ge 0$ is the floor space supply elasticity; and $\mu = 0$ corresponds to the special case of a perfectly inelastic supply of floor space.
+Note that the authors set the floor space supply elasticity in the model to the **median value** of these floor space supply elasticities across this subset of boroughs in the data ($\mu = 1.83$).
+
+Substituting this supply function for floor space (G.2) into our expression for rateable values (G.1), we obtain:
+$$ \tilde{Q}_{nt} = Q_{nt}h Q_{nt}^{\mu} K_n = h K_n Q_{nt}^{\mu +1} \qquad(G.3)$$
+
+Re-arranging (G.3), we obtain the closed-form expression for the price of floor space:
+$$ Q_{nt} = (\frac{\tilde{Q}_{nt}}{h K_n} )^{\frac{1}{1+\mu} } \qquad(26-1)$$
+
+Substituting (26-1) into (G.2), we obtain the closed-form expression for the supply of floor space:
+$$ H_{nt}=h K_n (\frac{\tilde{Q}_{nt}}{h K_n} )^{\frac{\mu}{1+\mu} } \qquad(26-2)$$
+
+Taking relative changes over time in equations (26-1) and (26-2)can obtain the relative changes in the price of floor space ($Q_{nt}$) and the supply of floor space ($H_{nt}$):
+
+$$\hat{Q} _{nt}=\hat{\tilde{Q}}_{nt}^{\frac{1}{1+\mu} }$$
+$$\hat{H}_{nt}=\hat{\tilde{Q}}_{nt}^{\frac{\mu}{1+\mu} }$$
+
+
+>#### **VII.B. Productivity and Amenities**
+In this section, the authors recover productivity and amenities for each location.
+
 To recover productivity and amenities, the authors choose an extension of the canonical urban model to incorporate nontraded goods. This framework permits a particularly tractable and transparent approach to estimating the strength of agglomeration forces. It also allows us to undertake counterfactuals for removing the railway network under a range of alternative assumptions about the floor space supply elasticity and the strength of agglomeration forces.
 
 #####  Starting with preferences in equation (3) in the paper, the authors assume that the consumption goods price index ($P_{nt}$) is a Cobb-Douglas function of the price of a homogeneous traded good ($P_{nt}^T$) and of a homogeneous non-traded good ($P_{nt}^N$), as in equation (27):
-$$ P_{nt} = (P_{nt}^T)^{\nu} (P_{nt}^N)^{1-\nu}, \ \ \ \ \ \ \  0< \nu < 1  \qquad(27)$$
+$$ P_{nt} = (P_{nt}^T)^{\nu} (P_{nt}^N)^{1-\nu}  \qquad(27)$$
+where, $\nu$ is the traded goods expenditure share, and $0< \nu < 1$.
 
 <!--
 Note that the marginal utility of consuming the non-traded good converges to infinity as consumption of that good approaches zero, given (27). 
@@ -966,4 +1022,130 @@ $$\lambda_{nt}^R=\frac{ \sum_{l \in N}(B_{nt}^R B_{lt}^L B_{nlt}^I)^{\epsilon}w_
 
 Defining a measure of residents’ commuting market access ($RMA_n$) as:
 
-$$RMA_{nt} \equiv  [\sum_{l \in N} (B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nl}^{-\epsilon } ]^{\frac{1}{\epsilon } } \qquad(G.21)$$
+$$RMA_{nt} \equiv  [\sum_{l \in N} (B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nlt}^{-\epsilon } ]^{\frac{1}{\epsilon } } \qquad(G.21)$$
+
+and a measure of composite residential amenities as:
+
+$$\tilde{B}_{nt} = B_{nt}^R (A_{nt}^N)^{ \alpha (1-\nu)}  (A_{nt}^T)^{-\alpha (1-\nu)  } \qquad(G.22)$$
+
+We can further re-write the residence choice probabilities in (G.20) as:
+$$ \lambda_{nt}^R=\frac{ (B_{nt}^R)^{\epsilon} (A_{nt}^N)^{\epsilon \alpha (1-\nu)}  (A_{nt}^T)^{-\epsilon \alpha (1-\nu)  } Q_{nt}^{-\epsilon (1-\alpha)}\sum_{l \in N}( B_{lt}^L B_{nlt}^I)^{\epsilon}w_{lt}^{\epsilon}\kappa _{nlt}^{-\epsilon}  }{\sum_{k \in N} (B_{kt}^R)^{\epsilon}(A_{kt}^N)^{\epsilon\alpha (1-\nu)}  (A_{kt}^T)^{-\epsilon \alpha (1-\nu) }  Q_{kt}^{-\epsilon(1-\alpha)}\sum_{l \in N} ( B_{lt}^L B_{klt}^I)^{\epsilon}w_{lt}^{\epsilon}\kappa_{klt}^{-\epsilon} }$$
+
+$$=\frac{ \tilde{B}_{nt}^{\epsilon} Q_{nt}^{-\epsilon (1-\alpha)}RMA_{nt}^{\epsilon} }{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} } \qquad(G.23)$$
+
+The change in residents’ commuting market access is:
+$$\widehat{RMA}_{nt} =\frac{RMA_{n\tau}}{RMA_{nt}} $$
+$$=\left [   \frac{\sum_{l \in N} (B_{l\tau}^L B_{nl\tau}^I)^{\epsilon }w_{l\tau}^{\epsilon } \kappa_{nl\tau}^{-\epsilon } }{\sum_{l \in N} (B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nlt}^{-\epsilon } }\right ]^{\frac{1}{\epsilon } } $$
+$$=\left [   \frac{\sum_{l \in N} (B_{nt}^R B_{lt}^L B_{nlt}^I)^{\epsilon }w_{l\tau}^{\epsilon } \kappa_{nl\tau}^{-\epsilon } }{\sum_{l \in N} (B_{nt}^R  B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nlt}^{-\epsilon } }\right ]^{\frac{1}{\epsilon } } $$
+$$=\left [   \sum_{l \in N} \frac{ (B_{nt}^R B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nlt}^{-\epsilon } \hat{w}_{lt}^{\epsilon } \hat{\kappa}_{nlt}^{-\epsilon }}{\sum_{l \in N} (B_{nt}^R  B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nlt}^{-\epsilon } }\right ]^{\frac{1}{\epsilon } }$$
+$$=\left [   \sum_{l \in N} \frac{ (B_{nt}^R B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nlt}^{-\epsilon } }{\sum_{l \in N} (B_{nt}^R  B_{lt}^L B_{nlt}^I)^{\epsilon }w_{lt}^{\epsilon } \kappa_{nlt}^{-\epsilon } } \hat{w}_{lt}^{\epsilon } \hat{\kappa}_{nlt}^{-\epsilon }\right ]^{\frac{1}{\epsilon } }  $$
+$$=\left [   \sum_{l \in N} \lambda_{nlt\mid n}^R  \hat{w}_{lt}^{\epsilon } \hat{\kappa}_{nlt}^{-\epsilon }\right ]^{\frac{1}{\epsilon } } \qquad(29-1)$$
+
+where, the authors assume constant workplace and idiosyncratic components of amenities: $\hat{B}_{lt}^L=1$ and $\hat{B}_{nlt}^I=1$. 
+
+The changes in composite amenities:
+$$\hat{\tilde{B}}_{nt}  \equiv \hat{B}_{nt}^R (\hat{A}_{nt}^N)^{ \alpha (1-\nu)}  (\hat{A}_{nt}^T)^{-\alpha (1-\nu)  } \qquad(29-2)$$
+
+In relative changes, we can re-write the residence choice probabilities as:
+
+$$\hat{\lambda}_{nt}^R \lambda_{nt}^R=\frac{\lambda_{n \tau}^R}{\lambda_{nt}^R} \lambda_{nt}^R =\lambda_{n \tau}^R$$
+
+$$=\frac{ \tilde{B}_{n\tau}^{\epsilon} Q_{n\tau}^{-\epsilon (1-\alpha)}RMA_{n\tau}^{\epsilon} }{\sum_{k \in N} \tilde{B}_{k\tau}^{\epsilon}  Q_{k\tau}^{-\epsilon(1-\alpha)}RMA_{k\tau}^{\epsilon} }$$
+
+$$=[ \frac{ \tilde{B}_{n\tau}^{\epsilon} Q_{n\tau}^{-\epsilon (1-\alpha)}RMA_{n\tau}^{\epsilon} }{\sum_{k \in N} \tilde{B}_{k\tau}^{\epsilon}  Q_{k\tau}^{-\epsilon(1-\alpha)}RMA_{k\tau}^{\epsilon} } ][ \frac{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} }{\tilde{B}_{nt}^{\epsilon} Q_{nt}^{-\epsilon (1-\alpha)}RMA_{nt}^{\epsilon} }][ \frac{ \tilde{B}_{nt}^{\epsilon} Q_{nt}^{-\epsilon (1-\alpha)}RMA_{nt}^{\epsilon} }{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} }]$$
+
+$$=[ \frac{ \tilde{B}_{n\tau}^{\epsilon} Q_{n\tau}^{-\epsilon (1-\alpha)}RMA_{n\tau}^{\epsilon} }{\tilde{B}_{nt}^{\epsilon} Q_{nt}^{-\epsilon (1-\alpha)}RMA_{nt}^{\epsilon} } ][ \frac{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} }{\sum_{k \in N} \tilde{B}_{k\tau}^{\epsilon}  Q_{k\tau}^{-\epsilon(1-\alpha)}RMA_{k\tau}^{\epsilon} }][ \frac{ \tilde{B}_{nt}^{\epsilon} Q_{nt}^{-\epsilon (1-\alpha)}RMA_{nt}^{\epsilon} }{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} }]$$
+
+$$= \hat{\tilde{B}}_{nt}^{\epsilon} \hat{Q}_{nt}^{-\epsilon (1-\alpha)} \widehat{RMA}_{nt}^{\epsilon} \lambda_{nt}^R     \underbrace{\frac{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} }{\sum_{k \in N} \tilde{B}_{k\tau}^{\epsilon}  Q_{k\tau}^{-\epsilon(1-\alpha)}RMA_{k\tau}^{\epsilon} }}_{F} \qquad(29-3)$$
+
+To solve part F in (29-3):
+$$\frac{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} }{\sum_{k \in N} \tilde{B}_{k\tau}^{\epsilon}  Q_{k\tau}^{-\epsilon(1-\alpha)}RMA_{k\tau}^{\epsilon} }$$
+
+$$=\left [ \frac{\sum_{k \in N} \tilde{B}_{k\tau}^{\epsilon}  Q_{k\tau}^{-\epsilon(1-\alpha)}RMA_{k\tau}^{\epsilon}}{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} } \right ]^{-1}$$
+
+$$= \left [ \sum_{k \in N} \frac{ \frac{\tilde{B}_{k\tau}^{\epsilon}}{\tilde{B}_{kt}^{\epsilon}} \tilde{B}_{kt}^{\epsilon}  \frac{Q_{k\tau}^{-\epsilon(1-\alpha)}}{Q_{kt}^{-\epsilon(1-\alpha)}} Q_{kt}^{-\epsilon(1-\alpha)}\frac{RMA_{k\tau}^{\epsilon}}{RMA_{kt}^{\epsilon}}  RMA_{kt}^{\epsilon}}{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} } \right ]^{-1}$$
+
+$$= \left [ \sum_{k \in N} \frac{ \tilde{B}_{kt}^{\epsilon}   Q_{kt}^{-\epsilon(1-\alpha)} RMA_{kt}^{\epsilon}}{\sum_{k \in N} \tilde{B}_{kt}^{\epsilon}  Q_{kt}^{-\epsilon(1-\alpha)}RMA_{kt}^{\epsilon} } \hat{\tilde{B}}_{kt}^{\epsilon} \hat{Q}_{kt}^{-\epsilon (1-\alpha)} \widehat{RMA}_{kt}^{\epsilon} \right ]^{-1}$$
+
+$$=  \left [ \sum_{k \in N} \lambda_{kt}^R  \hat{\tilde{B}}_{kt}^{\epsilon} \hat{Q}_{kt}^{-\epsilon (1-\alpha)} \widehat{RMA}_{kt}^{\epsilon} \right ]^{-1}$$
+
+So:
+
+$$\hat{\lambda}_{nt}^R \lambda_{nt}^R=\frac{\lambda_{nt}^R  \hat{\tilde{B}}_{nt}^{\epsilon} \hat{Q}_{nt}^{-\epsilon (1-\alpha)} \widehat{RMA}_{nt}^{\epsilon} }{ \sum_{k \in N} \lambda_{kt}^R  \hat{\tilde{B}}_{kt}^{\epsilon} \hat{Q}_{kt}^{-\epsilon (1-\alpha)} \widehat{RMA}_{kt}^{\epsilon} } \qquad(29)$$
+
+Notes: The baseline year of $t=1921$, and $\tau = 1831 <t$;   
+The authors use equation (29) to solve for a unique vector of changes in composite amenities $\hat{\tilde{B}}_{nt}$ up to a normalization or choice of units.
+
+
+
+
+<!--
+
+>#### **Model-Based Decompositions**
+In this section, the authors use these solutions for the supply of the floor space, productivity and amenities to decompose the observed reorganization of economic activity in Greater London into the contributions of changes in commuting costs and changes in each of these other determinants of economic activity.
+
+-->
+
+>#### **VII.. Agglomeration Forces**
+In this section, the authors separate changes in productivity and amenities into the contributions of agglomeration forces and changes in locational fundamentals.
+
+##### The authors assume that composite traded productivity $\tilde{A}_{nt}^T$ depends on production fundamentals and production externalities.
+
+$$ \tilde{A}_{nt}^T = \left ( \frac{L_{nt}}{K_n}  \right ) ^{\eta^L } a_{nt} \qquad(G.37)$$
+
+where, $a_{nt}$ is production fundamentals capturing features of physical geography (e.g. access to natural water);  
+Production externalities are assumed to be a constant elasticity function of workplace employment density ($\frac{L_{nt}}{K_n}$);  
+$K_n$ is geographical land area;     
+$\eta^L$ is production elasticity; 
+The authors focus on a borough’s own workplace employment density.
+
+##### The authors assume that composite residential amenities $\tilde{B}_{nt}$ depend on residential fundamentals and residential externalities.
+
+$$ \tilde{B}_{nt}= \left ( \frac{R_{nt}}{K_n}  \right ) ^{\eta^R } b_{nt} \qquad(G.38)$$
+
+where, $b_{nt}$ is residential fundamentals capturing features of physical geography (e.g. green areas);  
+Residential externalities are assumed to be a constant elasticity function of residence employment density ($\frac{R_{nt}}{K_n}$);    
+$\eta^R$ is residential elasticity;    
+The authors focus on a borough’s own residence employment density.
+
+Taking logarithms in equation (G.37):
+$$ ln \tilde{A}_{nt}^T = \eta^L ( ln L_{nt} - ln K_n) + ln a_{nt} $$
+
+differencing between an earlier year $\tau < t$ and the baseline year of $t = 1921$:
+$$ln \tilde{A}_{n \tau}^T-ln \tilde{A}_{nt}^T= \eta^L  ln L_{n \tau} - \eta^L ln K_n + ln a_{n \tau} - \eta^L  ln L_{n t} + \eta^L ln K_n - ln a_{nt}$$ 
+
+$$=\eta^L  ln L_{n \tau}- \eta^L  ln L_{n t} + ln a_{n \tau}- ln a_{nt}$$
+
+Re-arrange it to get:
+$$ ln \hat{\tilde{A}}_{nt}^T = \eta^L ln \hat{L}_{n t} + ln \hat{a}_{nt} \qquad(30-1)$$
+
+in the paper:
+$$ ln \hat{\tilde{A}}_{nt}^T = \varsigma^L+\eta^L ln \hat{L}_{n t} + ln \hat{a}_{nt} \qquad(30)$$
+
+where, $\varsigma^L$ is constant that control for any factors that are common across all locations within Greater London, such as common changes in productivity, or changes in expected utility in the wider economy;    
+$ln \hat{a}_{nt}$ captures idiosyncratic shocks to production fundamentals.
+
+Similarly, taking logarithms in equation (G.38):
+
+$$ ln \tilde{B}_{nt} = \eta^R ( ln R_{nt} - ln K_n) + ln b_{nt} $$
+
+differencing between an earlier year $\tau < t$ and the baseline year of $t = 1921$:
+$$ln \tilde{B}_{n \tau}-ln \tilde{B}_{nt}= \eta^R  ln R_{n \tau} - \eta^R ln K_n + ln b_{n \tau} - \eta^R  ln R_{n t} + \eta^R ln K_n - ln b_{nt}$$ 
+
+Re-arrange it to get:
+$$ ln \hat{\tilde{B}}_{nt} = \eta^R ln \hat{R}_{n t} + ln \hat{b}_{nt} \qquad(31-1)$$
+in the paper:
+$$ ln \hat{\tilde{B}}_{nt} = \varsigma^R+\eta^R ln \hat{R}_{n t} + ln \hat{b}_{nt} \qquad(31)$$
+
+where, $\varsigma^R$ is constant that control for any factors that are common across all locations within Greater London, such as common changes in amenities, or changes in expected utility in the wider economy;    
+$ln \hat{b}_{nt}$ captures idiosyncratic shocks to residential fundamentals.
+
+>##### A key challenge in estimating the strength of agglomeration forces ($\varsigma^L,\varsigma^R $) in equations (30) and (31) is that workplace and residence employment are endogenous to productivity and amenities. 
+
+To address this challenge, the authors use the quasi-experimental variation from the invention of the steam railway. In particular, the authors estimate equations (30) and (31) using 2SLS, instrumenting the log changes in workplace and residence employment with indicator variables for 5 km distance grid cells from the Guildhall, where the excluded category is locations more than 20 km away.
+
+Table II reports the estimation results: columns (1) and (2) report the results using OLS; columns (3) and (4) show the results using 2SLS. IV estimates are smaller than OLS estimates
+
+There is an upward bias in the estimated residential elasticity ($\eta^R$) and an upward bias in the estimated production elasticity ($\eta^L$) using OLS.
+
+![](https://raw.githubusercontent.com/Li-Shen-Clark/image/main/table2.png)

@@ -1178,3 +1178,8 @@ $$
 $$
 \hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
 $$
+
+
+$$
+\left(\frac{\hat{L}_ {N t} L_ {N t}}{L_ {Mt}}\right)^{\frac{1}{\epsilon}}=\left[\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon(1-\alpha)}\right]^{\frac{1}{\epsilon}}\qquad(H.5)
+$$

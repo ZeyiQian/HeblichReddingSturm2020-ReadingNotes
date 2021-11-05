@@ -1183,3 +1183,9 @@ $$
 $$
 \left(\frac{\hat{L}_ {N t} L_ {N t}}{L_ {Mt}}\right)^{\frac{1}{\epsilon}}=\left[\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon(1-\alpha)}\right]^{\frac{1}{\epsilon}}\qquad(H.5)
 $$
+
+
+where recall that $ \hat x_t = \frac{x_{\tau}}{x_t} $; 
+we have used $^ \hat Q_{nt} = \hat Q_{nt} \hat H_{nt} = \hat Q_{nt}^{1+\mu} $ ; 
+and we hold total employment and expected utility in the economy as a whole constant ($\hat L_{Mt} = 1$) and ($\hat {\ tilde U}_ t = 1$). 
+The relative changes in composite traded productivity($\hat A_{nt}^T$) and composite amenities ($\hat B_{it}$) satisfy:

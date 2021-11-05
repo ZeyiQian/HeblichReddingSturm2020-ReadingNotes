@@ -1169,3 +1169,12 @@ $$
 $$
 \hat Q_{nt}=\left( \hat {\tilde A} _ {nt} ^T\right)^{\frac {1}{\beta^H}}\hat{w} _ {n t}^{\frac {-\beta ^L}{\beta^H}} \qquad(H.2)
 $$
+
+
+$$
+\hat{\lambda}_ {n t}^{L} \lambda_ {n t}^{L}=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.3)
+$$
+
+$$
+\hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
+$$

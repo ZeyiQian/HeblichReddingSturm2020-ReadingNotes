@@ -1165,3 +1165,7 @@ $$
 \hat Q_ {nt}^{1+ \mu} \tilde Q_ {nt}\left(  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat \lambda_ {n t}^{R} \lambda_ {n t}^{R} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t}\lambda_ {n t}^{L} \lambda_ {n t}^{L} \right) \hat {\bar {L}}{\bar {L}}\qquad(H.1)
 $$
 
+
+$$
+\hat Q_{nt}=\left( \hat {\tilde A} _ {nt} ^T\right)^{\frac {1}{\beta^H}}\hat{w} _ {n t}^{\frac {-\beta ^L}{\beta^H}} \qquad(H.2)
+$$

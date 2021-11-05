@@ -1189,3 +1189,13 @@ where recall that $ \hat x_t = \frac{x_{\tau}}{x_t} $;
 we have used $^ \hat Q_{nt} = \hat Q_{nt} \hat H_{nt} = \hat Q_{nt}^{1+\mu} $ ; 
 and we hold total employment and expected utility in the economy as a whole constant ($\hat L_{Mt} = 1$) and ($\hat {\tilde{ U}}_ t = 1$). 
 The relative changes in composite traded productivity($\hat A_{nt}^T$) and composite amenities ($\hat B_{it}$) satisfy:
+
+$$
+\hat A_ {nt}^T = \hat L_ {t}^{{\eta}^L} \qquad(H.6)
+$$
+
+$$
+\hat B_ {nt}^T = \hat R_ {t}^{{\eta}^R} \qquad(H.7)
+$$
+
+where we hold production and residential fundamentals constant ($\hat a_ {nt} = 1$ and $\hat b_ {nt} = 1$).

@@ -1252,3 +1252,5 @@ It follows that there exists a unique vector of floor space prices $ \boldsymbol
 $$
 L_ {N t}=\left[\sum_ {k \in N} \sum_ {\ell \in N} B_ {k \ell t}^{\epsilon} P_ {t}^{\frac{\epsilon}{  \beta^{L}}-\epsilon \alpha} A_ {\ell t}^{\frac{\epsilon} { \beta^{L}}} \kappa_ {k \ell t}^{-\epsilon} Q_ {\ell t}^{\frac{-\epsilon \beta^{H}}{  \beta^{L}}} Q_{k t}^{-\epsilon(1-\alpha)}\right]
 $$
+
+We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and $ \boldsymbol{R_ t}=\boldsymbol{\lambda ^R_ t }L_ {Nt}$. This completes the determination of the equilibrium vector ($\boldsymbol{\lambda_t^L}, \boldsymbol{\lambda_ t^R},L_ {Nt}, \boldsymbol{Q_ t} , \boldsymbol{w_ t}$)

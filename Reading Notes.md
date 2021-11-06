@@ -1241,3 +1241,7 @@ $$
 $$
 
 for all $n \in N$, where we have chosen units in which to measure utility such that $\frac{{\frac{\vartheta}{\bar{U}_ {t}}}^{\epsilon}}{L_ {Mt}} = 1$ for a given year $t$. The above land market clearing condition provides a system of equations for the N boroughs in terms of the $N$ unknown floor space prices $Q_{nt}$, which has the following properties:
+
+$$\lim_ {Q_ {nt} \rightarrow 0}D_ {nt} \left( \boldsymbol{Q_ t}\right) = \infty >hK_ n,\lim_ {Q_ {nt} \rightarrow \infty}D_ {nt} \left( \boldsymbol{Q_ t}\right) =0 < hK_n$$
+$$
+ \frac {dD_ {nt}\left( \boldsymbol{Q_ t}\right)}{  dQ_ {nt}} < 0, \frac {dD_ {nt}\left( \boldsymbol{Q_ t}\right)}{  dQ_ {it}} < 0 , \vert \frac {dD_ {nt}\left( \boldsymbol{Q_ t}\right)}{  dQ_ {nt}}\vert > \vert \frac {dD_ {nt}\left( \boldsymbol{Q_ t}\right)}{  dQ_{it}} \vert$$

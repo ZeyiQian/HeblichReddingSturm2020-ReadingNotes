@@ -1201,3 +1201,8 @@ $$
 where we hold production and residential fundamentals constant ($\hat a_ {nt} = 1$ and $\hat b_ {nt} = 1$).
 
 In the special case of the model in which productivity, amenities and the supply of floor space are exogenous $\eta ^L = \eta ^ R = \mu = 0$, there are no agglomeration forces and the supply of land is perfectly inelastic, which ensures the existence of a unique equilibrium, as shown in Proposition $H.1$ below. Therefore, our counterfactuals yield unique predictions for the impact of the change in commuting costs on the spatial distribution of economic activity. In the presence of agglomeration forces ($\eta^L > 0$ and $\eta^R > 0$) and an elastic supply of land ($ \mu> 0$), whether or not the equilibrium is unique depends on the strength of these agglomeration forces relative to the model’s congestion forces and the exogenous differences in production and residential fundamentals across locations. For the values of agglomeration forces considered in our counterfactuals, we obtain the same counterfactual equilibrium regardless of our starting values for the counterfactual changes in the model’s endogenous variables.
+
+
+Proposition $H.1$ 
+Assume exogenous, finite and strictly positive location characteristics ($P_ t \in \left(0,\infty \right), A_ {nt}\in (0,\infty ),B_ {nit} \in (0,\infty ) \times (0,\infty ) , \kappa_ {nit} \in (0,\infty ) \times (0,\infty ), H_ {nt} = H_n \in (0,\infty )$), which corresponds to $\eta ^L = \eta ^R = \mu = 0$.
+Under these assumptions, there exists a unique general equilibrium vector of four variables in each location ( $\lambda_ {nt}^L, \lambda_ {nt}^R, Q_ {nt}, w_ {nt}$) and the scalar ($L_ {Nt}$), given expected utility ($ \bar U_ t$) and total employment ($L_{Mt}$) in the wider economy.

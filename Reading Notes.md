@@ -1220,3 +1220,24 @@ while the fraction of workers employed in location n can be written as:
 $$
 \lambda_ {n t}^{L}=\frac{L_ {n t}}{L_ {N t}}=\left(\frac{\vartheta}{\bar{U}_ {t}}\right)^{\epsilon}\left(\frac{L_ {M t}}{L_ {N t}}\right) \sum_ {k \in N} B_ {k n  t}^{\epsilon} P_ {t}^{\frac{\epsilon} {\beta^{L}}-\epsilon \alpha} A_ {n t}^{\frac{\epsilon} {\beta^{L}}-\epsilon} \kappa_ {k n  t}^{-\epsilon} Q_ {n t}^{\frac{-\epsilon \beta^{H}}{  \beta^{L}}} Q_{k t}^{-\epsilon \left(1-\alpha \right)}
 $$
+
+
+and expected worker income conditional on residing in block $i$ from equation (15) in the paper can be written as:
+
+$$
+v_{n t}=\sum_{i \in N} \frac{B_ {n i t}^{\epsilon} A_ {i t}^{\frac{\epsilon} { \beta^{L}}} \kappa_ {n i t}^{-\epsilon} Q_ {i t}^{\frac{-\epsilon \beta^{H}} { \beta^{L}}}}{\sum_ {\ell \in N} B_ {n \ell t}^{\epsilon} A_ {\ell t}^{\frac{\epsilon} { \beta^{L}}} \kappa_ {n \ell t}^{-\epsilon} Q_ {\ell t}^{\frac{-\epsilon \beta^{H}} { \beta^{L}}}}\left[P_ {t}^{\frac{1}{ \beta^{L}}} A_ {i t}^{\frac{1}{ \beta^{L}}} Q_{i t}^{\frac{-\beta^{H}} { \beta^{L}}}\right]
+$$
+
+and the land market clearing condition from equation (16) in the paper can be written as:
+$$
+\left(\frac{\beta^{H}}{\beta^{L}}\right) \frac{w_ {n t} \lambda_ {n t}^{L}}{Q_ {n t}}+(1-\alpha) \frac{v_ {n t} \lambda_ {n t}^{R}}{Q_ {n t}}=\frac{h K_ {n}}{L_{\mathrm{N} t}}
+$$
+Combining the above relationships, this land market clearing condition can be re-expressed as:
+$$
+D_ {n t}\left(\boldsymbol{Q}_ {t}\right)=\frac{\beta^{H}}{\beta^{L}}\left[\frac{P_ {t}^{\frac{1}{  \beta^{L}}} A_ {n t}^{\frac{1}{  \beta^{L}}}}{Q_ {n t}^{\frac{1+\beta^{H}}{  \beta^{L}}}}\right]\left[\sum_ {k \in N} \frac{B_ {k n t}^{\epsilon} P_ {t}^{\frac{\epsilon} { \beta^{L}}}-\epsilon \alpha_ {t} A_ {n t}^{\frac{\epsilon} { \beta^{L}}} \kappa_ {k n t}^{-\epsilon}}{Q_ {n t}^{\frac{\epsilon \beta^{H}} {\beta^{L}}} Q_{k t}^{\epsilon(1-\alpha)}}\right]
+$$
+$$
++\frac{1-\alpha}{Q_ {n t}}\left[\sum_ {i \in N}\left(\frac{B_ {n i t}^{\epsilon} A_ {i t}^{\frac{\epsilon} { \beta^{L}}} \kappa_ {n i t}^{-\epsilon} Q_ {i t}^{\frac{-\epsilon \beta^{H}} { \beta^{L}}}}{\sum_ {\ell \in N} B_ {n \ell t}^{\epsilon} A_ {\ell t}^{\frac{\epsilon} { \beta^{L}}} \kappa_ {n \ell t}^{-\epsilon} Q_ {\ell t}^{\frac{-\epsilon \beta^{H}} { \beta^{L}}}}\right) \frac{P_ {t}^{\frac{1}{  \beta^{L}}} A_ {i t}^{\frac{1}{  \beta^{L}}}}{Q_ {i t}^{\frac{{\beta^{H}} }{ \beta^{L}}}}\right]\left[\sum_ {\ell \in N} \frac{B_ {n \ell t}^{\epsilon} P_ {t}^{\epsilon / \beta^{L}}-\epsilon \alpha_{\ell t} A_{\ell t}^{\epsilon / \beta^{L}} \kappa_{n \ell t}^{-\epsilon}}{Q_{\ell t}^{\epsilon \beta^{H} / \beta^{L}} Q_{n t}^{\epsilon(1-\alpha)}}\right]=h K_{n}
+$$
+
+for all $n \in N$, where we have chosen units in which to measure utility such that $\frac{{\frac{\vartheta}{\bar{U}_ {t}}}^{\epsilon}}{L_ {Mt}} = 1$ for a given year $t$. The above land market clearing condition provides a system of equations for the N boroughs in terms of the $N$ unknown floor space prices $Q_{nt}$, which has the following properties:

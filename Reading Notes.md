@@ -1211,3 +1211,12 @@ Under these assumptions, there exists a unique general equilibrium vector of fou
 
 Proof. Assume exogenous, finite and strictly positive location characteristics ($P_ t \in \left(0,\infty \right), A_ {nt}\in (0,\infty ),B_ {nit} \in (0,\infty ) \times (0,\infty ) , \kappa_ {nit} \in (0,\infty ) \times (0,\infty ), H_ {nt} = H_ n = h_{Kn}\in (0,\infty )$), which corresponds to $\eta ^L = \eta ^R = \mu = 0$.
 Under these assumptions, all locations are incompletely specialized as both workplaces and residences, because the support of the Fr´echet distribution for idiosyncratic amenities is unbounded from above. Using the probability of residing in a location (equation (7) for $\lambda_ {nt}^R$), the probability of working in a location (equation (7) for $\lambda_{nt}^L$), the zero-profit condition in equation (28) in the paper, and the population mobility condition between the city and the larger economy in equation (9) in the paper, the fraction of workers residing in location n can be written as:
+
+
+$$
+\lambda_{n t}^{R}=\frac{R_{n t}}{L_{N t}}=\left(\frac{\vartheta}{\bar{U}_{t}}\right)^{\epsilon}\left(\frac{L_{M t}}{L_{N t}}\right) \sum_{\ell \in N} B_{n \ell t}^{\epsilon} P_{t}^{\epsilon / \beta^{L}-\epsilon \alpha} A_{\ell t}^{\epsilon / \beta^{L}} \kappa_{n \ell t}^{-\epsilon} Q_{\ell t}^{-\epsilon \beta^{H} / \beta^{L}} Q_{n t}^{-\epsilon(1-\alpha)}
+$$
+while the fraction of workers employed in location n can be written as:
+$$
+\lambda_ {n t}^{L}=\frac{L_{n t}}{L_{N t}}=\left(\frac{\vartheta}{\bar{U}_{t}}\right)^{\epsilon}\left(\frac{L_{M t}}{L_{N t}}\right) \sum_{k \in N} B_ {k n  t}^{\epsilon} P_{t}^{\epsilon / \beta^{L}-\epsilon \alpha} A_{n t}^{\epsilon / \beta^{L}} \kappa_{k n  t}^{-\epsilon} Q_{n t}^{-\epsilon \beta^{H} / \beta^{L}} Q_{k t}^{-\epsilon(1-\alpha)}
+$$

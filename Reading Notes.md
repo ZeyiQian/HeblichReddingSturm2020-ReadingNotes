@@ -1254,3 +1254,13 @@ L_ {N t}=\left[\sum_ {k \in N} \sum_ {\ell \in N} B_ {k \ell t}^{\epsilon} P_ {t
 $$
 
 We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and $ \boldsymbol{R_ t}=\boldsymbol{\lambda ^R_ t }L_ {Nt}$. This completes the determination of the equilibrium vector ($\boldsymbol{\lambda_t^L}, \boldsymbol{\lambda_ t^R},L_ {Nt}, \boldsymbol{Q_ t} , \boldsymbol{w_ t}$)
+
+![微信截图_20211106165448](https://user-images.githubusercontent.com/91390400/140623526-e222d6ff-dc2d-410e-9c35-9b3ff00e06a8.png)
+
+
+![1](https://user-images.githubusercontent.com/91390400/140623552-26609cbc-71f1-41f6-b85e-09bc0d2ae211.png)
+
+
+
+![2](https://user-images.githubusercontent.com/91390400/140623557-964e78a7-8dd9-4546-9624-07dd0908966b.png)
+

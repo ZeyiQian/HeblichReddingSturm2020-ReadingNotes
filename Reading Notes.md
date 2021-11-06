@@ -1214,9 +1214,9 @@ Under these assumptions, all locations are incompletely specialized as both work
 
 
 $$
-\lambda_{n t}^{R}=\frac{R_{n t}}{L_{N t}}=\left(\frac{\vartheta}{\bar{U}_{t}}\right)^{\epsilon}\left(\frac{L_{M t}}{L_{N t}}\right) \sum_{\ell \in N} B_{n \ell t}^{\epsilon} P_{t}^{\epsilon / \beta^{L}-\epsilon \alpha} A_{\ell t}^{\epsilon / \beta^{L}} \kappa_{n \ell t}^{-\epsilon} Q_{\ell t}^{-\epsilon \beta^{H} / \beta^{L}} Q_{n t}^{-\epsilon(1-\alpha)}
+\lambda_ {n t}^{R}=\frac{R_ {n t}}{L_ {N t}}=\left(\frac{\vartheta}{\bar{U}_ {t}}\right)^{\epsilon}\left(\frac{L_ {M t}}{L_ {N t}}\right) \sum_ {\ell \in N} B_ {n \ell t}^{\epsilon} P_ {t}^{\frac{\epsilon} {\beta^{L}}-\epsilon \alpha} A_ {\ell t}^{\frac{\epsilon} {\beta^{L}}} \kappa_ {n \ell t}^{-\epsilon} Q_ {\ell t}^{\frac{-\epsilon \beta^{H}}{  \beta^{L}}} Q_{n t}^{-\epsilon \left(1-\alpha \right)}
 $$
 while the fraction of workers employed in location n can be written as:
 $$
-\lambda_ {n t}^{L}=\frac{L_{n t}}{L_{N t}}=\left(\frac{\vartheta}{\bar{U}_{t}}\right)^{\epsilon}\left(\frac{L_{M t}}{L_{N t}}\right) \sum_{k \in N} B_ {k n  t}^{\epsilon} P_{t}^{\epsilon / \beta^{L}-\epsilon \alpha} A_{n t}^{\epsilon / \beta^{L}} \kappa_{k n  t}^{-\epsilon} Q_{n t}^{-\epsilon \beta^{H} / \beta^{L}} Q_{k t}^{-\epsilon(1-\alpha)}
+\lambda_ {n t}^{L}=\frac{L_ {n t}}{L_ {N t}}=\left(\frac{\vartheta}{\bar{U}_ {t}}\right)^{\epsilon}\left(\frac{L_ {M t}}{L_ {N t}}\right) \sum_ {k \in N} B_ {k n  t}^{\epsilon} P_ {t}^{\frac{\epsilon} {\beta^{L}}-\epsilon \alpha} A_ {n t}^{\frac{\epsilon} {\beta^{L}}-\epsilon} \kappa_ {k n  t}^{-\epsilon} Q_ {n t}^{\frac{-\epsilon \beta^{H}}{  \beta^{L}}} Q_{k t}^{-\epsilon \left(1-\alpha \right)}
 $$

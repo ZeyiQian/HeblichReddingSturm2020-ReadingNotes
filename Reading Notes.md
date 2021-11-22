@@ -1173,7 +1173,7 @@ We undertake these counterfactuals under a range of alternative assumptions abou
 
 
 $$
-\hat {\tilde Q}_ {nt} \tilde Q_ {nt}=\hat Q_ {nt}^{1+\mu} \tilde Q_ {nt}=  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat R_ {n t} R_ {n t} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat R_ {i t} R_{i t}
+\hat {\tilde Q}_ {nt} \tilde Q_ {nt}=\hat Q_ {nt}^{1+\mu} \tilde Q_ {nt}=  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat R_ {n t} R_ {n t} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat L_ {n t} L_{n t}
 $$
 $$
 = \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat \lambda_ {n t}^{R}  \hat {\bar {L}}\lambda_ {n t}^{R}{\bar {L}} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat \lambda_ {n t}^{L}  \hat {\bar {L}} \lambda_ {n t}^{L} {\bar {L}}

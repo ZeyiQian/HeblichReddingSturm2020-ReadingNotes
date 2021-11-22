@@ -1336,15 +1336,23 @@ We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and 
 --->
 
 >#### Ccounterfactual Predictions for Removing Entire Railway Network and Underground Railway Network
+![1](https://user-images.githubusercontent.com/91390400/142923188-4cf83fb0-dbc8-4a21-b7cb-cc773665a4ff.png)
+![2](https://user-images.githubusercontent.com/91390400/142923199-4e6316e1-3325-4ac8-82ac-2ae48322457b.png)
+![3](https://user-images.githubusercontent.com/91390400/142923202-6aca0586-bb72-47e8-b1ad-7c934e37c933.png)
 
-![微信截图_20211106165448](https://user-images.githubusercontent.com/91390400/140623526-e222d6ff-dc2d-410e-9c35-9b3ff00e06a8.png)
 
 “Baseline” shows the values of variables from our baseline quantitative analysis from Section VI; “Inelastic No Agglom” shows the values of variables from our counterfactual with a perfectly inelastic supply of floor space and exogenous productivity and amenities (μ = ηL = ηR = 0); “Elastic No Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and exogenous productivity and amenities (μ = 1.83 and ηL = ηR = 0); “Elastic Prod Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity, estimated production agglomeration forces, and exogenous amenities (μ = 1.83, ηL = 0.086, and ηR = 0); “Elastic Prod + Amen Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and estimated production and residential agglomeration forces (μ = 1.83, ηL = 0.086, and ηR = 0.172).
-![1](https://user-images.githubusercontent.com/91390400/140623552-26609cbc-71f1-41f6-b85e-09bc0d2ae211.png)
+
 
 
 >#### Results of Comparisons of Economic Impact of Removal of Railway Network with Its Construction Costs
-![2](https://user-images.githubusercontent.com/91390400/140623557-964e78a7-8dd9-4546-9624-07dd0908966b.png)
+![4](https://user-images.githubusercontent.com/91390400/142923229-7799abbb-7370-4a47-8208-a37135cc4af4.png)
+![5](https://user-images.githubusercontent.com/91390400/142923237-2eef42fd-56f4-4af2-b5a1-6f4888441239.png)
+![6](https://user-images.githubusercontent.com/91390400/142923246-f73eda29-3fb5-45ef-9082-0533e690479b.png)
+![7](https://user-images.githubusercontent.com/91390400/142923255-75e9cad1-c634-478f-ab0c-aeec4d6724d9.png)
+![8](https://user-images.githubusercontent.com/91390400/142923262-2bea26c4-6c97-4b78-a455-447fbc123e30.png)
+![9](https://user-images.githubusercontent.com/91390400/142923267-ef293898-5c1e-4c44-a872-3b7ae30afcd2.png)
+
 
 ### IX. Conclusions
 *****

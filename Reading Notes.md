@@ -1166,36 +1166,50 @@ There is an upward bias in the estimated residential elasticity ($\eta^R$) and a
 *****
 We undertake these counterfactuals under a range of alternative assumptions about the floor space supply elasticity ($\mu$) and the strength of agglomeration forces ($\eta ^{L},\eta ^{R}$).
 
-Given a change in commuting costs ($\hat {\kappa}_ {n i t}^{-\epsilon}$) from the removal of parts of the railway network and the observed values of variables ($\tilde Q_{nt}, \lambda_ {nt}^L, \lambda_ {nt}^R, \overline L_ t, \lambda_ {n i t \mid n}^{R}, \lambda_ {nit}, w_ {it}$) in our initial equilibrium in year $t = 1921$, we solve for counterfactual changes in the following five endogenous variables: (i) the workplace choice probability ($\hat \lambda_ {nt}^L$); (ii) the residence choice probability ($\hat \lambda_ {nt}^R)$; (iii) the price of floor space ($\hat Q_ {nt}$); (iv) the wage ( $\hat w_ {nt}$); (v) total city employment ($\hat L_{\tilde N t}$).
+>##### Given a change in commuting costs ($\hat {\kappa}_ {n i t}^{-\epsilon}$) from the removal of parts of the railway network and the observed values of variables ($\tilde Q_{nt}, \lambda_ {nt}^L, \lambda_ {nt}^R, \overline L_ t, \lambda_ {n i t \mid n}^{R}, \lambda_ {nit}, w_ {it}$) in our initial equilibrium in year $t = 1921$, we solve for counterfactual changes in the following five endogenous variables: (i) the workplace choice probability ($\hat \lambda_ {nt}^L$); (ii) the residence choice probability ($\hat \lambda_ {nt}^R)$; (iii) the price of floor space ($\hat Q_ {nt}$); (iv) the wage ( $\hat w_ {nt}$); (v) total city employment ($\hat L_{\tilde N t}$).
 
+>##### These five endogenous variables solve the following system of five equations for the general equilibrium of the model: 
+>(i) the land market clearing condition (H.1): 
 
 
 $$
-\hat Q_ {nt}^{1+ \mu} \tilde Q_ {nt}=\left(  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat \lambda_ {n t}^{R} \lambda_ {n t}^{R} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t}\lambda_ {n t}^{L} \lambda_ {n t}^{L} \right) \hat {\bar {L}}{\bar {L}}\qquad(H.1)
+\hat {\tilde Q_ {nt}} \tilde Q_ {nt}=\hat Q_ {nt}^{1+\mu} \tilde Q_ {nt}=  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat R_ {n t} R_ {n t} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat R_ {i t} R_{i t}
 $$
+$$
+= \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat \lambda_ {n t}^{R}  \hat {\bar {L}}\lambda_ {n t}^{R}{\bar {L}} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat \lambda_ {n t}^{L}  \hat {\bar {L}} \lambda_ {n t}^{L} {\bar {L}}
+$$
+$$
+=\left(  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat \lambda_ {n t}^{R} \lambda_ {n t}^{R} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat \lambda_ {n t}^{L} \lambda_ {n t}^{L} \right) \hat {\bar {L}}{\bar {L}}\qquad(H.1)
+$$
+where recall that $ \hat x_t = \frac{x_{\tau}}{x_t} $; 
+we have used $ \hat {\tilde Q_ {nt}} = \hat Q_{nt} \hat H_{nt} = \hat Q_{nt}^{1+\mu} $  ; 
 
+>(ii) the zero-profit condition (H.2):
 
 $$
 \hat Q_{nt}=\left( \hat {\tilde A} _ {nt} ^T\right)^{\frac {1}{\beta^H}}\hat{w} _ {n t}^{\frac {-\beta ^L}{\beta^H}} \qquad(H.2)
 $$
 
 
+> (iii) the workplace choice probability (H.3): 
+
 $$
-\hat{\lambda}_ {n t}^{L} \lambda_ {n t}^{L}=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.3)
+\hat{\lambda}_ {n t}^{L} \lambda_ {n t}^{L}=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.3)
 $$
+
+> (iv)the residence choice probability (H.4): 
 
 $$
 \hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
 $$
 
-
+> (v) the population mobility condition (H.5):
 $$
 \left(\frac{\hat{L}_ {N t} L_ {N t}}{L_ {Mt}}\right)^{\frac{1}{\epsilon}}=\left[\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon(1-\alpha)}\right]^{\frac{1}{\epsilon}}\qquad(H.5)
 $$
 
 
-where recall that $ \hat x_t = \frac{x_{\tau}}{x_t} $; 
-we have used $ \hat Q_{nt} = \hat Q_{nt} \hat H_{nt} = \hat Q_{nt}^{1+\mu} $ ; 
+
 and we hold total employment and expected utility in the economy as a whole constant ($\hat L_{Mt} = 1$) and ($\hat {\tilde{ U}}_ t = 1$). 
 The relative changes in composite traded productivity($\hat A_{nt}^T$) and composite amenities ($\hat B_{it}$) satisfy:
 

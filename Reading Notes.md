@@ -1243,8 +1243,9 @@ $$
 > (v) the population mobility condition (H.5):
 
 $$
-\left(\frac{\hat{L}_ {N t} L_ {N t}}{L_ {Mt}}\right)^{\frac{1}{\epsilon}}=\left[\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon(1-\alpha)}\right]^{\frac{1}{\epsilon}}\qquad(H.5)
+\left(\frac{\hat{L}_ {N t} L_ {N t}}{L_ {Mt}}\right)^{\frac{1}{\epsilon}}=\left[\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}\right]^{\frac{1}{\epsilon}}\qquad(H.5)
 $$
+
 $$
 \hat{L}_ {N t} L_ {N t}=\frac{L_{ni \tau}}  {\lambda_{ni \tau}}\div\frac{L_{nit}} {\lambda_{nit}}\times\frac{L_{nit}}{\lambda_{nit}} =L_{ni \tau}\frac{\lambda_{ni t}}{\lambda_{ni \tau}}\frac{1}{\lambda_{nit}}
 $$
@@ -1259,7 +1260,7 @@ $$
 =\frac{  B_ {n i \tau}^{-\epsilon} w_ { i \tau}^{-\epsilon} {\kappa}_ { n i \tau}^{\epsilon} P_ {n \tau}^{\epsilon \alpha} Q_ {n \tau}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N} \hat B_ {k \ell t}^{-\epsilon} B_ {k \ell t}^{-\epsilon} \hat w_ { \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon} \hat \kappa_ {k \ell t}^{\epsilon} \kappa_ {k \ell t}^{\epsilon} \hat P_ {k t}^{\epsilon \alpha} P_ {k t}^{\epsilon \alpha} \hat Q_ {k t}^{\epsilon\left(1-\alpha\right)}Q_ {k t}^{\epsilon\left(1-\alpha\right)}} 
 $$
 $$
-=\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon(1-\alpha)}
+=\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}
 $$
 
 

@@ -1336,7 +1336,7 @@ We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and 
 
 ![微信截图_20211106165448](https://user-images.githubusercontent.com/91390400/140623526-e222d6ff-dc2d-410e-9c35-9b3ff00e06a8.png)
 
-
+“Baseline” shows the values of variables from our baseline quantitative analysis from Section VI; “Inelastic No Agglom” shows the values of variables from our counterfactual with a perfectly inelastic supply of floor space and exogenous productivity and amenities (μ = ηL = ηR = 0); “Elastic No Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and exogenous productivity and amenities (μ = 1.83 and ηL = ηR = 0); “Elastic Prod Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity, estimated production agglomeration forces, and exogenous amenities (μ = 1.83, ηL = 0.086, and ηR = 0); “Elastic Prod + Amen Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and estimated production and residential agglomeration forces (μ = 1.83, ηL = 0.086, and ηR = 0.172).
 ![1](https://user-images.githubusercontent.com/91390400/140623552-26609cbc-71f1-41f6-b85e-09bc0d2ae211.png)
 
 

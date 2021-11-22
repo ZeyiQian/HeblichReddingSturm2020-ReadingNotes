@@ -1201,13 +1201,13 @@ $$ \hat{\lambda}_ {n t}^{L}\lambda_ {nt}^L
 =\left(\frac{ \sum_{i \in N} \left(B_{in \tau}w_ {n\tau}\right)^{\epsilon}\left({\kappa}_ {in \tau} P_ {i \tau}^\alpha Q_ {i \tau}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell \tau}w_ { \ell \tau}\right)^{\epsilon}\left(\kappa_ {k \ell \tau} P_ {k \tau}^\alpha Q_ {k\tau}^{1-\alpha}\right)^{-\epsilon}}\right)
 $$
 $$
-\left( \frac{ \sum_ {i \in N} \left(B_ {in t}w_ {nt}\right)^{\epsilon}\left({\kappa}_ {nit} P_ {it}^\alpha Q_ {it}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell t}w_ { \ell t}\right)^{\epsilon}\left(\kappa_ {k \ell t} P_ {kt}^\alpha Q_ {kt}^{1-\alpha}\right)^{-\epsilon}}\right)^{-1}
+\left( \frac{ \sum_ {i \in N} \left(B_ {in t}w_ {nt}\right)^{\epsilon}\left({\kappa}_ {int} P_ {it}^\alpha Q_ {it}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell t}w_ { \ell t}\right)^{\epsilon}\left(\kappa_ {k \ell t} P_ {kt}^\alpha Q_ {kt}^{1-\alpha}\right)^{-\epsilon}}\right)^{-1}
 $$
 $$
 \left(\frac{ \sum_{i \in N} \left(B_{in t}w_ {nt}\right)^{\epsilon}\left({\kappa}_ {int} P_ {it}^\alpha Q_ {it}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell t}w_ { \ell t}\right)^{\epsilon}\left(\kappa_ {k \ell t} P_ {kt}^\alpha Q_ {kt}^{1-\alpha}\right)^{-\epsilon}} \right)
 $$
 $$
-= \frac{\sum_ {i \in N} B_ {in \tau}^{\epsilon} w_ {n\tau}^{\epsilon}{\kappa}_ {in \tau}^{-\epsilon} P_ {i \tau}^{-\epsilon \alpha} Q_ {i \tau}^{-\epsilon \left(1-\alpha \right)}B_ {in t}^{-\epsilon} w_ {it}^{-\epsilon} {\kappa}_ {ni t}^{\epsilon} P_ {n t}^{\epsilon \alpha} Q_ {n t}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}B_ {k \ell \tau}^{\epsilon}w_ { \ell \tau}^{\epsilon}\kappa_ {k \ell \tau}^{-\epsilon} P_ {k \tau}^{-\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}B_ {k \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon}\kappa_ {k \ell t}^{\epsilon} P_ {k t}^{\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}} \sum_ {i\in N} \lambda_ { in t}
+= \frac{\sum_ {i \in N} B_ {in \tau}^{\epsilon} w_ {n\tau}^{\epsilon}{\kappa}_ {in \tau}^{-\epsilon} P_ {i \tau}^{-\epsilon \alpha} Q_ {i \tau}^{-\epsilon \left(1-\alpha \right)}B_ {in t}^{-\epsilon} w_ {it}^{-\epsilon} {\kappa}_ {in t}^{\epsilon} P_ {n t}^{\epsilon \alpha} Q_ {n t}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}B_ {k \ell \tau}^{\epsilon}w_ { \ell \tau}^{\epsilon}\kappa_ {k \ell \tau}^{-\epsilon} P_ {k \tau}^{-\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}B_ {k \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon}\kappa_ {k \ell t}^{\epsilon} P_ {k t}^{\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}} \sum_ {i\in N} \lambda_ { in t}
 $$
 $$
 =\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat {P}_ {k t}^{-\epsilon \alpha}\hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{ \sum_{k \in N}\sum_{\ell \in N}\hat{B}_ {k \ell t}^{\epsilon}

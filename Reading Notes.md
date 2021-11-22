@@ -1150,10 +1150,24 @@ There is an upward bias in the estimated residential elasticity ($\eta^R$) and a
 
 ![](https://raw.githubusercontent.com/Li-Shen-Clark/image/main/table2.png)
 
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
 
 
 
-
+### VIII. Counterfactuals
 *****
 We undertake these counterfactuals under a range of alternative assumptions about the floor space supply elasticity ($\mu$) and the strength of agglomeration forces ($\eta ^{L},\eta ^{R}$).
 

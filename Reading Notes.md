@@ -1347,7 +1347,7 @@ We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and 
 
 >#### Results of Comparisons of Economic Impact of Removal of Railway Network with Its Construction Costs
 
-![4](https://user-images.githubusercontent.com/91390400/142923461-e99af832-8109-4992-8cf3-46803488287a.png)
+![4](https://user-images.githubusercontent.com/91390400/142923875-c022f34a-bece-4186-a607-185ba2c03971.png)
 ![5](https://user-images.githubusercontent.com/91390400/142923237-2eef42fd-56f4-4af2-b5a1-6f4888441239.png)
 ![6](https://user-images.githubusercontent.com/91390400/142923246-f73eda29-3fb5-45ef-9082-0533e690479b.png)
 ![7](https://user-images.githubusercontent.com/91390400/142923255-75e9cad1-c634-478f-ab0c-aeec4d6724d9.png)

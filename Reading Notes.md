@@ -1341,12 +1341,13 @@ We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and 
 ![3](https://user-images.githubusercontent.com/91390400/142923202-6aca0586-bb72-47e8-b1ad-7c934e37c933.png)
 
 
-“Baseline” shows the values of variables from our baseline quantitative analysis from Section VI; “Inelastic No Agglom” shows the values of variables from our counterfactual with a perfectly inelastic supply of floor space and exogenous productivity and amenities (μ = ηL = ηR = 0); “Elastic No Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and exogenous productivity and amenities (μ = 1.83 and ηL = ηR = 0); “Elastic Prod Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity, estimated production agglomeration forces, and exogenous amenities (μ = 1.83, ηL = 0.086, and ηR = 0); “Elastic Prod + Amen Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and estimated production and residential agglomeration forces (μ = 1.83, ηL = 0.086, and ηR = 0.172).
+“Baseline” shows the values of variables from our baseline quantitative analysis from Section VI; “Inelastic No Agglom” shows the values of variables from our counterfactual with a perfectly inelastic supply of floor space and exogenous productivity and amenities ($\mu = \eta ^L = \eta ^R = 0$); “Elastic No Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and exogenous productivity and amenities ($\mu =1.83 , \eta ^L = \eta ^R = 0$); “Elastic Prod Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity, estimated production agglomeration forces, and exogenous amenities ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0$); “Elastic Prod + Amen Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and estimated production and residential agglomeration forces ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0.172$).
 
 
 
 >#### Results of Comparisons of Economic Impact of Removal of Railway Network with Its Construction Costs
-![4](https://user-images.githubusercontent.com/91390400/142923229-7799abbb-7370-4a47-8208-a37135cc4af4.png)
+
+![4](https://user-images.githubusercontent.com/91390400/142923461-e99af832-8109-4992-8cf3-46803488287a.png)
 ![5](https://user-images.githubusercontent.com/91390400/142923237-2eef42fd-56f4-4af2-b5a1-6f4888441239.png)
 ![6](https://user-images.githubusercontent.com/91390400/142923246-f73eda29-3fb5-45ef-9082-0533e690479b.png)
 ![7](https://user-images.githubusercontent.com/91390400/142923255-75e9cad1-c634-478f-ab0c-aeec4d6724d9.png)

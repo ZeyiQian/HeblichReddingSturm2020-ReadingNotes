@@ -1173,7 +1173,7 @@ We undertake these counterfactuals under a range of alternative assumptions abou
 
 
 $$
-\hat {\tilde Q_ {nt}} \tilde Q_ {nt}=\hat Q_ {nt}^{1+\mu} \tilde Q_ {nt}=  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat R_ {n t} R_ {n t} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat R_ {i t} R_{i t}
+\hat {\tilde Q}_ {nt} \tilde Q_ {nt}=\hat Q_ {nt}^{1+\mu} \tilde Q_ {nt}=  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat R_ {n t} R_ {n t} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat R_ {i t} R_{i t}
 $$
 $$
 = \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat \lambda_ {n t}^{R}  \hat {\bar {L}}\lambda_ {n t}^{R}{\bar {L}} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat \lambda_ {n t}^{L}  \hat {\bar {L}} \lambda_ {n t}^{L} {\bar {L}}
@@ -1182,7 +1182,8 @@ $$
 =\left(  \left(1- \alpha \right)\left[ \sum_ {i \in N} \frac{\lambda_ {n i t \mid n}^{R} \hat{w}_ {i t}^{\epsilon} \hat{\kappa}_ {n i t}^{-\epsilon}}{{\sum_ {\ell \in N}} \lambda_ {n \ell \tau \mid n}^{R}\hat{w} _ {\ell t}^{\epsilon} \hat{\kappa} _ {n \ell t}^{-\epsilon}} \hat{w} _ {i t} w_ {i t}\right]   \hat \lambda_ {n t}^{R} \lambda_ {n t}^{R} +\frac{\beta^H}{\beta^L}{\hat w}_ {n t} {w}_ {n t} \hat \lambda_ {n t}^{L} \lambda_ {n t}^{L} \right) \hat {\bar {L}}{\bar {L}}\qquad(H.1)
 $$
 where recall that $ \hat x_t = \frac{x_{\tau}}{x_t} $; 
-we have used $ \hat {\tilde Q_ {nt}} = \hat Q_{nt} \hat H_{nt} = \hat Q_{nt}^{1+\mu} $  ; 
+we have used $ \hat {\tilde Q}_ {nt} = \hat Q_{nt} \hat H_{nt} = \hat Q_{nt}^{1+\mu} $ ; 
+
 
 >(ii) the zero-profit condition (H.2):
 
@@ -1196,8 +1197,27 @@ $$
 
 > (iii) the workplace choice probability (H.3): 
 
+$$ \hat{\lambda}_ {n t}^{L}\lambda_ {nt}^L 
+=\left(\frac{ \sum_{i \in N} \left(B_{in \tau}w_ {n\tau}\right)^{\epsilon}\left({\kappa}_ {in \tau} P_ {i \tau}^\alpha Q_ {i \tau}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell \tau}w_ { \ell \tau}\right)^{\epsilon}\left(\kappa_ {k \ell \tau} P_ {k \tau}^\alpha Q_ {k\tau}^{1-\alpha}\right)^{-\epsilon}}\right)
 $$
-\hat{\lambda}_ {n t}^{L} \lambda_ {n t}^{L}=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.3)
+$$
+\left( \frac{ \sum_ {i \in N} \left(B_ {in t}w_ {nt}\right)^{\epsilon}\left({\kappa}_ {nit} P_ {it}^\alpha Q_ {it}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell t}w_ { \ell t}\right)^{\epsilon}\left(\kappa_ {k \ell t} P_ {kt}^\alpha Q_ {kt}^{1-\alpha}\right)^{-\epsilon}}\right)^{-1}
+$$
+$$
+\left(\frac{ \sum_{i \in N} \left(B_{in t}w_ {nt}\right)^{\epsilon}\left({\kappa}_ {int} P_ {it}^\alpha Q_ {it}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell t}w_ { \ell t}\right)^{\epsilon}\left(\kappa_ {k \ell t} P_ {kt}^\alpha Q_ {kt}^{1-\alpha}\right)^{-\epsilon}} \right)
+$$
+$$
+= \frac{\sum_ {i \in N} B_ {in \tau}^{\epsilon} w_ {n\tau}^{\epsilon}{\kappa}_ {in \tau}^{-\epsilon} P_ {i \tau}^{-\epsilon \alpha} Q_ {i \tau}^{-\epsilon \left(1-\alpha \right)}B_ {in t}^{-\epsilon} w_ {it}^{-\epsilon} {\kappa}_ {ni t}^{\epsilon} P_ {n t}^{\epsilon \alpha} Q_ {n t}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}B_ {k \ell \tau}^{\epsilon}w_ { \ell \tau}^{\epsilon}\kappa_ {k \ell \tau}^{-\epsilon} P_ {k \tau}^{-\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}B_ {k \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon}\kappa_ {k \ell t}^{\epsilon} P_ {k t}^{\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}} \sum_ {i\in N} \lambda_ { in t}
+$$
+$$
+=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat {P}_ {k t}^{-\epsilon \alpha}\hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{ \sum_{k \in N}\sum_{\ell \in N}\hat{B}_ {k \ell t}^{\epsilon}
+B_ {k \ell t}^{\epsilon} \hat w_ { \ell t}^{\epsilon}w_ { \ell t}^{\epsilon}
+\hat \kappa_ {k \ell t}^{-\epsilon}  \kappa_ {k \ell t}^{-\epsilon}
+\hat P_ {k t}^{-\epsilon \alpha} P_ {k t}^{-\epsilon \alpha} 
+Q_ {kt}^{\epsilon\left(1-\alpha\right)}B_ {k \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon}\kappa_ {k \ell t}^{\epsilon} P_ {k t}^{\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}}
+$$
+$$
+=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.3)
 $$
 
 > (iv)the residence choice probability (H.4): 

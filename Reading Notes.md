@@ -1187,8 +1187,11 @@ we have used $ \hat {\tilde Q_ {nt}} = \hat Q_{nt} \hat H_{nt} = \hat Q_{nt}^{1+
 >(ii) the zero-profit condition (H.2):
 
 $$
-\hat Q_{nt}=\left( \hat {\tilde A} _ {nt} ^T\right)^{\frac {1}{\beta^H}}\hat{w} _ {n t}^{\frac {-\beta ^L}{\beta^H}} \qquad(H.2)
+\hat Q_ {nt}=\frac {Q_ {n \tau}}{Q_{n t}}
+=\left( \frac{{\tilde A} _ {n \tau} ^T}{{\tilde A} _ {nt} ^T}\right)^{\frac {1}{\beta^H}}\frac{{w} _ {n \tau}}{{w} _ {n t}}^{\frac {-\beta ^L}{\beta^H}}
+=\left( \hat {\tilde A} _ {nt} ^T\right)^{\frac {1}{\beta^H}}\hat{w} _ {n t}^{\frac {-\beta ^L}{\beta^H}} \qquad(H.2)
 $$
+
 
 
 > (iii) the workplace choice probability (H.3): 

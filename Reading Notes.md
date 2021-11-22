@@ -1222,8 +1222,22 @@ $$
 
 > (iv)the residence choice probability (H.4): 
 
+
+$$\hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}
+=\left(\frac{ \sum_ {\ell \in N} \left(B_{n \ell \tau}w_ { \ell  \tau}\right)^{\epsilon}\left({\kappa}_ {n \ell \tau} P_ {n \tau}^\alpha Q_ {n \tau}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell \tau}w_ { \ell \tau}\right)^{\epsilon}\left(\kappa_ {k \ell \tau} P_ {k \tau}^\alpha Q_ {k\tau}^{1-\alpha}\right)^{-\epsilon}}\right)
 $$
-\hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
+$$
+\left( \frac{ \sum_ {\ell \in N} \left(B_ {n \ell t}w_ { \ell t}\right)^{\epsilon}\left({\kappa}_ {n \ell t} P_ {n t}^\alpha Q_ {nt}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell t}w_ { \ell t}\right)^{\epsilon}\left(\kappa_ {k \ell t} P_ {kt}^\alpha Q_ {kt}^{1-\alpha}\right)^{-\epsilon}}\right)^{-1}
+$$
+
+$$
+\left(\frac{ \sum_ {\ell \in N} \left(B_{n \ell t}w_ {\ell t}\right)^{\epsilon}\left({\kappa}_ {n \ell t} P_ {n t}^\alpha Q_ {n t}^{1-\alpha}\right)^{-\epsilon}}{  \sum_{k \in N}\sum_{\ell \in N}\left(B_ {k \ell t}w_ { \ell t}\right)^{\epsilon}\left(\kappa_ {k \ell t} P_ {kt}^\alpha Q_ {kt}^{1-\alpha}\right)^{-\epsilon}} \right)
+$$
+$$
+= \frac{\sum_ {\ell \in N} B_ {n \ell \tau}^{\epsilon} w_ {\ell \tau}^{\epsilon}{\kappa}_ {n \ell \tau}^{-\epsilon} P_ {n \tau}^{-\epsilon \alpha} Q_ {n \tau}^{-\epsilon \left(1-\alpha \right)}B_ {n \ell t}^{-\epsilon} w_ { \ell t}^{-\epsilon} {\kappa}_ { n \ell t}^{\epsilon} P_ {n t}^{\epsilon \alpha} Q_ {n t}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}B_ {k \ell \tau}^{\epsilon}w_ { \ell \tau}^{\epsilon}\kappa_ {k \ell \tau}^{-\epsilon} P_ {k \tau}^{-\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}B_ {k \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon}\kappa_ {k \ell t}^{\epsilon} P_ {k t}^{\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}} \sum_ {i\in N} \lambda_ { n \ell t}
+$$
+$$
+=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
 $$
 
 > (v) the population mobility condition (H.5):

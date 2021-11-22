@@ -1150,20 +1150,15 @@ There is an upward bias in the estimated residential elasticity ($\eta^R$) and a
 
 ![](https://raw.githubusercontent.com/Li-Shen-Clark/image/main/table2.png)
 
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
-/
+
+>####
+>####
+>####
+>####
+>####
+>####
+>####
+>####
 
 
 

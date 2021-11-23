@@ -1306,15 +1306,7 @@ $$
 where we hold production and residential fundamentals constant ($\hat a_ {nt} = 1$ and $\hat b_ {nt} = 1$).
 
 
-##### “Baseline” shows the values of variables from our baseline quantitative analysis from Section VI; 
 
-##### “Inelastic No Agglom” shows the values of variables from our counterfactual with a perfectly inelastic supply of floor space and exogenous productivity and amenities ($\mu = \eta ^L = \eta ^R = 0$); 
-
-##### “Elastic No Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and exogenous productivity and amenities ($\mu =1.83 , \eta ^L = \eta ^R = 0$); 
-
-##### “Elastic Prod Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity, estimated production agglomeration forces, and exogenous amenities ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0$); 
-
-##### “Elastic Prod + Amen Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and estimated production and residential agglomeration forces ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0.172$).
 
 <!---
 Proposition $H.1$ 
@@ -1371,6 +1363,15 @@ We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and 
 --->
 
 >#### Ccounterfactual Predictions for Removing Entire Railway Network and Underground Railway Network
+
+##### In Figure IX, they display the model’s counterfactual predictions for removing the entire railway network (left panels) and the underground railway network (right panels). Because the first underground line was built in 1863, the counterfactuals in the right panels are flat before 1861. We report results for net commuting into the City of London in the top two panels, the total population of Greater London in the middle two panels, and total rateable values in Greater London in the bottom two panels. 
+
+* ##### “Baseline” shows the values of variables from our baseline quantitative analysis from Section VI; 
+* #####  “Inelastic No Agglom” shows the values of variables from our counterfactual with a perfectly inelastic supply of floor space and exogenous productivity and amenities ($\mu = \eta ^L = \eta ^R = 0$); 
+* #####  “Elastic No Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and exogenous productivity and amenities ($\mu =1.83 , \eta ^L = \eta ^R = 0$); 
+* ##### “Elastic Prod Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity, estimated production agglomeration forces, and exogenous amenities ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0$); 
+* #####  “Elastic Prod + Amen Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and estimated production and residential agglomeration forces ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0.172$).
+
 ![1](https://user-images.githubusercontent.com/91390400/142923188-4cf83fb0-dbc8-4a21-b7cb-cc773665a4ff.png)
 ![2](https://user-images.githubusercontent.com/91390400/142923199-4e6316e1-3325-4ac8-82ac-2ae48322457b.png)
 ![3](https://user-images.githubusercontent.com/91390400/142923202-6aca0586-bb72-47e8-b1ad-7c934e37c933.png)
@@ -1380,6 +1381,8 @@ We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and 
 
 
 >#### Results of Comparisons of Economic Impact of Removal of Railway Network with Its Construction Costs
+
+##### In Table III, we report the results of these comparisons of the economic impact of the removal of the railway network with its construction costs. In the top panel, we remove the entire railway network. In the middle panel, we eliminate only the underground railway network. In the bottom panel, we examine the extent to which there were diminishing returns to the construction of the railway network by only removing overground and underground railway lines constructed in the final decade of our sample, from 1911–1921.
 
 ![4](https://user-images.githubusercontent.com/91390400/142923875-c022f34a-bece-4186-a607-185ba2c03971.png)
 ![5](https://user-images.githubusercontent.com/91390400/142923237-2eef42fd-56f4-4af2-b5a1-6f4888441239.png)

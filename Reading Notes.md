@@ -1071,11 +1071,12 @@ $$
 > (iv)the residence choice probability (H.4): 
 
 
-$$\hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}
-=\frac{\lambda_ { n \ell t} \hat{B}_ {n \ell t}^{\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}\widehat{RMA}^{\epsilon}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}\widehat{RMA}^{\epsilon}}
 $$
+\hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}=\frac{\lambda_ { n \ell t} \hat{B}_ {n \ell t}^{\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}\widehat{RMA}^{\epsilon}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}\widehat{RMA}^{\epsilon}}
 $$
-=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
+
+$$
+=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
 $$
 
 > (v) the population mobility condition (H.5):

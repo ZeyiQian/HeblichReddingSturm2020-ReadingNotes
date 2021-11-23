@@ -1273,7 +1273,7 @@ $$
 
 
 and we hold total employment and expected utility in the economy as a whole constant ($\hat L_{Mt} = 1$) and ($\hat {\tilde{ U}}_ t = 1$). 
-The relative changes in composite traded productivity($\hat A_{nt}^T$) and composite amenities ($\hat B_{it}$) satisfy:
+The relative changes in composite traded productivity($\hat A_ {nt}^T $) and composite amenities ($\hat B_ {nt}^T$) satisfy:
 
 $$
 \hat A_ {nt}^T = \hat L_ {t}^{{\eta}^L} \qquad(H.6)

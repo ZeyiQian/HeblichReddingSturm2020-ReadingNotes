@@ -1183,7 +1183,10 @@ $$
 $$
 where recall that $ \hat x_t = \frac{x_{\tau}}{x_t} $; 
 we have used $ \hat {\tilde Q}_ {nt} = \hat Q_{nt} \hat H_{nt} = \hat Q_{nt}^{1+\mu} $ ; 
-
+Note that we assume that the homogeneous traded good is costlessly traded:
+$$
+P_{n t}^{T}=P_{t}^{T}, \forall n \in N
+$$
 
 >(ii) the zero-profit condition (H.2):
 
@@ -1252,14 +1255,15 @@ $$
 =\frac{\sum_{k \in N} \sum_{\ell \in N}\left(B_{k \ell \tau} w_{\ell \tau}\right)^{\epsilon}\left(\kappa_{k \ell \tau} P_{k \tau}^{\alpha} Q_{k \tau}^{1-\alpha}\right)^{-\epsilon}}{\sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit} P_{nt}^{\alpha} Q_{nt}^{1-\alpha}\right)^{-\epsilon}}
 $$
 $$
-=\frac{ \sum_ {k \in N} \sum_ {\ell \in N}  \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}   \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} {B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon}  {Q}_ {k t}^{-\epsilon(1-\alpha)}}{ \sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit}  Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
+=\frac{ \sum_ {k \in N} \sum_ {\ell \in N}  \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}  \hat{P}_ {k t}^{-\epsilon \alpha  } \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} {B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon} {P}_ {k t}^{-\epsilon \alpha  }{Q}_ {k t}^{-\epsilon(1-\alpha)}}{ \sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit} {P}_ {n t}Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
 $$
 $$
-=\sum_ {k \in N} \sum_ {\ell \in N} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}   \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} \frac{{B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon}  {Q}_ {k t}^{-\epsilon(1-\alpha)} }{\sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit}  Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
+=\sum_ {k \in N} \sum_ {\ell \in N} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}   \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} \frac{{B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon} {P}_ {k t}^{-\epsilon \alpha  } {Q}_ {k t}^{-\epsilon(1-\alpha)} }{\sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit} {P}_ {n t} Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
 $$
 $$
-=\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}
+=\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{P}_ {k t}^{-\epsilon \alpha  } \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}
 $$
+
 
 So we have
 $$

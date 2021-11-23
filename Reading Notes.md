@@ -1063,6 +1063,7 @@ $$
 
 
 > (iii) the workplace choice probability (H.3): 
+
 $$ \hat{\lambda}_ {n t}^{L}\lambda_ {nt}^L 
 =\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i n t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.3)
 $$

@@ -1073,7 +1073,7 @@ $$
 
 
 $$
-\hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}=\frac{\lambda_ { n \ell t} \hat{B}_ {n \ell t}^{\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}\widehat{RMA}^{\epsilon}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}\widehat{RMA}^{\epsilon}}
+\hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}=\frac{\lambda_ { n \ell t} \hat{B}_ {n \ell t}^{\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}\widehat{RMA}^{\epsilon}}{ \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}\widehat{RMA}^{\epsilon}}
 $$
 
 $$

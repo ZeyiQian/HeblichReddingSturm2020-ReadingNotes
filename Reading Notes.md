@@ -1210,17 +1210,19 @@ $$
 = \frac{\sum_ {i \in N} B_ {in \tau}^{\epsilon} w_ {n\tau}^{\epsilon}{\kappa}_ {in \tau}^{-\epsilon} P_ {i \tau}^{-\epsilon \alpha} Q_ {i \tau}^{-\epsilon \left(1-\alpha \right)}B_ {in t}^{-\epsilon} w_ {it}^{-\epsilon} {\kappa}_ {ni t}^{\epsilon} P_ {i t}^{\epsilon \alpha} Q_ {i t}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}B_ {k \ell \tau}^{\epsilon}w_ { \ell \tau}^{\epsilon}\kappa_ {k \ell \tau}^{-\epsilon} P_ {k \tau}^{-\epsilon \alpha} Q_ {k \tau}^{\epsilon\left(1-\alpha\right)}B_ {k \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon}\kappa_ {k \ell t}^{\epsilon} P_ {k t}^{\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}} \sum_ {i\in N} \lambda_ { in t}
 $$
 $$
-=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat {P}_ {i t}^{-\epsilon \alpha}\hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{ \sum_{k \in N}\sum_{\ell \in N}\hat{B}_ {k \ell t}^{\epsilon}
+=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i nt}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat {P}_ {i t}^{-\epsilon \alpha}\hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}{B}_ {i nt}^{\epsilon} {w}_ {n t}^{\epsilon} {\kappa}_ {i n t}^{-\epsilon}  {P}_ {i t}^{-\epsilon \alpha} {Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}B_ {in t}^{-\epsilon} w_ {it}^{-\epsilon} {\kappa}_ {ni t}^{\epsilon} P_ {i t}^{\epsilon \alpha} Q_ {i t}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}\hat{B}_ {k \ell t}^{\epsilon}
 B_ {k \ell t}^{\epsilon} \hat w_ { \ell t}^{\epsilon}w_ { \ell t}^{\epsilon}
 \hat \kappa_ {k \ell t}^{-\epsilon}  \kappa_ {k \ell t}^{-\epsilon}
 \hat P_ {k t}^{-\epsilon \alpha} P_ {k t}^{-\epsilon \alpha} 
 Q_ {kt}^{\epsilon\left(1-\alpha\right)}B_ {k \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon}\kappa_ {k \ell t}^{\epsilon} P_ {k t}^{\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}}
 $$
 $$
-=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.3)
+=\frac{\sum_ {i \in N} \lambda_ {i n t} \hat{B}_ {i n t}^{\epsilon} \hat{w}_ {n t}^{\epsilon} \hat{\kappa}_ {i n t}^{-\epsilon} \hat{Q}_ {i t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.3)
 $$
 
+
 > (iv)the residence choice probability (H.4): 
+
 
 
 $$\hat{\lambda}_ {n t}^{R} \lambda_ {n t}^{R}
@@ -1237,8 +1239,9 @@ $$
 = \frac{\sum_ {\ell \in N} B_ {n \ell \tau}^{\epsilon} w_ {\ell \tau}^{\epsilon}{\kappa}_ {n \ell \tau}^{-\epsilon} P_ {n \tau}^{-\epsilon \alpha} Q_ {n \tau}^{-\epsilon \left(1-\alpha \right)}B_ {n \ell t}^{-\epsilon} w_ { \ell t}^{-\epsilon} {\kappa}_ { n \ell t}^{\epsilon} P_ {n t}^{\epsilon \alpha} Q_ {n t}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}B_ {k \ell \tau}^{\epsilon}w_ { \ell \tau}^{\epsilon}\kappa_ {k \ell \tau}^{-\epsilon} P_ {k \tau}^{-\epsilon \alpha} Q_ {k \tau}^{\epsilon\left(1-\alpha\right)}B_ {k \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon}\kappa_ {k \ell t}^{\epsilon} P_ {k t}^{\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}} \sum_ {i\in N} \lambda_ { n \ell t}
 $$
 $$
-=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
+=\frac{\sum_ {\ell \in N} \lambda_ { n \ell t} \hat{B}_ {n \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ { n \ell t}^{-\epsilon} \hat{Q}_ {n t}^{-\epsilon \left(1-\alpha \right)}}{\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_{k t}^{-\epsilon \left(1-\alpha \right)}}\qquad(H.4)
 $$
+
 
 > (v) the population mobility condition (H.5):
 

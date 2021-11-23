@@ -1276,11 +1276,11 @@ and we hold total employment and expected utility in the economy as a whole cons
 > According to 
 
 $$
-\ln \hat{B}_{n t}=\varsigma^{R}+\eta^{R} \ln \hat{R}_{n t}+\ln \hat{b}_{n t}
+ln \hat{B}_ {n t}=\varsigma^{R}+\eta^{R} ln \hat{R}_ {n t}+ln \hat{b}_ {n t}
 $$
 
 $$
-\ln \hat{A}_{n t}^{T}=\varsigma^{L}+\eta^{L} \ln \hat{L}_{n t}+\ln \hat{a}_{n t}
+ln \hat{A}_ {n t}^{T}=\varsigma^{L}+\eta^{L} ln \hat{L}_ {n t}+ln \hat{a}_ {n t}
 $$
 
 the relative changes in composite traded productivity($\hat A_ {nt}^T $) and composite amenities ($\hat B_ {nt}^T$) satisfy:

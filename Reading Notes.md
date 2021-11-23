@@ -1258,7 +1258,7 @@ $$
 =\frac{ \sum_ {k \in N} \sum_ {\ell \in N}  \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}  \hat{P}_ {k t}^{-\epsilon \alpha  } \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} {B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon} {P}_ {k t}^{-\epsilon \alpha  }{Q}_ {k t}^{-\epsilon(1-\alpha)}}{ \sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit} {P}_ {n t}Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
 $$
 $$
-=\sum_ {k \in N} \sum_ {\ell \in N} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}   \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} \frac{{B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon} {P}_ {k t}^{-\epsilon \alpha  } {Q}_ {k t}^{-\epsilon(1-\alpha)} }{\sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit} {P}_ {n t} Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
+=\sum_ {k \in N} \sum_ {\ell \in N} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}   \hat{P}_ {k t}^{-\epsilon \alpha  } \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} \frac{{B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon} {P}_ {k t}^{-\epsilon \alpha  } {Q}_ {k t}^{-\epsilon(1-\alpha)} }{\sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit} {P}_ {n t} Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
 $$
 $$
 =\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{P}_ {k t}^{-\epsilon \alpha  } \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}

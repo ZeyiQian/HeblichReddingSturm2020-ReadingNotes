@@ -1164,11 +1164,18 @@ There is an upward bias in the estimated residential elasticity ($\eta^R$) and a
 
 ### VIII. Counterfactuals
 *****
-We undertake these counterfactuals under a range of alternative assumptions about the floor space supply elasticity ($\mu$) and the strength of agglomeration forces ($\eta ^{L},\eta ^{R}$).
 
->##### Given a change in commuting costs ($\hat {\kappa}_ {n i t}^{-\epsilon}$) from the removal of parts of the railway network and the observed values of variables ($\tilde Q_{nt}, \lambda_ {nt}^L, \lambda_ {nt}^R, \overline L_ t, \lambda_ {n i t \mid n}^{R}, \lambda_ {nit}, w_ {it}$) in our initial equilibrium in year $t = 1921$, we solve for counterfactual changes in the following five endogenous variables: (i) the workplace choice probability ($\hat \lambda_ {nt}^L$); (ii) the residence choice probability ($\hat \lambda_ {nt}^R)$; (iii) the price of floor space ($\hat Q_ {nt}$); (iv) the wage ( $\hat w_ {nt}$); (v) total city employment ($\hat L_{\tilde N t}$).
+##### We undertake these counterfactuals under a range of alternative assumptions about the floor space supply elasticity ($\mu$) and the strength of agglomeration forces ($\eta ^{L},\eta ^{R}$).
 
->##### These five endogenous variables solve the following system of five equations for the general equilibrium of the model: 
+>##### Given a change in commuting costs ($\hat {\kappa}_ {n i t}^{-\epsilon}$) from the removal of parts of the railway network and the observed values of variables ($\tilde Q_{nt}, \lambda_ {nt}^L, \lambda_ {nt}^R, \overline L_ t, \lambda_ {n i t \mid n}^{R}, \lambda_ {nit}, w_ {it}$) in our initial equilibrium in year $t = 1921$, we solve for counterfactual changes in the following five endogenous variables: 
+> (i) the workplace choice probability ($\hat \lambda_ {nt}^L$); 
+> (ii) the residence choice probability ($\hat \lambda_ {nt}^R)$;
+> (iii) the price of floor space ($\hat Q_ {nt}$);
+> (iv) the wage ( $\hat w_ {nt}$);
+> (v) total city employment ($\hat L_{\tilde N t}$).
+
+##### These five endogenous variables solve the following system of five equations for the general equilibrium of the model: 
+
 >(i) the land market clearing condition (H.1): 
 
 
@@ -1298,7 +1305,16 @@ $$
 
 where we hold production and residential fundamentals constant ($\hat a_ {nt} = 1$ and $\hat b_ {nt} = 1$).
 
-In the special case of the model in which productivity, amenities and the supply of floor space are exogenous $\eta ^L = \eta ^ R = \mu = 0$, there are no agglomeration forces and the supply of land is perfectly inelastic, which ensures the existence of a unique equilibrium. Therefore, our counterfactuals yield unique predictions for the impact of the change in commuting costs on the spatial distribution of economic activity. In the presence of agglomeration forces ($\eta^L > 0$ and $\eta^R > 0$) and an elastic supply of land ($ \mu> 0$), whether or not the equilibrium is unique depends on the strength of these agglomeration forces relative to the model’s congestion forces and the exogenous differences in production and residential fundamentals across locations. For the values of agglomeration forces considered in our counterfactuals, we obtain the same counterfactual equilibrium regardless of our starting values for the counterfactual changes in the model’s endogenous variables.
+
+##### “Baseline” shows the values of variables from our baseline quantitative analysis from Section VI; 
+
+##### “Inelastic No Agglom” shows the values of variables from our counterfactual with a perfectly inelastic supply of floor space and exogenous productivity and amenities ($\mu = \eta ^L = \eta ^R = 0$); 
+
+##### “Elastic No Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and exogenous productivity and amenities ($\mu =1.83 , \eta ^L = \eta ^R = 0$); 
+
+##### “Elastic Prod Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity, estimated production agglomeration forces, and exogenous amenities ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0$); 
+
+##### “Elastic Prod + Amen Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and estimated production and residential agglomeration forces ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0.172$).
 
 <!---
 Proposition $H.1$ 
@@ -1360,7 +1376,6 @@ We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and 
 ![3](https://user-images.githubusercontent.com/91390400/142923202-6aca0586-bb72-47e8-b1ad-7c934e37c933.png)
 
 
-“Baseline” shows the values of variables from our baseline quantitative analysis from Section VI; “Inelastic No Agglom” shows the values of variables from our counterfactual with a perfectly inelastic supply of floor space and exogenous productivity and amenities ($\mu = \eta ^L = \eta ^R = 0$); “Elastic No Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and exogenous productivity and amenities ($\mu =1.83 , \eta ^L = \eta ^R = 0$); “Elastic Prod Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity, estimated production agglomeration forces, and exogenous amenities ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0$); “Elastic Prod + Amen Agglom” shows the values of variables from our counterfactual using our calibrated floor space supply elasticity and estimated production and residential agglomeration forces ($\mu =1.83 , \eta ^L = 0.086, and  \eta ^R = 0.172$).
 
 
 
@@ -1373,9 +1388,13 @@ We therefore obtain $ \boldsymbol{L_ t}=\boldsymbol{\lambda ^L_ t }L_ {Nt}$ and 
 ![8](https://user-images.githubusercontent.com/91390400/142923262-2bea26c4-6c97-4b78-a455-447fbc123e30.png)
 ![9](https://user-images.githubusercontent.com/91390400/142923267-ef293898-5c1e-4c44-a872-3b7ae30afcd2.png)
 
+##### As shown in Table III, regardless of whether we assume a 3% or 5% discount rate, and irrespective of whether we consider the entire railway network (top panel) or only the underground railway network (middle panel), we find ratios of reductions in the net present value of rateable values to construction costs that are substantially greater than 1. 
+
 
 ### IX. Conclusions
 *****
->#### The authors use the natural experiment of the invention of the steam railway to provide evidence on the role of modern transport technologies in underpinning the concentration of economic activity in large metropolitan areas. The key idea underlying our approach is that a reduction in commuting costs facilitates an increased separation of workplace and residence. In particular, the hub-and spoke structure of the railway disproportionately reduced commuting costs into central locations. If these central locations have high productivity relative to amenities compared with the suburbs, this transport improvement leads them to specialize as a workplace while the suburbs specialize as a residence. In the presence of agglomeration forces, this increased concentration of workers in the center and residents in the suburbs further reinforces these differences in productivity and amenities across locations.
->#### This paper first provides evidence for simplified analysis of the mechanism: 1. With the construction of the railway network, the population of London decreased while that of the suburbs increased; 2. The decline in the population of The City of London combined with the increase in employment; 3. The professional shift from residential to workplace has made the City of London a relatively valuable area. Other metropolitan areas showed the same pattern of results as transportation improved in the 19th century. Using parochial level data for London, this paper found no deviation between population growth and parochial time trends prior to railway arrival, nor evidence of significant deviation from trends after railway arrival.
->#### To further explain the results, the authors established a set of urban spatial structure model which satisfies the gravity equation of commuting flow and has a fixed ratio between labor income and ground space payment. Although only observed in the sample of 1921 bilateral commuting data, the author still show that the framework can be used to estimate all the way back to the early 19th century, the influence of the rail network it has successfully captured since the middle of the 19th century London city population sharply divided between day and night, and copy the early commuting in the data the characteristics of most people living near their workplace. In addition, this paper combines the traditional city model with this model, and uses a series of identification conditions to estimate the agglomeration effect of production and residence. In a counterfactual analysis of the removal of the rail network, the authors also found that changes in commuting costs alone explained most of the observed segregation. Behind, based on the supply and productivity for the ground space and amenities of different assumptions, further investigates the net for London commuter railway construction to the total population, population changes in the rateable value, finally has carried on the cost-benefit analysis, emphasizes the railway network construction for the important role of London's economic development cannot be ignored.
+##### The authors use the natural experiment of the invention of the steam railway to provide evidence on the role of modern transport technologies in underpinning the concentration of economic activity in large metropolitan areas. The key idea underlying our approach is that a reduction in commuting costs facilitates an increased separation of workplace and residence. In particular, the hub-and spoke structure of the railway disproportionately reduced commuting costs into central locations. If these central locations have high productivity relative to amenities compared with the suburbs, this transport improvement leads them to specialize as a workplace while the suburbs specialize as a residence. In the presence of agglomeration forces, this increased concentration of workers in the center and residents in the suburbs further reinforces these differences in productivity and amenities across locations.
+
+##### This paper first provides evidence for simplified analysis of the mechanism: 1. With the construction of the railway network, the population of London decreased while that of the suburbs increased; 2. The decline in the population of The City of London combined with the increase in employment; 3. The professional shift from residential to workplace has made the City of London a relatively valuable area. Other metropolitan areas showed the same pattern of results as transportation improved in the 19th century. Using parochial level data for London, this paper found no deviation between population growth and parochial time trends prior to railway arrival, nor evidence of significant deviation from trends after railway arrival.
+
+##### To further explain the results, the authors established a set of urban spatial structure model which satisfies the gravity equation of commuting flow and has a fixed ratio between labor income and ground space payment. Although only observed in the sample of 1921 bilateral commuting data, the author still show that the framework can be used to estimate all the way back to the early 19th century, the influence of the rail network it has successfully captured since the middle of the 19th century London city population sharply divided between day and night, and copy the early commuting in the data the characteristics of most people living near their workplace. In addition, this paper combines the traditional city model with this model, and uses a series of identification conditions to estimate the agglomeration effect of production and residence. In a counterfactual analysis of the removal of the rail network, the authors also found that changes in commuting costs alone explained most of the observed segregation. Behind, based on the supply and productivity for the ground space and amenities of different assumptions, further investigates the net for London commuter railway construction to the total population, population changes in the rateable value, finally has carried on the cost-benefit analysis, emphasizes the railway network construction for the important role of London's economic development cannot be ignored.

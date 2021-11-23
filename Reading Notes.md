@@ -1243,25 +1243,28 @@ $$
 > (v) the population mobility condition (H.5):
 
 $$
-\left(\frac{\hat{L}_ {N t} L_ {N t}}{L_ {Mt}}\right)^{\frac{1}{\epsilon}}=\left[\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}\right]^{\frac{1}{\epsilon}}\qquad(H.5)
+\frac{\hat{L}_ {N t} L_ {N t}}{L_ {Mt}}=\frac{L_ {N \tau}}{L_ {Mt}}
+$$
+$$
+=\frac{\sum_{k \in N} \sum_{\ell \in N}\left(B_{k \ell \tau} w_{\ell \tau}\right)^{\epsilon}\left(\kappa_{k \ell \tau} P_{k \tau}^{\alpha} Q_{k \tau}^{1-\alpha}\right)^{-\epsilon}}{\sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit} P_{nt}^{\alpha} Q_{nt}^{1-\alpha}\right)^{-\epsilon}}
+$$
+$$
+=\frac{ \sum_ {k \in N} \sum_ {\ell \in N}  \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}   \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} {B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon}  {Q}_ {k t}^{-\epsilon(1-\alpha)}}{ \sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit}  Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
+$$
+$$
+=\sum_ {k \in N} \sum_ {\ell \in N} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon}   \hat{Q}_ {k t}^{-\epsilon \left(1-\alpha \right)} \frac{{B}_ {k \ell t}^{\epsilon} {w}_ {\ell t}^{\epsilon} {\kappa}_ {k \ell t}^{-\epsilon}  {Q}_ {k t}^{-\epsilon(1-\alpha)} }{\sum_{n \in M} \sum_{i \in M}\left(B_{nit} w_{it}\right)^{\epsilon}\left(\kappa_{nit}  Q_{nt}^{1-\alpha}\right)^{-\epsilon}} 
+$$
+$$
+=\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}
 $$
 
+So we have
 $$
-\hat{L}_ {N t} L_ {N t}=\frac{L_{ni \tau}}  {\lambda_{ni \tau}}\div\frac{L_{nit}} {\lambda_{nit}}\times\frac{L_{nit}}{\lambda_{nit}} =L_{ni \tau}\frac{\lambda_{ni t}}{\lambda_{ni \tau}}\frac{1}{\lambda_{nit}}
+\left(\frac{\hat{L}_ {N t} L_ {N t}}{L_ {Mt}}\right)^{\frac{1}{\epsilon}}=\left[\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k \ell t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}\right]^{\frac{1}{\epsilon}}\qquad(H.5)
 $$
-$$
-=\frac{ B_ {n it}^{\epsilon} w_ {i t}^{\epsilon}{\kappa}_ {n i t}^{-\epsilon} P_ {n t}^{-\epsilon \alpha} Q_ {n t}^{-\epsilon \left(1-\alpha \right)}B_ {n i \tau}^{-\epsilon} w_ { i \tau}^{-\epsilon} {\kappa}_ { n i \tau}^{\epsilon} P_ {n \tau}^{\epsilon \alpha} Q_ {n \tau}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}B_ {k \ell t}^{\epsilon}w_ { \ell t}^{\epsilon}\kappa_ {k \ell t}^{-\epsilon} P_ {k t}^{-\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}B_ {k \ell \tau}^{-\epsilon}w_ { \ell \tau}^{-\epsilon}\kappa_ {k \ell \tau}^{\epsilon} P_ {k \tau}^{\epsilon \alpha} Q_ {k \tau}^{\epsilon\left(1-\alpha\right)}} 
-\frac{\sum_{k \in N}\sum_{\ell \in N}B_ {k \ell t}^{\epsilon}w_ { \ell t}^{\epsilon}\kappa_ {k \ell t}^{-\epsilon} P_ {k t}^{-\epsilon \alpha} Q_ {kt}^{\epsilon\left(1-\alpha\right)}}{  B_ {n it}^{\epsilon} w_ {i t}^{\epsilon}{\kappa}_ {n i t}^{-\epsilon} P_ {n t}^{-\epsilon \alpha} Q_ {n t}^{-\epsilon \left(1-\alpha \right)}} 
-$$
-$$
-=\frac{ B_ {n i \tau}^{-\epsilon} w_ { i \tau}^{-\epsilon} {\kappa}_ { n i \tau}^{\epsilon} P_ {n \tau}^{\epsilon \alpha} Q_ {n \tau}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N}B_ {k \ell \tau}^{-\epsilon}w_ { \ell \tau}^{-\epsilon}\kappa_ {k \ell \tau}^{\epsilon} P_ {k \tau}^{\epsilon \alpha} Q_ {k \tau}^{\epsilon\left(1-\alpha\right)}} 
-$$
-$$
-=\frac{  B_ {n i \tau}^{-\epsilon} w_ { i \tau}^{-\epsilon} {\kappa}_ { n i \tau}^{\epsilon} P_ {n \tau}^{\epsilon \alpha} Q_ {n \tau}^{\epsilon \left(1-\alpha \right)} }{ \sum_{k \in N}\sum_{\ell \in N} \hat B_ {k \ell t}^{-\epsilon} B_ {k \ell t}^{-\epsilon} \hat w_ { \ell t}^{-\epsilon}w_ { \ell t}^{-\epsilon} \hat \kappa_ {k \ell t}^{\epsilon} \kappa_ {k \ell t}^{\epsilon} \hat P_ {k t}^{\epsilon \alpha} P_ {k t}^{\epsilon \alpha} \hat Q_ {k t}^{\epsilon\left(1-\alpha\right)}Q_ {k t}^{\epsilon\left(1-\alpha\right)}} 
-$$
-$$
-=\sum_ {k \in N} \sum_ {\ell \in N} \lambda_ {k \ell t} \hat{B}_ {k t}^{\epsilon} \hat{w}_ {\ell t}^{\epsilon} \hat{\kappa}_ {k \ell t}^{-\epsilon} \hat{Q}_ {k t}^{-\epsilon(1-\alpha)}
-$$
+
+
+
 
 
 
